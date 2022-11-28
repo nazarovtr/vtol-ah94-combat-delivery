@@ -657,7 +657,7 @@ CustomScenario
 			globalPosition = (24104.07666015625, 599.52923583984375, 35646.6298828125)
 			unitInstanceID = 30
 			unitID = AlliedEWRadar
-			rotation = (6.829246E-06, 180.9559, 1.139489E-07)
+			rotation = (6.829247E-06, 180.9559, 1.139489E-07)
 			spawnChance = 100
 			lastValidPlacement = (24104.07666015625, 599.52923583984375, 35646.6298828125)
 			editorPlacementMode = Ground
@@ -6991,6 +6991,4140 @@ CustomScenario
 				radius = 5
 			}
 		}
+		Objective
+		{
+			objectiveName = Intercept red 1a
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 218
+			orderID = 108
+			required = False
+			completionReward = 0
+			waypoint = 98
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 3
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 1b
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 219
+			orderID = 109
+			required = False
+			completionReward = 0
+			waypoint = 99
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 4
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 1c
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 220
+			orderID = 110
+			required = False
+			completionReward = 0
+			waypoint = 100
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 1d
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 221
+			orderID = 111
+			required = False
+			completionReward = 0
+			waypoint = 101
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 6
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 1e
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 222
+			orderID = 112
+			required = False
+			completionReward = 0
+			waypoint = 102
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 7
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 1f
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 223
+			orderID = 113
+			required = False
+			completionReward = 0
+			waypoint = 103
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 8
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 1g
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 224
+			orderID = 114
+			required = False
+			completionReward = 0
+			waypoint = 104
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 9
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 1h
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 225
+			orderID = 115
+			required = False
+			completionReward = 0
+			waypoint = 105
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 10
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 2a
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 226
+			orderID = 116
+			required = False
+			completionReward = 0
+			waypoint = 85
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 11
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 2b
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 227
+			orderID = 117
+			required = False
+			completionReward = 0
+			waypoint = 86
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 12
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 2c
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 228
+			orderID = 118
+			required = False
+			completionReward = 0
+			waypoint = 87
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 13
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 2d
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 229
+			orderID = 119
+			required = False
+			completionReward = 0
+			waypoint = 88
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 14
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 2e
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 230
+			orderID = 120
+			required = False
+			completionReward = 0
+			waypoint = 89
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 15
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 2f
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 231
+			orderID = 121
+			required = False
+			completionReward = 0
+			waypoint = 90
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 16
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 2g
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 232
+			orderID = 122
+			required = False
+			completionReward = 0
+			waypoint = 91
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 17
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 2h
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 233
+			orderID = 123
+			required = False
+			completionReward = 0
+			waypoint = 92
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 18
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 2i
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 234
+			orderID = 124
+			required = False
+			completionReward = 0
+			waypoint = 93
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 19
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 2j
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 235
+			orderID = 125
+			required = False
+			completionReward = 0
+			waypoint = 94
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 20
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 2k
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 236
+			orderID = 126
+			required = False
+			completionReward = 0
+			waypoint = 95
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 21
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 2l
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 237
+			orderID = 127
+			required = False
+			completionReward = 0
+			waypoint = 96
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 22
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 2m
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 238
+			orderID = 128
+			required = False
+			completionReward = 0
+			waypoint = 97
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 23
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 3a
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 239
+			orderID = 129
+			required = False
+			completionReward = 0
+			waypoint = 64
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 24
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 3b
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 240
+			orderID = 130
+			required = False
+			completionReward = 0
+			waypoint = 65
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 25
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 3c
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 241
+			orderID = 131
+			required = False
+			completionReward = 0
+			waypoint = 66
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 26
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 3d
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 242
+			orderID = 132
+			required = False
+			completionReward = 0
+			waypoint = 67
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 27
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 3e
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 243
+			orderID = 133
+			required = False
+			completionReward = 0
+			waypoint = 68
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 28
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 3f
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 244
+			orderID = 134
+			required = False
+			completionReward = 0
+			waypoint = 69
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 29
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 3g
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 245
+			orderID = 135
+			required = False
+			completionReward = 0
+			waypoint = 70
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 30
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 3h
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 246
+			orderID = 136
+			required = False
+			completionReward = 0
+			waypoint = 71
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 31
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 4a
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 247
+			orderID = 137
+			required = False
+			completionReward = 0
+			waypoint = 48
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 32
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 4b
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 248
+			orderID = 138
+			required = False
+			completionReward = 0
+			waypoint = 49
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 33
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 4c
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 249
+			orderID = 139
+			required = False
+			completionReward = 0
+			waypoint = 50
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 34
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 4d
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 250
+			orderID = 140
+			required = False
+			completionReward = 0
+			waypoint = 51
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 35
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 4e
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 251
+			orderID = 141
+			required = False
+			completionReward = 0
+			waypoint = 52
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 36
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 4f
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 252
+			orderID = 142
+			required = False
+			completionReward = 0
+			waypoint = 53
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 37
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 4g
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 253
+			orderID = 143
+			required = False
+			completionReward = 0
+			waypoint = 54
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 38
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 4h
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 254
+			orderID = 144
+			required = False
+			completionReward = 0
+			waypoint = 55
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 39
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 5a
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 255
+			orderID = 145
+			required = False
+			completionReward = 0
+			waypoint = 27
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 40
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 5b
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 256
+			orderID = 146
+			required = False
+			completionReward = 0
+			waypoint = 28
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 41
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 5c
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 257
+			orderID = 147
+			required = False
+			completionReward = 0
+			waypoint = 30
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 42
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 5d
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 258
+			orderID = 148
+			required = False
+			completionReward = 0
+			waypoint = 31
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 43
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 5e
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 259
+			orderID = 149
+			required = False
+			completionReward = 0
+			waypoint = 32
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 44
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 5f
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 260
+			orderID = 150
+			required = False
+			completionReward = 0
+			waypoint = 34
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 45
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 5g
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 261
+			orderID = 151
+			required = False
+			completionReward = 0
+			waypoint = 35
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 46
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 5h
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 262
+			orderID = 152
+			required = False
+			completionReward = 0
+			waypoint = 36
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 47
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 5i
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 263
+			orderID = 153
+			required = False
+			completionReward = 0
+			waypoint = 37
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 48
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 5j
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 264
+			orderID = 154
+			required = False
+			completionReward = 0
+			waypoint = 38
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 49
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 5k
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 265
+			orderID = 155
+			required = False
+			completionReward = 0
+			waypoint = 39
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 50
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 6a
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 266
+			orderID = 156
+			required = False
+			completionReward = 0
+			waypoint = 2
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 51
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 6b
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 267
+			orderID = 157
+			required = False
+			completionReward = 0
+			waypoint = 3
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 52
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 6c
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 268
+			orderID = 158
+			required = False
+			completionReward = 0
+			waypoint = 5
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 53
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 6d
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 269
+			orderID = 159
+			required = False
+			completionReward = 0
+			waypoint = 6
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 54
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 6e
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 270
+			orderID = 160
+			required = False
+			completionReward = 0
+			waypoint = 7
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 55
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 6f
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 271
+			orderID = 161
+			required = False
+			completionReward = 0
+			waypoint = 8
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 56
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 6g
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 272
+			orderID = 162
+			required = False
+			completionReward = 0
+			waypoint = 9
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 57
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 6h
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 273
+			orderID = 163
+			required = False
+			completionReward = 0
+			waypoint = 10
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 58
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 6i
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 274
+			orderID = 164
+			required = False
+			completionReward = 0
+			waypoint = 12
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 59
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 6j
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 275
+			orderID = 165
+			required = False
+			completionReward = 0
+			waypoint = 13
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 60
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 7a
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 276
+			orderID = 166
+			required = False
+			completionReward = 0
+			waypoint = 14
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 61
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 7b
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 277
+			orderID = 167
+			required = False
+			completionReward = 0
+			waypoint = 15
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 62
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 7c
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 278
+			orderID = 168
+			required = False
+			completionReward = 0
+			waypoint = 17
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 63
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 7d
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 279
+			orderID = 169
+			required = False
+			completionReward = 0
+			waypoint = 18
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 64
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 7e
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 280
+			orderID = 170
+			required = False
+			completionReward = 0
+			waypoint = 19
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 65
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 7f
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 281
+			orderID = 171
+			required = False
+			completionReward = 0
+			waypoint = 20
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 66
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 7g
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 282
+			orderID = 172
+			required = False
+			completionReward = 0
+			waypoint = 22
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 67
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 7h
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 283
+			orderID = 173
+			required = False
+			completionReward = 0
+			waypoint = 23
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 68
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 7i
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 284
+			orderID = 174
+			required = False
+			completionReward = 0
+			waypoint = 24
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 69
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 7j
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 285
+			orderID = 175
+			required = False
+			completionReward = 0
+			waypoint = 25
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 70
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 7k
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 286
+			orderID = 176
+			required = False
+			completionReward = 0
+			waypoint = 26
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 71
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 8a
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 287
+			orderID = 177
+			required = False
+			completionReward = 0
+			waypoint = 40
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 72
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 8b
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 288
+			orderID = 178
+			required = False
+			completionReward = 0
+			waypoint = 41
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 73
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 8c
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 289
+			orderID = 179
+			required = False
+			completionReward = 0
+			waypoint = 42
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 74
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 8d
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 290
+			orderID = 180
+			required = False
+			completionReward = 0
+			waypoint = 43
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 75
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 8e
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 291
+			orderID = 181
+			required = False
+			completionReward = 0
+			waypoint = 44
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 76
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 8f
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 292
+			orderID = 182
+			required = False
+			completionReward = 0
+			waypoint = 45
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 77
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 8g
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 293
+			orderID = 183
+			required = False
+			completionReward = 0
+			waypoint = 46
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 78
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 8h
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 294
+			orderID = 184
+			required = False
+			completionReward = 0
+			waypoint = 47
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 79
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 9a
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 295
+			orderID = 185
+			required = False
+			completionReward = 0
+			waypoint = 56
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 80
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 9b
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 296
+			orderID = 186
+			required = False
+			completionReward = 0
+			waypoint = 57
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 81
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 9c
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 297
+			orderID = 187
+			required = False
+			completionReward = 0
+			waypoint = 58
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 82
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 9d
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 298
+			orderID = 188
+			required = False
+			completionReward = 0
+			waypoint = 59
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 83
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 9e
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 299
+			orderID = 189
+			required = False
+			completionReward = 0
+			waypoint = 60
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 84
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 9f
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 300
+			orderID = 190
+			required = False
+			completionReward = 0
+			waypoint = 61
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 85
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 9g
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 301
+			orderID = 191
+			required = False
+			completionReward = 0
+			waypoint = 62
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 86
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 9h
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 302
+			orderID = 192
+			required = False
+			completionReward = 0
+			waypoint = 63
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 87
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 10a
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 303
+			orderID = 193
+			required = False
+			completionReward = 0
+			waypoint = 72
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 88
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 10b
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 304
+			orderID = 194
+			required = False
+			completionReward = 0
+			waypoint = 73
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 89
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 10c
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 305
+			orderID = 195
+			required = False
+			completionReward = 0
+			waypoint = 74
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 90
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 10d
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 306
+			orderID = 196
+			required = False
+			completionReward = 0
+			waypoint = 75
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 91
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 10e
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 307
+			orderID = 197
+			required = False
+			completionReward = 0
+			waypoint = 76
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 92
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 10f
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 308
+			orderID = 198
+			required = False
+			completionReward = 0
+			waypoint = 77
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 93
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 10g
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 309
+			orderID = 199
+			required = False
+			completionReward = 0
+			waypoint = 78
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 94
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 10h
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 310
+			orderID = 200
+			required = False
+			completionReward = 0
+			waypoint = 79
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 95
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 10i
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 311
+			orderID = 201
+			required = False
+			completionReward = 0
+			waypoint = 80
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 96
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 10j
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 312
+			orderID = 202
+			required = False
+			completionReward = 0
+			waypoint = 81
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 97
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 10k
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 313
+			orderID = 203
+			required = False
+			completionReward = 0
+			waypoint = 82
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 98
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 10l
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 314
+			orderID = 204
+			required = False
+			completionReward = 0
+			waypoint = 83
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 99
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 10m
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 315
+			orderID = 205
+			required = False
+			completionReward = 0
+			waypoint = 84
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 100
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 11a
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 316
+			orderID = 206
+			required = False
+			completionReward = 0
+			waypoint = 106
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 101
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 11b
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 317
+			orderID = 207
+			required = False
+			completionReward = 0
+			waypoint = 107
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 102
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 11c
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 318
+			orderID = 208
+			required = False
+			completionReward = 0
+			waypoint = 108
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 103
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 11d
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 319
+			orderID = 209
+			required = False
+			completionReward = 0
+			waypoint = 109
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 104
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 11e
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 320
+			orderID = 210
+			required = False
+			completionReward = 0
+			waypoint = 110
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 105
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 11f
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 321
+			orderID = 211
+			required = False
+			completionReward = 0
+			waypoint = 111
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 106
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 11g
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 322
+			orderID = 212
+			required = False
+			completionReward = 0
+			waypoint = 112
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 107
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 11h
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 323
+			orderID = 213
+			required = False
+			completionReward = 0
+			waypoint = 113
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 108
+			}
+		}
 	}
 	OBJECTIVES_OPFOR
 	{
@@ -11913,6 +16047,4140 @@ CustomScenario
 				radius = 5
 			}
 		}
+		Objective
+		{
+			objectiveName = Intercept blue 1a
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 324
+			orderID = 108
+			required = False
+			completionReward = 0
+			waypoint = 106
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 109
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 1b
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 325
+			orderID = 109
+			required = False
+			completionReward = 0
+			waypoint = 107
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 110
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 1c
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 326
+			orderID = 110
+			required = False
+			completionReward = 0
+			waypoint = 108
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 111
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 1d
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 327
+			orderID = 111
+			required = False
+			completionReward = 0
+			waypoint = 109
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 112
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 1e
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 328
+			orderID = 112
+			required = False
+			completionReward = 0
+			waypoint = 110
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 113
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 1f
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 329
+			orderID = 113
+			required = False
+			completionReward = 0
+			waypoint = 111
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 114
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 1g
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 330
+			orderID = 114
+			required = False
+			completionReward = 0
+			waypoint = 112
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 115
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 1h
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 331
+			orderID = 115
+			required = False
+			completionReward = 0
+			waypoint = 113
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 116
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 2a
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 332
+			orderID = 116
+			required = False
+			completionReward = 0
+			waypoint = 72
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 117
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 2b
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 333
+			orderID = 117
+			required = False
+			completionReward = 0
+			waypoint = 73
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 118
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 2c
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 334
+			orderID = 118
+			required = False
+			completionReward = 0
+			waypoint = 74
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 119
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 2d
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 335
+			orderID = 119
+			required = False
+			completionReward = 0
+			waypoint = 75
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 120
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 2e
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 336
+			orderID = 120
+			required = False
+			completionReward = 0
+			waypoint = 76
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 121
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 2f
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 337
+			orderID = 121
+			required = False
+			completionReward = 0
+			waypoint = 77
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 122
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 2g
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 338
+			orderID = 122
+			required = False
+			completionReward = 0
+			waypoint = 78
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 123
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 2h
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 339
+			orderID = 123
+			required = False
+			completionReward = 0
+			waypoint = 79
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 124
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 2i
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 340
+			orderID = 124
+			required = False
+			completionReward = 0
+			waypoint = 80
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 125
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 2j
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 341
+			orderID = 125
+			required = False
+			completionReward = 0
+			waypoint = 81
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 126
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 2k
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 342
+			orderID = 126
+			required = False
+			completionReward = 0
+			waypoint = 82
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 127
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 2l
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 343
+			orderID = 127
+			required = False
+			completionReward = 0
+			waypoint = 83
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 128
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 2m
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 344
+			orderID = 128
+			required = False
+			completionReward = 0
+			waypoint = 84
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 129
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 3a
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 345
+			orderID = 129
+			required = False
+			completionReward = 0
+			waypoint = 56
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 130
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 3b
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 346
+			orderID = 130
+			required = False
+			completionReward = 0
+			waypoint = 57
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 131
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 3c
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 347
+			orderID = 131
+			required = False
+			completionReward = 0
+			waypoint = 58
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 132
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 3d
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 348
+			orderID = 132
+			required = False
+			completionReward = 0
+			waypoint = 59
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 133
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 3e
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 349
+			orderID = 133
+			required = False
+			completionReward = 0
+			waypoint = 60
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 134
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 3f
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 350
+			orderID = 134
+			required = False
+			completionReward = 0
+			waypoint = 61
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 135
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 3g
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 351
+			orderID = 135
+			required = False
+			completionReward = 0
+			waypoint = 62
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 136
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 3h
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 352
+			orderID = 136
+			required = False
+			completionReward = 0
+			waypoint = 63
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 137
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 4a
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 353
+			orderID = 137
+			required = False
+			completionReward = 0
+			waypoint = 40
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 138
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 4b
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 354
+			orderID = 138
+			required = False
+			completionReward = 0
+			waypoint = 41
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 139
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 4c
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 355
+			orderID = 139
+			required = False
+			completionReward = 0
+			waypoint = 42
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 140
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 4d
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 356
+			orderID = 140
+			required = False
+			completionReward = 0
+			waypoint = 43
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 141
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 4e
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 357
+			orderID = 141
+			required = False
+			completionReward = 0
+			waypoint = 44
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 142
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 4f
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 358
+			orderID = 142
+			required = False
+			completionReward = 0
+			waypoint = 45
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 143
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 4g
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 359
+			orderID = 143
+			required = False
+			completionReward = 0
+			waypoint = 46
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 144
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 4h
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 360
+			orderID = 144
+			required = False
+			completionReward = 0
+			waypoint = 47
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 145
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 5a
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 361
+			orderID = 145
+			required = False
+			completionReward = 0
+			waypoint = 14
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 146
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 5b
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 362
+			orderID = 146
+			required = False
+			completionReward = 0
+			waypoint = 15
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 147
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 5c
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 363
+			orderID = 147
+			required = False
+			completionReward = 0
+			waypoint = 17
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 148
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 5d
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 364
+			orderID = 148
+			required = False
+			completionReward = 0
+			waypoint = 18
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 149
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 5e
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 365
+			orderID = 149
+			required = False
+			completionReward = 0
+			waypoint = 19
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 150
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 5f
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 366
+			orderID = 150
+			required = False
+			completionReward = 0
+			waypoint = 20
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 151
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 5g
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 367
+			orderID = 151
+			required = False
+			completionReward = 0
+			waypoint = 22
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 152
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 5h
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 368
+			orderID = 152
+			required = False
+			completionReward = 0
+			waypoint = 23
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 153
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 5i
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 369
+			orderID = 153
+			required = False
+			completionReward = 0
+			waypoint = 24
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 154
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 5j
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 370
+			orderID = 154
+			required = False
+			completionReward = 0
+			waypoint = 25
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 155
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 5k
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 371
+			orderID = 155
+			required = False
+			completionReward = 0
+			waypoint = 26
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 156
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 6a
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 372
+			orderID = 156
+			required = False
+			completionReward = 0
+			waypoint = 2
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 157
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 6b
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 373
+			orderID = 157
+			required = False
+			completionReward = 0
+			waypoint = 3
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 158
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 6c
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 374
+			orderID = 158
+			required = False
+			completionReward = 0
+			waypoint = 5
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 159
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 6d
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 375
+			orderID = 159
+			required = False
+			completionReward = 0
+			waypoint = 6
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 160
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 6e
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 376
+			orderID = 160
+			required = False
+			completionReward = 0
+			waypoint = 7
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 161
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 6f
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 377
+			orderID = 161
+			required = False
+			completionReward = 0
+			waypoint = 8
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 162
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 6g
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 378
+			orderID = 162
+			required = False
+			completionReward = 0
+			waypoint = 9
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 163
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 6h
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 379
+			orderID = 163
+			required = False
+			completionReward = 0
+			waypoint = 10
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 164
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 6i
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 380
+			orderID = 164
+			required = False
+			completionReward = 0
+			waypoint = 12
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 165
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 6j
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 381
+			orderID = 165
+			required = False
+			completionReward = 0
+			waypoint = 13
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 166
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 7a
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 382
+			orderID = 166
+			required = False
+			completionReward = 0
+			waypoint = 27
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 167
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 7b
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 383
+			orderID = 167
+			required = False
+			completionReward = 0
+			waypoint = 28
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 168
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 7c
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 384
+			orderID = 168
+			required = False
+			completionReward = 0
+			waypoint = 30
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 169
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 7d
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 385
+			orderID = 169
+			required = False
+			completionReward = 0
+			waypoint = 31
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 170
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 7e
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 386
+			orderID = 170
+			required = False
+			completionReward = 0
+			waypoint = 32
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 171
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 7f
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 387
+			orderID = 171
+			required = False
+			completionReward = 0
+			waypoint = 34
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 172
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 7g
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 388
+			orderID = 172
+			required = False
+			completionReward = 0
+			waypoint = 35
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 173
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 7h
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 389
+			orderID = 173
+			required = False
+			completionReward = 0
+			waypoint = 36
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 174
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 7i
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 390
+			orderID = 174
+			required = False
+			completionReward = 0
+			waypoint = 37
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 175
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 7j
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 391
+			orderID = 175
+			required = False
+			completionReward = 0
+			waypoint = 38
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 176
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 7k
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 392
+			orderID = 176
+			required = False
+			completionReward = 0
+			waypoint = 39
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 177
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 8a
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 393
+			orderID = 177
+			required = False
+			completionReward = 0
+			waypoint = 48
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 178
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 8b
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 394
+			orderID = 178
+			required = False
+			completionReward = 0
+			waypoint = 49
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 179
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 8c
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 395
+			orderID = 179
+			required = False
+			completionReward = 0
+			waypoint = 50
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 180
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 8d
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 396
+			orderID = 180
+			required = False
+			completionReward = 0
+			waypoint = 51
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 181
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 8e
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 397
+			orderID = 181
+			required = False
+			completionReward = 0
+			waypoint = 52
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 182
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 8f
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 398
+			orderID = 182
+			required = False
+			completionReward = 0
+			waypoint = 53
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 183
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 8g
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 399
+			orderID = 183
+			required = False
+			completionReward = 0
+			waypoint = 54
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 184
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 8h
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 400
+			orderID = 184
+			required = False
+			completionReward = 0
+			waypoint = 55
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 185
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 9a
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 401
+			orderID = 185
+			required = False
+			completionReward = 0
+			waypoint = 64
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 186
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 9b
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 402
+			orderID = 186
+			required = False
+			completionReward = 0
+			waypoint = 65
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 187
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 9c
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 403
+			orderID = 187
+			required = False
+			completionReward = 0
+			waypoint = 66
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 188
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 9d
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 404
+			orderID = 188
+			required = False
+			completionReward = 0
+			waypoint = 67
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 189
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 9e
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 405
+			orderID = 189
+			required = False
+			completionReward = 0
+			waypoint = 68
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 190
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 9f
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 406
+			orderID = 190
+			required = False
+			completionReward = 0
+			waypoint = 69
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 191
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 9g
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 407
+			orderID = 191
+			required = False
+			completionReward = 0
+			waypoint = 70
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 192
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 9h
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 408
+			orderID = 192
+			required = False
+			completionReward = 0
+			waypoint = 71
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 193
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 10a
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 409
+			orderID = 193
+			required = False
+			completionReward = 0
+			waypoint = 85
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 194
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 10b
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 410
+			orderID = 194
+			required = False
+			completionReward = 0
+			waypoint = 86
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 195
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 10c
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 411
+			orderID = 195
+			required = False
+			completionReward = 0
+			waypoint = 87
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 196
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 10d
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 412
+			orderID = 196
+			required = False
+			completionReward = 0
+			waypoint = 88
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 197
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 10e
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 413
+			orderID = 197
+			required = False
+			completionReward = 0
+			waypoint = 89
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 198
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 10f
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 414
+			orderID = 198
+			required = False
+			completionReward = 0
+			waypoint = 90
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 199
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 10g
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 415
+			orderID = 199
+			required = False
+			completionReward = 0
+			waypoint = 91
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 200
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 10h
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 416
+			orderID = 200
+			required = False
+			completionReward = 0
+			waypoint = 92
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 201
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 10i
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 417
+			orderID = 201
+			required = False
+			completionReward = 0
+			waypoint = 93
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 202
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 10j
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 418
+			orderID = 202
+			required = False
+			completionReward = 0
+			waypoint = 94
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 203
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 10k
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 419
+			orderID = 203
+			required = False
+			completionReward = 0
+			waypoint = 95
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 204
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 10l
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 420
+			orderID = 204
+			required = False
+			completionReward = 0
+			waypoint = 96
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 205
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 10m
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 421
+			orderID = 205
+			required = False
+			completionReward = 0
+			waypoint = 97
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 206
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 11a
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 422
+			orderID = 206
+			required = False
+			completionReward = 0
+			waypoint = 98
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 207
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 11b
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 423
+			orderID = 207
+			required = False
+			completionReward = 0
+			waypoint = 99
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 208
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 11c
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 424
+			orderID = 208
+			required = False
+			completionReward = 0
+			waypoint = 100
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 209
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 11d
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 425
+			orderID = 209
+			required = False
+			completionReward = 0
+			waypoint = 101
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 210
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 11e
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 426
+			orderID = 210
+			required = False
+			completionReward = 0
+			waypoint = 102
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 211
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 11f
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 427
+			orderID = 211
+			required = False
+			completionReward = 0
+			waypoint = 103
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 212
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 11g
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 428
+			orderID = 212
+			required = False
+			completionReward = 0
+			waypoint = 104
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 213
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 11h
+			objectiveInfo = Delay the opposing team delivery by intercepting their helicopters.
+			objectiveID = 429
+			orderID = 213
+			required = False
+			completionReward = 0
+			waypoint = 105
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 214
+			}
+		}
 	}
 	StaticObjects
 	{
@@ -12605,6 +20873,3186 @@ CustomScenario
 				gv = 1
 				comparison = Equals
 				c_value = 10
+			}
+		}
+		CONDITIONAL
+		{
+			id = 3
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 1
+			}
+		}
+		CONDITIONAL
+		{
+			id = 4
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 1
+			}
+		}
+		CONDITIONAL
+		{
+			id = 5
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 1
+			}
+		}
+		CONDITIONAL
+		{
+			id = 6
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 1
+			}
+		}
+		CONDITIONAL
+		{
+			id = 7
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 1
+			}
+		}
+		CONDITIONAL
+		{
+			id = 8
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 1
+			}
+		}
+		CONDITIONAL
+		{
+			id = 9
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 1
+			}
+		}
+		CONDITIONAL
+		{
+			id = 10
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 1
+			}
+		}
+		CONDITIONAL
+		{
+			id = 11
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 12
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 13
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 14
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 15
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 16
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 17
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 18
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 19
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 20
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 21
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 22
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 23
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 24
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 3
+			}
+		}
+		CONDITIONAL
+		{
+			id = 25
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 3
+			}
+		}
+		CONDITIONAL
+		{
+			id = 26
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 3
+			}
+		}
+		CONDITIONAL
+		{
+			id = 27
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 3
+			}
+		}
+		CONDITIONAL
+		{
+			id = 28
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 3
+			}
+		}
+		CONDITIONAL
+		{
+			id = 29
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 3
+			}
+		}
+		CONDITIONAL
+		{
+			id = 30
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 3
+			}
+		}
+		CONDITIONAL
+		{
+			id = 31
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 3
+			}
+		}
+		CONDITIONAL
+		{
+			id = 32
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 4
+			}
+		}
+		CONDITIONAL
+		{
+			id = 33
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 4
+			}
+		}
+		CONDITIONAL
+		{
+			id = 34
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 4
+			}
+		}
+		CONDITIONAL
+		{
+			id = 35
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 4
+			}
+		}
+		CONDITIONAL
+		{
+			id = 36
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 4
+			}
+		}
+		CONDITIONAL
+		{
+			id = 37
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 4
+			}
+		}
+		CONDITIONAL
+		{
+			id = 38
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 4
+			}
+		}
+		CONDITIONAL
+		{
+			id = 39
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 4
+			}
+		}
+		CONDITIONAL
+		{
+			id = 40
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 5
+			}
+		}
+		CONDITIONAL
+		{
+			id = 41
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 5
+			}
+		}
+		CONDITIONAL
+		{
+			id = 42
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 5
+			}
+		}
+		CONDITIONAL
+		{
+			id = 43
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 5
+			}
+		}
+		CONDITIONAL
+		{
+			id = 44
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 5
+			}
+		}
+		CONDITIONAL
+		{
+			id = 45
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 5
+			}
+		}
+		CONDITIONAL
+		{
+			id = 46
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 5
+			}
+		}
+		CONDITIONAL
+		{
+			id = 47
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 5
+			}
+		}
+		CONDITIONAL
+		{
+			id = 48
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 5
+			}
+		}
+		CONDITIONAL
+		{
+			id = 49
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 5
+			}
+		}
+		CONDITIONAL
+		{
+			id = 50
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 5
+			}
+		}
+		CONDITIONAL
+		{
+			id = 51
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 6
+			}
+		}
+		CONDITIONAL
+		{
+			id = 52
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 6
+			}
+		}
+		CONDITIONAL
+		{
+			id = 53
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 6
+			}
+		}
+		CONDITIONAL
+		{
+			id = 54
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 6
+			}
+		}
+		CONDITIONAL
+		{
+			id = 55
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 6
+			}
+		}
+		CONDITIONAL
+		{
+			id = 56
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 6
+			}
+		}
+		CONDITIONAL
+		{
+			id = 57
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 6
+			}
+		}
+		CONDITIONAL
+		{
+			id = 58
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 6
+			}
+		}
+		CONDITIONAL
+		{
+			id = 59
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 6
+			}
+		}
+		CONDITIONAL
+		{
+			id = 60
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 6
+			}
+		}
+		CONDITIONAL
+		{
+			id = 61
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 7
+			}
+		}
+		CONDITIONAL
+		{
+			id = 62
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 7
+			}
+		}
+		CONDITIONAL
+		{
+			id = 63
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 7
+			}
+		}
+		CONDITIONAL
+		{
+			id = 64
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 7
+			}
+		}
+		CONDITIONAL
+		{
+			id = 65
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 7
+			}
+		}
+		CONDITIONAL
+		{
+			id = 66
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 7
+			}
+		}
+		CONDITIONAL
+		{
+			id = 67
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 7
+			}
+		}
+		CONDITIONAL
+		{
+			id = 68
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 7
+			}
+		}
+		CONDITIONAL
+		{
+			id = 69
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 7
+			}
+		}
+		CONDITIONAL
+		{
+			id = 70
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 7
+			}
+		}
+		CONDITIONAL
+		{
+			id = 71
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 7
+			}
+		}
+		CONDITIONAL
+		{
+			id = 72
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 8
+			}
+		}
+		CONDITIONAL
+		{
+			id = 73
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 8
+			}
+		}
+		CONDITIONAL
+		{
+			id = 74
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 8
+			}
+		}
+		CONDITIONAL
+		{
+			id = 75
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 8
+			}
+		}
+		CONDITIONAL
+		{
+			id = 76
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 8
+			}
+		}
+		CONDITIONAL
+		{
+			id = 77
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 8
+			}
+		}
+		CONDITIONAL
+		{
+			id = 78
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 8
+			}
+		}
+		CONDITIONAL
+		{
+			id = 79
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 8
+			}
+		}
+		CONDITIONAL
+		{
+			id = 80
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 9
+			}
+		}
+		CONDITIONAL
+		{
+			id = 81
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 9
+			}
+		}
+		CONDITIONAL
+		{
+			id = 82
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 9
+			}
+		}
+		CONDITIONAL
+		{
+			id = 83
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 9
+			}
+		}
+		CONDITIONAL
+		{
+			id = 84
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 9
+			}
+		}
+		CONDITIONAL
+		{
+			id = 85
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 9
+			}
+		}
+		CONDITIONAL
+		{
+			id = 86
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 9
+			}
+		}
+		CONDITIONAL
+		{
+			id = 87
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 9
+			}
+		}
+		CONDITIONAL
+		{
+			id = 88
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 10
+			}
+		}
+		CONDITIONAL
+		{
+			id = 89
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 10
+			}
+		}
+		CONDITIONAL
+		{
+			id = 90
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 10
+			}
+		}
+		CONDITIONAL
+		{
+			id = 91
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 10
+			}
+		}
+		CONDITIONAL
+		{
+			id = 92
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 10
+			}
+		}
+		CONDITIONAL
+		{
+			id = 93
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 10
+			}
+		}
+		CONDITIONAL
+		{
+			id = 94
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 10
+			}
+		}
+		CONDITIONAL
+		{
+			id = 95
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 10
+			}
+		}
+		CONDITIONAL
+		{
+			id = 96
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 10
+			}
+		}
+		CONDITIONAL
+		{
+			id = 97
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 10
+			}
+		}
+		CONDITIONAL
+		{
+			id = 98
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 10
+			}
+		}
+		CONDITIONAL
+		{
+			id = 99
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 10
+			}
+		}
+		CONDITIONAL
+		{
+			id = 100
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 10
+			}
+		}
+		CONDITIONAL
+		{
+			id = 101
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 11
+			}
+		}
+		CONDITIONAL
+		{
+			id = 102
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 11
+			}
+		}
+		CONDITIONAL
+		{
+			id = 103
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 11
+			}
+		}
+		CONDITIONAL
+		{
+			id = 104
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 11
+			}
+		}
+		CONDITIONAL
+		{
+			id = 105
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 11
+			}
+		}
+		CONDITIONAL
+		{
+			id = 106
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 11
+			}
+		}
+		CONDITIONAL
+		{
+			id = 107
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 11
+			}
+		}
+		CONDITIONAL
+		{
+			id = 108
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 11
+			}
+		}
+		CONDITIONAL
+		{
+			id = 109
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 1
+			}
+		}
+		CONDITIONAL
+		{
+			id = 110
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 1
+			}
+		}
+		CONDITIONAL
+		{
+			id = 111
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 1
+			}
+		}
+		CONDITIONAL
+		{
+			id = 112
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 1
+			}
+		}
+		CONDITIONAL
+		{
+			id = 113
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 1
+			}
+		}
+		CONDITIONAL
+		{
+			id = 114
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 1
+			}
+		}
+		CONDITIONAL
+		{
+			id = 115
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 1
+			}
+		}
+		CONDITIONAL
+		{
+			id = 116
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 1
+			}
+		}
+		CONDITIONAL
+		{
+			id = 117
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 118
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 119
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 120
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 121
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 122
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 123
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 124
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 125
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 126
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 127
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 128
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 129
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 130
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 3
+			}
+		}
+		CONDITIONAL
+		{
+			id = 131
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 3
+			}
+		}
+		CONDITIONAL
+		{
+			id = 132
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 3
+			}
+		}
+		CONDITIONAL
+		{
+			id = 133
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 3
+			}
+		}
+		CONDITIONAL
+		{
+			id = 134
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 3
+			}
+		}
+		CONDITIONAL
+		{
+			id = 135
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 3
+			}
+		}
+		CONDITIONAL
+		{
+			id = 136
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 3
+			}
+		}
+		CONDITIONAL
+		{
+			id = 137
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 3
+			}
+		}
+		CONDITIONAL
+		{
+			id = 138
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 4
+			}
+		}
+		CONDITIONAL
+		{
+			id = 139
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 4
+			}
+		}
+		CONDITIONAL
+		{
+			id = 140
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 4
+			}
+		}
+		CONDITIONAL
+		{
+			id = 141
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 4
+			}
+		}
+		CONDITIONAL
+		{
+			id = 142
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 4
+			}
+		}
+		CONDITIONAL
+		{
+			id = 143
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 4
+			}
+		}
+		CONDITIONAL
+		{
+			id = 144
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 4
+			}
+		}
+		CONDITIONAL
+		{
+			id = 145
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 4
+			}
+		}
+		CONDITIONAL
+		{
+			id = 146
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 5
+			}
+		}
+		CONDITIONAL
+		{
+			id = 147
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 5
+			}
+		}
+		CONDITIONAL
+		{
+			id = 148
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 5
+			}
+		}
+		CONDITIONAL
+		{
+			id = 149
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 5
+			}
+		}
+		CONDITIONAL
+		{
+			id = 150
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 5
+			}
+		}
+		CONDITIONAL
+		{
+			id = 151
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 5
+			}
+		}
+		CONDITIONAL
+		{
+			id = 152
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 5
+			}
+		}
+		CONDITIONAL
+		{
+			id = 153
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 5
+			}
+		}
+		CONDITIONAL
+		{
+			id = 154
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 5
+			}
+		}
+		CONDITIONAL
+		{
+			id = 155
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 5
+			}
+		}
+		CONDITIONAL
+		{
+			id = 156
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 5
+			}
+		}
+		CONDITIONAL
+		{
+			id = 157
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 6
+			}
+		}
+		CONDITIONAL
+		{
+			id = 158
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 6
+			}
+		}
+		CONDITIONAL
+		{
+			id = 159
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 6
+			}
+		}
+		CONDITIONAL
+		{
+			id = 160
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 6
+			}
+		}
+		CONDITIONAL
+		{
+			id = 161
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 6
+			}
+		}
+		CONDITIONAL
+		{
+			id = 162
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 6
+			}
+		}
+		CONDITIONAL
+		{
+			id = 163
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 6
+			}
+		}
+		CONDITIONAL
+		{
+			id = 164
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 6
+			}
+		}
+		CONDITIONAL
+		{
+			id = 165
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 6
+			}
+		}
+		CONDITIONAL
+		{
+			id = 166
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 6
+			}
+		}
+		CONDITIONAL
+		{
+			id = 167
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 7
+			}
+		}
+		CONDITIONAL
+		{
+			id = 168
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 7
+			}
+		}
+		CONDITIONAL
+		{
+			id = 169
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 7
+			}
+		}
+		CONDITIONAL
+		{
+			id = 170
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 7
+			}
+		}
+		CONDITIONAL
+		{
+			id = 171
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 7
+			}
+		}
+		CONDITIONAL
+		{
+			id = 172
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 7
+			}
+		}
+		CONDITIONAL
+		{
+			id = 173
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 7
+			}
+		}
+		CONDITIONAL
+		{
+			id = 174
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 7
+			}
+		}
+		CONDITIONAL
+		{
+			id = 175
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 7
+			}
+		}
+		CONDITIONAL
+		{
+			id = 176
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 7
+			}
+		}
+		CONDITIONAL
+		{
+			id = 177
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 7
+			}
+		}
+		CONDITIONAL
+		{
+			id = 178
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 8
+			}
+		}
+		CONDITIONAL
+		{
+			id = 179
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 8
+			}
+		}
+		CONDITIONAL
+		{
+			id = 180
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 8
+			}
+		}
+		CONDITIONAL
+		{
+			id = 181
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 8
+			}
+		}
+		CONDITIONAL
+		{
+			id = 182
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 8
+			}
+		}
+		CONDITIONAL
+		{
+			id = 183
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 8
+			}
+		}
+		CONDITIONAL
+		{
+			id = 184
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 8
+			}
+		}
+		CONDITIONAL
+		{
+			id = 185
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 8
+			}
+		}
+		CONDITIONAL
+		{
+			id = 186
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 9
+			}
+		}
+		CONDITIONAL
+		{
+			id = 187
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 9
+			}
+		}
+		CONDITIONAL
+		{
+			id = 188
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 9
+			}
+		}
+		CONDITIONAL
+		{
+			id = 189
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 9
+			}
+		}
+		CONDITIONAL
+		{
+			id = 190
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 9
+			}
+		}
+		CONDITIONAL
+		{
+			id = 191
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 9
+			}
+		}
+		CONDITIONAL
+		{
+			id = 192
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 9
+			}
+		}
+		CONDITIONAL
+		{
+			id = 193
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 9
+			}
+		}
+		CONDITIONAL
+		{
+			id = 194
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 10
+			}
+		}
+		CONDITIONAL
+		{
+			id = 195
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 10
+			}
+		}
+		CONDITIONAL
+		{
+			id = 196
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 10
+			}
+		}
+		CONDITIONAL
+		{
+			id = 197
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 10
+			}
+		}
+		CONDITIONAL
+		{
+			id = 198
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 10
+			}
+		}
+		CONDITIONAL
+		{
+			id = 199
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 10
+			}
+		}
+		CONDITIONAL
+		{
+			id = 200
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 10
+			}
+		}
+		CONDITIONAL
+		{
+			id = 201
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 10
+			}
+		}
+		CONDITIONAL
+		{
+			id = 202
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 10
+			}
+		}
+		CONDITIONAL
+		{
+			id = 203
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 10
+			}
+		}
+		CONDITIONAL
+		{
+			id = 204
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 10
+			}
+		}
+		CONDITIONAL
+		{
+			id = 205
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 10
+			}
+		}
+		CONDITIONAL
+		{
+			id = 206
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 10
+			}
+		}
+		CONDITIONAL
+		{
+			id = 207
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 11
+			}
+		}
+		CONDITIONAL
+		{
+			id = 208
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 11
+			}
+		}
+		CONDITIONAL
+		{
+			id = 209
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 11
+			}
+		}
+		CONDITIONAL
+		{
+			id = 210
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 11
+			}
+		}
+		CONDITIONAL
+		{
+			id = 211
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 11
+			}
+		}
+		CONDITIONAL
+		{
+			id = 212
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 11
+			}
+		}
+		CONDITIONAL
+		{
+			id = 213
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 11
+			}
+		}
+		CONDITIONAL
+		{
+			id = 214
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 11
 			}
 		}
 	}
