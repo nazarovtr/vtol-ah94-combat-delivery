@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<WorkshopItemInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PublishedFileId>2850786238</PublishedFileId>
+  <Name>AH-94 PvP Combat delivery</Name>
+  <Description>PvP Combat delivery
+
+by Timur</Description>
+  <IconFileName />
+  <Tags>
+    <string>Multiplayer Campaigns</string>
+  </Tags>
+</WorkshopItemInfo>

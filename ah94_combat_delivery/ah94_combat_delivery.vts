@@ -1,0 +1,9666 @@
+CustomScenario
+{
+	gameVersion = 1.4.14f1
+	campaignID = AH-94 PvP Combat delivery
+	campaignOrderIdx = 1
+	scenarioName = AH-94 PvP Combat delivery
+	scenarioID = ah94_combat_delivery
+	scenarioDescription = Deliver packages in a dense urban environment by landing on a sequence of helipads while fighting the enemies who are trying to do the same.
+	mapID = ah94_delivery
+	vehicle = AV-42C
+	multiplayer = True
+	mpPlayerCount = 16
+	autoPlayerCount = False
+	overrideAlliedPlayerCount = 8
+	overrideEnemyPlayerCount = 8
+	scorePerDeath_A = 0
+	scorePerDeath_B = 0
+	scorePerKill_A = 0
+	scorePerKill_B = 0
+	mpBudgetMode = Life
+	allowedEquips = gau-8;m230;h70-x7;h70-4x4;h70-x19;mk82x1;mk82x2;mk82x3;mk82HDx1;mk82HDx2;mk82HDx3;agm89x1;gbu38x1;gbu38x2;gbu38x3;gbu39x3;gbu39x4u;cbu97x1;hellfirex4;maverickx1;maverickx3;cagm-6;sidewinderx1;sidewinderx2;sidewinderx3;iris-t-x1;iris-t-x2;iris-t-x3;sidearmx1;sidearmx2;sidearmx3;marmx1;av42_gbu12x1;av42_gbu12x2;av42_gbu12x3;42c_aim9ex2;42c_aim9ex1;
+	forceEquips = False
+	normForcedFuel = 1
+	equipsConfigurable = True
+	baseBudget = 100000
+	isTraining = False
+	rtbWptID = wpt:1
+	refuelWptID = wpt:1
+	rtbWptID_B = wpt:0
+	refuelWptID_B = wpt:0
+	separateBriefings = False
+	envName = night
+	selectableEnv = True
+	qsMode = Anywhere
+	qsLimit = -1
+	UNITS
+	{
+		UnitSpawner
+		{
+			unitName = M1 Tank
+			globalPosition = (24005.889404296875, 600.09929686784744, 35501.540283203125)
+			unitInstanceID = 18
+			unitID = alliedMBT1
+			rotation = (1.704521E-07, 91.43, -6.828061E-06)
+			spawnChance = 100
+			lastValidPlacement = (24005.889404296875, 600.09929686784744, 35501.540283203125)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				unitGroup = null
+				moveSpeed = Slow_10
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				stopToEngage = True
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Rearm/Refuel Point C
+			globalPosition = (24047.337066650391, 599.744384765625, 35581.655864715576)
+			unitInstanceID = 2
+			unitID = AlliedRearmRefuelPointC
+			rotation = (1.207418E-05, 315, 2.41484E-06)
+			spawnChance = 100
+			lastValidPlacement = (24047.337066650391, 599.744384765625, 35581.655864715576)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				spawnOnStart = True
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Rearm/Refuel Point C
+			globalPosition = (24029.062572479248, 599.744384765625, 35563.50715637207)
+			unitInstanceID = 3
+			unitID = AlliedRearmRefuelPointC
+			rotation = (9.659343E-06, 315, 4.829676E-06)
+			spawnChance = 100
+			lastValidPlacement = (24029.062572479248, 599.744384765625, 35563.50715637207)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				spawnOnStart = True
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Rearm/Refuel Point C
+			globalPosition = (24011.684586524963, 599.744384765625, 35546.151935577393)
+			unitInstanceID = 4
+			unitID = AlliedRearmRefuelPointC
+			rotation = (1.207418E-05, 315, 2.41484E-06)
+			spawnChance = 100
+			lastValidPlacement = (24011.684586524963, 599.744384765625, 35546.151935577393)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				spawnOnStart = True
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Rearm/Refuel Point C
+			globalPosition = (24036.429065704346, 599.744384765625, 35521.303665161133)
+			unitInstanceID = 5
+			unitID = AlliedRearmRefuelPointC
+			rotation = (-1.147047E-05, 315, -5.433384E-06)
+			spawnChance = 100
+			lastValidPlacement = (24036.429065704346, 599.744384765625, 35521.303665161133)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				spawnOnStart = True
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Rearm/Refuel Point C
+			globalPosition = (24053.922962188721, 599.744384765625, 35537.575305938721)
+			unitInstanceID = 6
+			unitID = AlliedRearmRefuelPointC
+			rotation = (-1.147047E-05, 315, -5.433384E-06)
+			spawnChance = 100
+			lastValidPlacement = (24053.922962188721, 599.744384765625, 35537.575305938721)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				spawnOnStart = True
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Rearm/Refuel Point C
+			globalPosition = (24071.990173339844, 599.744384765625, 35556.700115203857)
+			unitInstanceID = 7
+			unitID = AlliedRearmRefuelPointC
+			rotation = (-1.871498E-05, 315, 1.811123E-06)
+			spawnChance = 100
+			lastValidPlacement = (24071.990173339844, 599.744384765625, 35556.700115203857)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				spawnOnStart = True
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Rearm/Refuel Point C
+			globalPosition = (24090.59188079834, 599.74444580078125, 35576.351198196411)
+			unitInstanceID = 8
+			unitID = AlliedRearmRefuelPointC
+			rotation = (-1.147047E-05, 315, -5.433384E-06)
+			spawnChance = 100
+			lastValidPlacement = (24090.59188079834, 599.74444580078125, 35576.351198196411)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				spawnOnStart = True
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Rearm/Refuel Point C
+			globalPosition = (24066.262603759766, 599.74432373046875, 35600.550054907799)
+			unitInstanceID = 9
+			unitID = AlliedRearmRefuelPointC
+			rotation = (1.207418E-05, 315, 2.41484E-06)
+			spawnChance = 100
+			lastValidPlacement = (24066.262603759766, 599.74432373046875, 35600.550054907799)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				spawnOnStart = True
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (24091.098429679871, 599.74441528320313, 35575.727020263672)
+			unitInstanceID = 10
+			unitID = MultiplayerSpawn
+			rotation = (-1.690386E-05, 315, -2.442666E-12)
+			spawnChance = 100
+			lastValidPlacement = (24091.098429679871, 599.74441528320313, 35575.727020263672)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = AH94
+				unitGroup = Allied:Alpha
+				startMode = FlightReady
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = True
+				limitedLives = False
+				lifeCount = 1
+				receiveFriendlyDamage = True
+				slots = 2
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (24072.380702972412, 599.74441528320313, 35556.227684020996)
+			unitInstanceID = 11
+			unitID = MultiplayerSpawn
+			rotation = (-1.690386E-05, 315, -2.442666E-12)
+			spawnChance = 100
+			lastValidPlacement = (24072.380702972412, 599.74441528320313, 35556.227684020996)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = AH94
+				unitGroup = Allied:Bravo
+				startMode = FlightReady
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = True
+				limitedLives = False
+				lifeCount = 1
+				receiveFriendlyDamage = True
+				slots = 2
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (24054.348941802979, 599.74441528320313, 35537.387657165527)
+			unitInstanceID = 12
+			unitID = MultiplayerSpawn
+			rotation = (-1.690386E-05, 315, -2.442666E-12)
+			spawnChance = 100
+			lastValidPlacement = (24054.348941802979, 599.74441528320313, 35537.387657165527)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = AH94
+				unitGroup = Allied:Charlie
+				startMode = FlightReady
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = True
+				limitedLives = False
+				lifeCount = 1
+				receiveFriendlyDamage = True
+				slots = 2
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (24037.058391571045, 599.74441528320313, 35520.704132080078)
+			unitInstanceID = 13
+			unitID = MultiplayerSpawn
+			rotation = (-1.690386E-05, 315, -2.442666E-12)
+			spawnChance = 100
+			lastValidPlacement = (24037.058391571045, 599.74441528320313, 35520.704132080078)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = AH94
+				unitGroup = Allied:Delta
+				startMode = FlightReady
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = True
+				limitedLives = False
+				lifeCount = 1
+				receiveFriendlyDamage = True
+				slots = 2
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (24011.319389343262, 599.74441528320313, 35546.509349822998)
+			unitInstanceID = 14
+			unitID = MultiplayerSpawn
+			rotation = (-9.659347E-06, 135, -9.659346E-06)
+			spawnChance = 100
+			lastValidPlacement = (24011.319389343262, 599.74441528320313, 35546.509349822998)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = AH94
+				unitGroup = Allied:Echo
+				startMode = FlightReady
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = True
+				limitedLives = False
+				lifeCount = 1
+				receiveFriendlyDamage = True
+				slots = 2
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (24028.844383239746, 599.74441528320313, 35563.955413818359)
+			unitInstanceID = 15
+			unitID = MultiplayerSpawn
+			rotation = (-9.659347E-06, 135, -9.659346E-06)
+			spawnChance = 100
+			lastValidPlacement = (24028.844383239746, 599.74441528320313, 35563.955413818359)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = AH94
+				unitGroup = Allied:Foxtrot
+				startMode = FlightReady
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = True
+				limitedLives = False
+				lifeCount = 1
+				receiveFriendlyDamage = True
+				slots = 2
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (24046.918785095215, 599.74441528320313, 35582.02059173584)
+			unitInstanceID = 16
+			unitID = MultiplayerSpawn
+			rotation = (-9.659347E-06, 135, -9.659346E-06)
+			spawnChance = 100
+			lastValidPlacement = (24046.918785095215, 599.74441528320313, 35582.02059173584)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = AH94
+				unitGroup = Allied:Golf
+				startMode = FlightReady
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = True
+				limitedLives = False
+				lifeCount = 1
+				receiveFriendlyDamage = True
+				slots = 2
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (24065.934364318848, 599.74441528320313, 35600.981216430664)
+			unitInstanceID = 17
+			unitID = MultiplayerSpawn
+			rotation = (-9.659347E-06, 135, -9.659346E-06)
+			spawnChance = 100
+			lastValidPlacement = (24065.934364318848, 599.74441528320313, 35600.981216430664)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = AH94
+				unitGroup = Allied:Hotel
+				startMode = FlightReady
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = True
+				limitedLives = False
+				lifeCount = 1
+				receiveFriendlyDamage = True
+				slots = 2
+			}
+		}
+		UnitSpawner
+		{
+			unitName = C-RAM Truck
+			globalPosition = (23986.76611328125, 599.529296875, 35526.169067382813)
+			unitInstanceID = 19
+			unitID = PhallanxTruck
+			rotation = (1.704521E-07, 91.43, -6.828061E-06)
+			spawnChance = 100
+			lastValidPlacement = (23986.76611328125, 599.529296875, 35526.169067382813)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				unitGroup = null
+				moveSpeed = Slow_10
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = C-RAM Truck
+			globalPosition = (24133.030029296875, 599.52923583984375, 35594.8154296875)
+			unitInstanceID = 20
+			unitID = PhallanxTruck
+			rotation = (4.607812E-06, 132.425, -5.041782E-06)
+			spawnChance = 100
+			lastValidPlacement = (24133.030029296875, 599.52923583984375, 35594.8154296875)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				unitGroup = null
+				moveSpeed = Slow_10
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAM S/A Radar
+			globalPosition = (23972.8037109375, 599.529296875, 35097.580810546875)
+			unitInstanceID = 21
+			unitID = AlliedEWRadar
+			rotation = (-6.824554E-06, 2.32758, -2.773928E-07)
+			spawnChance = 100
+			lastValidPlacement = (23972.8037109375, 599.529296875, 35097.580810546875)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAM Launcher P
+			globalPosition = (23894.139404296875, 599.529296875, 35103.824951171875)
+			unitInstanceID = 22
+			unitID = PatriotLauncher
+			rotation = (-4.672303E-06, 46.83776, -4.982074E-06)
+			spawnChance = 100
+			lastValidPlacement = (23894.139404296875, 599.529296875, 35103.824951171875)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				radarUnits = 21;23;24;
+				allowReload = True
+				reloadTime = 0
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = True
+				equips = PAC-3;
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAM S/A Radar
+			globalPosition = (26008.126586914063, 599.5294189453125, 37613.793823242188)
+			unitInstanceID = 23
+			unitID = AlliedEWRadar
+			rotation = (3.25982E-06, 241.493, 6.002088E-06)
+			spawnChance = 100
+			lastValidPlacement = (26008.126586914063, 599.5294189453125, 37613.793823242188)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAM S/A Radar
+			globalPosition = (25669.23388671875, 599.52923583984375, 39121.2705078125)
+			unitInstanceID = 24
+			unitID = AlliedEWRadar
+			rotation = (6.759376E-06, 171.7424, -9.809844E-07)
+			spawnChance = 100
+			lastValidPlacement = (25669.23388671875, 599.52923583984375, 39121.2705078125)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAM Launcher P
+			globalPosition = (26208.197631835938, 599.5294189453125, 37251.120422363281)
+			unitInstanceID = 25
+			unitID = PatriotLauncher
+			rotation = (-3.35159E-07, 272.8127, 6.821961E-06)
+			spawnChance = 100
+			lastValidPlacement = (26208.197631835938, 599.5294189453125, 37251.120422363281)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				radarUnits = 21;23;24;
+				allowReload = True
+				reloadTime = 0
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = True
+				equips = PAC-3;
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAM Launcher P
+			globalPosition = (23822.012451171875, 599.52911376953125, 36707.005615234375)
+			unitInstanceID = 26
+			unitID = PatriotLauncher
+			rotation = (3.826002E-06, 124.0669, -5.658018E-06)
+			spawnChance = 100
+			lastValidPlacement = (23822.012451171875, 599.52911376953125, 36707.005615234375)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				radarUnits = 21;23;24;
+				allowReload = True
+				reloadTime = 0
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = True
+				equips = PAC-3;
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAM Launcher P
+			globalPosition = (25003.965667724609, 550.97900390625, 39252.861083984375)
+			unitInstanceID = 27
+			unitID = PatriotLauncher
+			rotation = (3.597059, 156.1108, 8.062357)
+			spawnChance = 100
+			lastValidPlacement = (25003.965667724609, 550.97900390625, 39252.861083984375)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				radarUnits = 21;23;24;
+				allowReload = True
+				reloadTime = 0
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = True
+				equips = PAC-3;
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAM Launcher P
+			globalPosition = (25064.168975830078, 599.52923583984375, 38775.437377929688)
+			unitInstanceID = 28
+			unitID = PatriotLauncher
+			rotation = (6.635706E-06, 166.2944, -1.6183E-06)
+			spawnChance = 100
+			lastValidPlacement = (25064.168975830078, 599.52923583984375, 38775.437377929688)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				radarUnits = 21;23;24;
+				allowReload = True
+				reloadTime = 0
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = True
+				equips = PAC-3;
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAM Launcher P
+			globalPosition = (24582.052551269531, 599.76409912109375, 35716.868530273438)
+			unitInstanceID = 29
+			unitID = PatriotLauncher
+			rotation = (359.9637, 0.9361294, 2.222067)
+			spawnChance = 100
+			lastValidPlacement = (24582.052551269531, 599.76409912109375, 35716.868530273438)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				radarUnits = 21;23;24;
+				allowReload = True
+				reloadTime = 0
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = True
+				equips = PAC-3;
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAM S/A Radar
+			globalPosition = (24104.07666015625, 599.52923583984375, 35646.6298828125)
+			unitInstanceID = 30
+			unitID = AlliedEWRadar
+			rotation = (6.829245E-06, 180.9559, 1.139489E-07)
+			spawnChance = 100
+			lastValidPlacement = (24104.07666015625, 599.52923583984375, 35646.6298828125)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAM S/A Radar
+			globalPosition = (23836.9990234375, 599.52923583984375, 35590.58740234375)
+			unitInstanceID = 31
+			unitID = AlliedEWRadar
+			rotation = (-5.154714E-06, 41.00123, -4.481118E-06)
+			spawnChance = 100
+			lastValidPlacement = (23836.9990234375, 599.52923583984375, 35590.58740234375)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = CIWS Turret
+			globalPosition = (25865.580688476563, 628.45550537109375, 36636.893310546875)
+			unitInstanceID = 32
+			unitID = staticCIWS
+			rotation = (9.576155, 235.0812, 350.7532)
+			spawnChance = 100
+			lastValidPlacement = (25865.580688476563, 628.45550537109375, 36636.893310546875)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MBT2-E Tank
+			globalPosition = (34777.832763671875, 600.09917449951172, 24209.470458984375)
+			unitInstanceID = 33
+			unitID = enemyMBT1
+			rotation = (-3.736787E-06, 303.1682, 5.717332E-06)
+			spawnChance = 100
+			lastValidPlacement = (34777.832763671875, 600.09917449951172, 24209.470458984375)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				unitGroup = null
+				moveSpeed = Slow_10
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				stopToEngage = True
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Z20x2 Anti-Air Artillery
+			globalPosition = (34791.649597167969, 599.5291748046875, 24196.88623046875)
+			unitInstanceID = 34
+			unitID = staticAAA-20x2
+			rotation = (-3.736787E-06, 303.1682, 5.717332E-06)
+			spawnChance = 100
+			lastValidPlacement = (34791.649597167969, 599.5291748046875, 24196.88623046875)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAM Launcher
+			globalPosition = (34051.494659423828, 602.28076171875, 24445.600830078125)
+			unitInstanceID = 41
+			unitID = SamBattery1
+			rotation = (2.576629, 100.0815, 358.2025)
+			spawnChance = 100
+			lastValidPlacement = (34051.494659423828, 602.28076171875, 24445.600830078125)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				radarUnits = 39;36;37;38;
+				allowReload = True
+				reloadTime = 0
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAM S/A Radar
+			globalPosition = (34031.019897460938, 599.52911376953125, 24341.841552734375)
+			unitInstanceID = 36
+			unitID = SamFCR2
+			rotation = (2.480931E-06, 111.2987, -6.363683E-06)
+			spawnChance = 100
+			lastValidPlacement = (34031.019897460938, 599.52911376953125, 24341.841552734375)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAM S/A Radar
+			globalPosition = (36479.734619140625, 599.52923583984375, 26667.4541015625)
+			unitInstanceID = 37
+			unitID = SamFCR2
+			rotation = (6.667723E-06, 192.5218, 1.480865E-06)
+			spawnChance = 100
+			lastValidPlacement = (36479.734619140625, 599.52923583984375, 26667.4541015625)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAM S/A Radar
+			globalPosition = (38484.278198242188, 330.6270751953125, 25870.940673828125)
+			unitInstanceID = 38
+			unitID = SamFCR2
+			rotation = (340.9978, 236.2409, 2.353491)
+			spawnChance = 100
+			lastValidPlacement = (38484.278198242188, 330.6270751953125, 25870.940673828125)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAM S/A Radar
+			globalPosition = (34507.632080078125, 607.0264892578125, 23000.409423828125)
+			unitInstanceID = 39
+			unitID = SamFCR2
+			rotation = (1.902151, 31.15246, 1.149462)
+			spawnChance = 100
+			lastValidPlacement = (34507.632080078125, 607.0264892578125, 23000.409423828125)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAM Launcher
+			globalPosition = (35216.01416015625, 615.09576416015625, 23755.688720703125)
+			unitInstanceID = 40
+			unitID = SamBattery1
+			rotation = (3.084085, 325.9643, 0.5971902)
+			spawnChance = 100
+			lastValidPlacement = (35216.01416015625, 615.09576416015625, 23755.688720703125)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				radarUnits = 39;36;37;38;
+				allowReload = True
+				reloadTime = 0
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAM Launcher
+			globalPosition = (36032.547607421875, 599.529296875, 26183.666381835938)
+			unitInstanceID = 42
+			unitID = SamBattery1
+			rotation = (5.031655E-06, 137.4492, -4.618867E-06)
+			spawnChance = 100
+			lastValidPlacement = (36032.547607421875, 599.529296875, 26183.666381835938)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				radarUnits = 39;36;37;38;
+				allowReload = True
+				reloadTime = 0
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAM Launcher
+			globalPosition = (38197.374877929688, 375.72137451171875, 25939.363525390625)
+			unitInstanceID = 43
+			unitID = SamBattery1
+			rotation = (10.98062, 36.40065, 359.9106)
+			spawnChance = 100
+			lastValidPlacement = (38197.374877929688, 375.72137451171875, 25939.363525390625)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				radarUnits = 39;36;37;38;
+				allowReload = True
+				reloadTime = 0
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAM Launcher
+			globalPosition = (37049.871276855469, 605.88128662109375, 25026.721557617188)
+			unitInstanceID = 44
+			unitID = SamBattery1
+			rotation = (358.7357, 235.3384, 358.1722)
+			spawnChance = 100
+			lastValidPlacement = (37049.871276855469, 605.88128662109375, 25026.721557617188)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				radarUnits = 39;36;37;38;
+				allowReload = True
+				reloadTime = 0
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Rearm/Refuel Point C
+			globalPosition = (34721.568098068237, 599.74440732598305, 24112.594749450684)
+			unitInstanceID = 45
+			unitID = EnemyRearmRefuelPointC
+			rotation = (-1.147047E-05, 315, -5.433384E-06)
+			spawnChance = 100
+			lastValidPlacement = (34721.568098068237, 599.74440732598305, 24112.594749450684)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				spawnOnStart = True
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Rearm/Refuel Point C
+			globalPosition = (34741.256946563721, 599.74440729618073, 24132.166625976563)
+			unitInstanceID = 46
+			unitID = EnemyRearmRefuelPointC
+			rotation = (-1.147047E-05, 315, -5.433384E-06)
+			spawnChance = 100
+			lastValidPlacement = (34741.256946563721, 599.74440729618073, 24132.166625976563)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				spawnOnStart = True
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Rearm/Refuel Point C
+			globalPosition = (34760.809879302979, 599.74440720677376, 24151.603378295898)
+			unitInstanceID = 47
+			unitID = EnemyRearmRefuelPointC
+			rotation = (-1.147047E-05, 315, -5.433384E-06)
+			spawnChance = 100
+			lastValidPlacement = (34760.809879302979, 599.74440720677376, 24151.603378295898)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				spawnOnStart = True
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Rearm/Refuel Point C
+			globalPosition = (34779.487823486328, 599.74440717697144, 24170.776901245117)
+			unitInstanceID = 48
+			unitID = EnemyRearmRefuelPointC
+			rotation = (-1.147047E-05, 315, -5.433384E-06)
+			spawnChance = 100
+			lastValidPlacement = (34779.487823486328, 599.74440717697144, 24170.776901245117)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				spawnOnStart = True
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Rearm/Refuel Point C
+			globalPosition = (34756.144710540771, 599.74440729618073, 24194.259414672852)
+			unitInstanceID = 49
+			unitID = EnemyRearmRefuelPointC
+			rotation = (1.207418E-05, 315, 2.41484E-06)
+			spawnChance = 100
+			lastValidPlacement = (34756.144710540771, 599.74440729618073, 24194.259414672852)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				spawnOnStart = True
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Rearm/Refuel Point C
+			globalPosition = (34737.866798400879, 599.74440729618073, 24174.848419189453)
+			unitInstanceID = 50
+			unitID = EnemyRearmRefuelPointC
+			rotation = (1.207418E-05, 315, 2.41484E-06)
+			spawnChance = 100
+			lastValidPlacement = (34737.866798400879, 599.74440729618073, 24174.848419189453)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				spawnOnStart = True
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Rearm/Refuel Point C
+			globalPosition = (34717.477256774902, 599.74440720677376, 24155.464477539063)
+			unitInstanceID = 51
+			unitID = EnemyRearmRefuelPointC
+			rotation = (1.207418E-05, 315, 2.41484E-06)
+			spawnChance = 100
+			lastValidPlacement = (34717.477256774902, 599.74440720677376, 24155.464477539063)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				spawnOnStart = True
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Rearm/Refuel Point C
+			globalPosition = (34698.388107299805, 599.74440723657608, 24135.851959228516)
+			unitInstanceID = 52
+			unitID = EnemyRearmRefuelPointC
+			rotation = (1.207418E-05, 315, 2.41484E-06)
+			spawnChance = 100
+			lastValidPlacement = (34698.388107299805, 599.74440723657608, 24135.851959228516)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				spawnOnStart = True
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (34722.418142318726, 599.7444072663784, 24111.819442749023)
+			unitInstanceID = 53
+			unitID = MultiplayerSpawnEnemy
+			rotation = (-1.690386E-05, 315, -2.442666E-12)
+			spawnChance = 100
+			lastValidPlacement = (34722.418142318726, 599.7444072663784, 24111.819442749023)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = AH94
+				unitGroup = Enemy:Alpha
+				startMode = FlightReady
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = True
+				limitedLives = False
+				lifeCount = 1
+				receiveFriendlyDamage = True
+				slots = 2
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (34741.852966308594, 599.7444072663784, 24131.472763061523)
+			unitInstanceID = 54
+			unitID = MultiplayerSpawnEnemy
+			rotation = (-1.690386E-05, 315, -2.442666E-12)
+			spawnChance = 100
+			lastValidPlacement = (34741.852966308594, 599.7444072663784, 24131.472763061523)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = AH94
+				unitGroup = Enemy:Bravo
+				startMode = FlightReady
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = True
+				limitedLives = False
+				lifeCount = 1
+				receiveFriendlyDamage = True
+				slots = 2
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (34761.134380340576, 599.74440723657608, 24151.055946350098)
+			unitInstanceID = 55
+			unitID = MultiplayerSpawnEnemy
+			rotation = (-1.690386E-05, 315, -2.442666E-12)
+			spawnChance = 100
+			lastValidPlacement = (34761.134380340576, 599.74440723657608, 24151.055946350098)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = AH94
+				unitGroup = Enemy:Charlie
+				startMode = FlightReady
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = True
+				limitedLives = False
+				lifeCount = 1
+				receiveFriendlyDamage = True
+				slots = 2
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (34779.741943359375, 599.74440723657608, 24170.388460159302)
+			unitInstanceID = 56
+			unitID = MultiplayerSpawnEnemy
+			rotation = (-1.690386E-05, 315, -2.442666E-12)
+			spawnChance = 100
+			lastValidPlacement = (34779.741943359375, 599.74440723657608, 24170.388460159302)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = AH94
+				unitGroup = Enemy:Delta
+				startMode = FlightReady
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = True
+				limitedLives = False
+				lifeCount = 1
+				receiveFriendlyDamage = True
+				slots = 2
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (34755.446590423584, 599.74440717697144, 24194.69898223877)
+			unitInstanceID = 57
+			unitID = MultiplayerSpawnEnemy
+			rotation = (-9.659347E-06, 135, -9.659346E-06)
+			spawnChance = 100
+			lastValidPlacement = (34755.446590423584, 599.74440717697144, 24194.69898223877)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = AH94
+				unitGroup = Enemy:Echo
+				startMode = FlightReady
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = True
+				limitedLives = False
+				lifeCount = 1
+				receiveFriendlyDamage = True
+				slots = 2
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (34737.066711425781, 599.74440717697144, 24175.361150741577)
+			unitInstanceID = 58
+			unitID = MultiplayerSpawnEnemy
+			rotation = (-9.659347E-06, 135, -9.659346E-06)
+			spawnChance = 100
+			lastValidPlacement = (34737.066711425781, 599.74440717697144, 24175.361150741577)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = AH94
+				unitGroup = Enemy:Foxtrot
+				startMode = FlightReady
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = True
+				limitedLives = False
+				lifeCount = 1
+				receiveFriendlyDamage = True
+				slots = 2
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (34717.139902114868, 599.74440723657608, 24155.570251464844)
+			unitInstanceID = 59
+			unitID = MultiplayerSpawnEnemy
+			rotation = (-9.659347E-06, 135, -9.659346E-06)
+			spawnChance = 100
+			lastValidPlacement = (34717.139902114868, 599.74440723657608, 24155.570251464844)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = AH94
+				unitGroup = Enemy:Golf
+				startMode = FlightReady
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = True
+				limitedLives = False
+				lifeCount = 1
+				receiveFriendlyDamage = True
+				slots = 2
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (34697.890731573105, 599.74440723657608, 24136.294807434082)
+			unitInstanceID = 60
+			unitID = MultiplayerSpawnEnemy
+			rotation = (-9.659347E-06, 135, -9.659346E-06)
+			spawnChance = 100
+			lastValidPlacement = (34697.890731573105, 599.74440723657608, 24136.294807434082)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = AH94
+				unitGroup = Enemy:Hotel
+				startMode = FlightReady
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = True
+				limitedLives = False
+				lifeCount = 1
+				receiveFriendlyDamage = True
+				slots = 2
+			}
+		}
+	}
+	PATHS
+	{
+	}
+	WAYPOINTS
+	{
+		WAYPOINT
+		{
+			id = 0
+			name = Red base
+			globalPoint = (34739.417221069336, 599.5291748046875, 24154.267120361328)
+		}
+		WAYPOINT
+		{
+			id = 1
+			name = Blue base
+			globalPoint = (24051.201908111572, 599.529296875, 35559.539791107178)
+		}
+		WAYPOINT
+		{
+			id = 2
+			name = center_1
+			globalPoint = (30584.620468139648, 4.5892333984375, 31173.712585449219)
+		}
+		WAYPOINT
+		{
+			id = 3
+			name = center_2
+			globalPoint = (30388.851440429688, 4.5892333984375, 30453.945343017578)
+		}
+		WAYPOINT
+		{
+			id = 5
+			name = center_3
+			globalPoint = (33584.463500976563, 109.79248809814453, 33691.242736816406)
+		}
+		WAYPOINT
+		{
+			id = 6
+			name = center_4
+			globalPoint = (28986.396880149841, 1019.7880859375, 29142.925189971924)
+		}
+		WAYPOINT
+		{
+			id = 7
+			name = center_5
+			globalPoint = (28708.45659160614, 934.0980224609375, 28906.274887084961)
+		}
+		WAYPOINT
+		{
+			id = 8
+			name = center_6
+			globalPoint = (28507.135040283203, 865.179443359375, 28656.615753173828)
+		}
+		WAYPOINT
+		{
+			id = 9
+			name = center_7
+			globalPoint = (28005.939990997314, 874.43341064453125, 28291.580912590027)
+		}
+		WAYPOINT
+		{
+			id = 10
+			name = center_8
+			globalPoint = (27716.442283630371, 802.41082763671875, 27998.554300546646)
+		}
+		WAYPOINT
+		{
+			id = 12
+			name = center_9
+			globalPoint = (28401.643035888672, 808.49432373046875, 28837.989551544189)
+		}
+		WAYPOINT
+		{
+			id = 13
+			name = center_10
+			globalPoint = (28718.682426452637, 1082.8011474609375, 29211.681655883789)
+		}
+		WAYPOINT
+		{
+			id = 14
+			name = blue_1_1
+			globalPoint = (33621.166656494141, 5.9044914245605469, 34542.012786865234)
+		}
+		WAYPOINT
+		{
+			id = 15
+			name = blue_1_2
+			globalPoint = (34043.444465637207, 4.5892562866210938, 34919.91234588623)
+		}
+		WAYPOINT
+		{
+			id = 17
+			name = blue_1_3
+			globalPoint = (31267.497741699219, 219.84707641601563, 32901.651458740234)
+		}
+		WAYPOINT
+		{
+			id = 18
+			name = blue_1_4
+			globalPoint = (31124.8271484375, 198.43905639648438, 32478.200103759766)
+		}
+		WAYPOINT
+		{
+			id = 19
+			name = blue_1_5
+			globalPoint = (29946.612236022949, 67.336654663085938, 31104.229507446289)
+		}
+		WAYPOINT
+		{
+			id = 20
+			name = blue_1_6
+			globalPoint = (29152.841842651367, 272.38812255859375, 30439.719650268555)
+		}
+		WAYPOINT
+		{
+			id = 22
+			name = blue_1_7
+			globalPoint = (29035.08763885498, 200.3712158203125, 30307.324405193329)
+		}
+		WAYPOINT
+		{
+			id = 23
+			name = blue_1_8
+			globalPoint = (27923.644729614258, 874.431396484375, 28889.330986976624)
+		}
+		WAYPOINT
+		{
+			id = 24
+			name = blue_1_9
+			globalPoint = (27613.288787841797, 865.17938232421875, 29097.203567504883)
+		}
+		WAYPOINT
+		{
+			id = 25
+			name = blue_1_10
+			globalPoint = (27392.502624511719, 1082.80126953125, 28725.68998336792)
+		}
+		WAYPOINT
+		{
+			id = 26
+			name = blue_1_11
+			globalPoint = (26681.092380523682, 802.4107666015625, 28502.495880126953)
+		}
+		WAYPOINT
+		{
+			id = 27
+			name = red_1_1
+			globalPoint = (34569.868530273438, 9.063751220703125, 33474.02116394043)
+		}
+		WAYPOINT
+		{
+			id = 28
+			name = red_1_2
+			globalPoint = (34308.875984191895, 49.743499755859375, 33242.457847595215)
+		}
+		WAYPOINT
+		{
+			id = 30
+			name = red_1_3
+			globalPoint = (33122.701812744141, 200.3714599609375, 31376.675752639771)
+		}
+		WAYPOINT
+		{
+			id = 31
+			name = red_1_4
+			globalPoint = (32357.404651641846, 198.69935607910156, 31418.033950805664)
+		}
+		WAYPOINT
+		{
+			id = 32
+			name = red_1_5
+			globalPoint = (30913.489009857178, 66.969467163085938, 30177.699953079224)
+		}
+		WAYPOINT
+		{
+			id = 34
+			name = red_1_6
+			globalPoint = (30259.093627929688, 200.371337890625, 29303.372138977051)
+		}
+		WAYPOINT
+		{
+			id = 35
+			name = red_1_7
+			globalPoint = (30075.755640029907, 480.7601318359375, 29309.180686950684)
+		}
+		WAYPOINT
+		{
+			id = 36
+			name = red_1_8
+			globalPoint = (29084.230911254883, 874.431396484375, 28530.256881713867)
+		}
+		WAYPOINT
+		{
+			id = 37
+			name = red_1_9
+			globalPoint = (28989.899833679199, 936.76068115234375, 28285.972786903381)
+		}
+		WAYPOINT
+		{
+			id = 38
+			name = red_1_10
+			globalPoint = (28681.207000732422, 865.18145751953125, 28015.750358581543)
+		}
+		WAYPOINT
+		{
+			id = 39
+			name = red_1_11
+			globalPoint = (27901.08521270752, 802.41058349609375, 27256.404247283936)
+		}
+		WAYPOINT
+		{
+			id = 40
+			name = blue_2_1
+			globalPoint = (31312.405548095703, 216.34907531738281, 33728.33837890625)
+		}
+		WAYPOINT
+		{
+			id = 41
+			name = blue_2_2
+			globalPoint = (30687.261242866516, 332.05279541015625, 33445.726173400879)
+		}
+		WAYPOINT
+		{
+			id = 42
+			name = blue_2_3
+			globalPoint = (30159.066864013672, 272.38623046875, 33047.755634307861)
+		}
+		WAYPOINT
+		{
+			id = 43
+			name = blue_2_4
+			globalPoint = (29977.103242874146, 200.371337890625, 32369.593505859375)
+		}
+		WAYPOINT
+		{
+			id = 44
+			name = blue_2_5
+			globalPoint = (29121.395935058594, 263.14031982421875, 31422.031066894531)
+		}
+		WAYPOINT
+		{
+			id = 45
+			name = blue_2_6
+			globalPoint = (28590.429351806641, 205.87734985351563, 31179.613998413086)
+		}
+		WAYPOINT
+		{
+			id = 46
+			name = blue_2_7
+			globalPoint = (27701.450222253799, 433.3887939453125, 30271.880437850952)
+		}
+		WAYPOINT
+		{
+			id = 47
+			name = blue_2_8
+			globalPoint = (26961.580932617188, 501.92987060546875, 30010.276237487793)
+		}
+		WAYPOINT
+		{
+			id = 48
+			name = red_2_1
+			globalPoint = (33470.281936645508, 272.39230346679688, 31278.79719543457)
+		}
+		WAYPOINT
+		{
+			id = 49
+			name = red_2_2
+			globalPoint = (32534.320346832275, 272.38809204101563, 30664.877792358398)
+		}
+		WAYPOINT
+		{
+			id = 50
+			name = red_2_3
+			globalPoint = (33064.372791290283, 206.30352783203125, 30913.145526885986)
+		}
+		WAYPOINT
+		{
+			id = 51
+			name = red_2_4
+			globalPoint = (32548.154205322266, 332.05474853515625, 30443.636352539063)
+		}
+		WAYPOINT
+		{
+			id = 52
+			name = red_2_5
+			globalPoint = (31694.885513305664, 332.05682373046875, 29350.247116088867)
+		}
+		WAYPOINT
+		{
+			id = 53
+			name = red_2_6
+			globalPoint = (30679.039764404297, 216.3551025390625, 28896.315948486328)
+		}
+		WAYPOINT
+		{
+			id = 54
+			name = red_2_7
+			globalPoint = (30153.262176513672, 436.05361938476563, 27840.003723144531)
+		}
+		WAYPOINT
+		{
+			id = 55
+			name = red_2_8
+			globalPoint = (29772.486700057983, 498.41049194335938, 26769.624872207642)
+		}
+		WAYPOINT
+		{
+			id = 56
+			name = blue_3_1
+			globalPoint = (31345.519287109375, 194.89743041992188, 34503.355975866318)
+		}
+		WAYPOINT
+		{
+			id = 57
+			name = blue_3_2
+			globalPoint = (30466.19677734375, 272.392333984375, 34060.754577636719)
+		}
+		WAYPOINT
+		{
+			id = 58
+			name = blue_3_3
+			globalPoint = (30237.39102935791, 334.71963500976563, 33829.434442520142)
+		}
+		WAYPOINT
+		{
+			id = 59
+			name = blue_3_4
+			globalPoint = (30227.409992218018, 272.38616943359375, 33498.125131726265)
+		}
+		WAYPOINT
+		{
+			id = 60
+			name = blue_3_5
+			globalPoint = (29220.497955322266, 272.39019775390625, 32592.699066162109)
+		}
+		WAYPOINT
+		{
+			id = 61
+			name = blue_3_6
+			globalPoint = (28759.9440574646, 332.05880737304688, 32200.56721496582)
+		}
+		WAYPOINT
+		{
+			id = 62
+			name = blue_3_7
+			globalPoint = (27394.010012626648, 373.72628784179688, 31204.634596347809)
+		}
+		WAYPOINT
+		{
+			id = 63
+			name = blue_3_8
+			globalPoint = (26498.79320526123, 519.391357421875, 30318.322830200195)
+		}
+		WAYPOINT
+		{
+			id = 64
+			name = red_3_1
+			globalPoint = (34109.391409873962, 191.541259765625, 31198.252319335938)
+		}
+		WAYPOINT
+		{
+			id = 65
+			name = red_3_2
+			globalPoint = (33769.228107452393, 212.35101318359375, 30644.064590454102)
+		}
+		WAYPOINT
+		{
+			id = 66
+			name = red_3_3
+			globalPoint = (33470.285890579224, 272.38812255859375, 30357.190048217773)
+		}
+		WAYPOINT
+		{
+			id = 67
+			name = red_3_4
+			globalPoint = (33147.818130493164, 480.758056640625, 30230.697578430176)
+		}
+		WAYPOINT
+		{
+			id = 68
+			name = red_3_5
+			globalPoint = (32995.836045265198, 332.0548095703125, 30051.329669952393)
+		}
+		WAYPOINT
+		{
+			id = 69
+			name = red_3_6
+			globalPoint = (32756.802795410156, 214.94813537597656, 29213.02588558197)
+		}
+		WAYPOINT
+		{
+			id = 70
+			name = red_3_7
+			globalPoint = (30628.842819213867, 436.05722045898438, 27598.341102600098)
+		}
+		WAYPOINT
+		{
+			id = 71
+			name = red_3_8
+			globalPoint = (29755.836456298828, 546.3609619140625, 26352.073501586914)
+		}
+		WAYPOINT
+		{
+			id = 72
+			name = blue_4_1
+			globalPoint = (30307.42512512207, 200.37139892578125, 34971.359954833984)
+		}
+		WAYPOINT
+		{
+			id = 73
+			name = blue_4_2
+			globalPoint = (29567.568878173828, 212.35511779785156, 35214.529956817627)
+		}
+		WAYPOINT
+		{
+			id = 74
+			name = blue_4_3
+			globalPoint = (29925.521234512329, 243.26666259765625, 34328.147378921509)
+		}
+		WAYPOINT
+		{
+			id = 75
+			name = blue_4_4
+			globalPoint = (29222.083938598633, 200.37142944335938, 34739.197822570801)
+		}
+		WAYPOINT
+		{
+			id = 76
+			name = blue_4_5
+			globalPoint = (29735.708786010742, 263.140380859375, 34131.304229736328)
+		}
+		WAYPOINT
+		{
+			id = 77
+			name = blue_4_6
+			globalPoint = (28764.218852996826, 212.355224609375, 34323.31169128418)
+		}
+		WAYPOINT
+		{
+			id = 78
+			name = blue_4_7
+			globalPoint = (29243.214466094971, 200.37118530273438, 33567.942127227783)
+		}
+		WAYPOINT
+		{
+			id = 79
+			name = blue_4_8
+			globalPoint = (28850.431838989258, 200.3712158203125, 33320.398735046387)
+		}
+		WAYPOINT
+		{
+			id = 80
+			name = blue_4_9
+			globalPoint = (27158.708023071289, 301.70455932617188, 32932.484588623047)
+		}
+		WAYPOINT
+		{
+			id = 81
+			name = blue_4_10
+			globalPoint = (27479.724243164063, 433.39089965820313, 31978.305374145508)
+		}
+		WAYPOINT
+		{
+			id = 82
+			name = blue_4_11
+			globalPoint = (27019.14232635498, 373.72421264648438, 32200.289031982422)
+		}
+		WAYPOINT
+		{
+			id = 83
+			name = blue_4_12
+			globalPoint = (25991.724456787109, 500.05731201171875, 31685.243516921997)
+		}
+		WAYPOINT
+		{
+			id = 84
+			name = blue_4_13
+			globalPoint = (25891.463409423828, 498.4107666015625, 30783.405113220215)
+		}
+		WAYPOINT
+		{
+			id = 85
+			name = red_4_1
+			globalPoint = (34491.374450683594, 200.37152099609375, 30754.148708343506)
+		}
+		WAYPOINT
+		{
+			id = 86
+			name = red_4_2
+			globalPoint = (34599.708709716797, 213.38949584960938, 29519.901245117188)
+		}
+		WAYPOINT
+		{
+			id = 87
+			name = red_4_3
+			globalPoint = (34066.318778991699, 332.0548095703125, 30066.463577270508)
+		}
+		WAYPOINT
+		{
+			id = 88
+			name = red_4_4
+			globalPoint = (33829.558723449707, 417.7449951171875, 29860.782897949219)
+		}
+		WAYPOINT
+		{
+			id = 89
+			name = red_4_5
+			globalPoint = (33724.712646484375, 417.74700927734375, 29352.547798156738)
+		}
+		WAYPOINT
+		{
+			id = 90
+			name = red_4_6
+			globalPoint = (33586.186706542969, 200.37127685546875, 29580.664321899414)
+		}
+		WAYPOINT
+		{
+			id = 91
+			name = red_4_7
+			globalPoint = (33393.612075805664, 334.71749877929688, 29441.531532287598)
+		}
+		WAYPOINT
+		{
+			id = 92
+			name = red_4_8
+			globalPoint = (33345.027389526367, 200.371337890625, 29091.355087280273)
+		}
+		WAYPOINT
+		{
+			id = 93
+			name = red_4_9
+			globalPoint = (32536.551136016846, 301.70489501953125, 27717.66268157959)
+		}
+		WAYPOINT
+		{
+			id = 94
+			name = red_4_10
+			globalPoint = (31610.105125427246, 433.39657592773438, 27455.552684783936)
+		}
+		WAYPOINT
+		{
+			id = 95
+			name = red_4_11
+			globalPoint = (31697.804011583328, 364.47799682617188, 27094.234848022461)
+		}
+		WAYPOINT
+		{
+			id = 96
+			name = red_4_12
+			globalPoint = (30709.156196594238, 498.41061401367188, 25815.14875793457)
+		}
+		WAYPOINT
+		{
+			id = 97
+			name = red_4_13
+			globalPoint = (30463.435485839844, 498.41064453125, 25727.151481628418)
+		}
+		WAYPOINT
+		{
+			id = 98
+			name = red_5_1
+			globalPoint = (35609.540725708008, 395.1356201171875, 28351.371566772461)
+		}
+		WAYPOINT
+		{
+			id = 99
+			name = red_5_2
+			globalPoint = (34957.948684692383, 364.47430419921875, 28294.791885375977)
+		}
+		WAYPOINT
+		{
+			id = 100
+			name = red_5_3
+			globalPoint = (33833.500411987305, 323.20416259765625, 27699.14990234375)
+		}
+		WAYPOINT
+		{
+			id = 101
+			name = red_5_5
+			globalPoint = (33650.591613769531, 498.41058349609375, 26229.194274902344)
+		}
+		WAYPOINT
+		{
+			id = 102
+			name = red_5_4
+			globalPoint = (33086.49404335022, 436.05722045898438, 27290.992874145508)
+		}
+		WAYPOINT
+		{
+			id = 103
+			name = red_5_6
+			globalPoint = (32831.070526123047, 514.4019775390625, 25979.379272460938)
+		}
+		WAYPOINT
+		{
+			id = 104
+			name = red_5_7
+			globalPoint = (32133.528503417969, 498.41058349609375, 25909.930053710938)
+		}
+		WAYPOINT
+		{
+			id = 105
+			name = red_5_8
+			globalPoint = (31578.753692626953, 498.41067504882813, 25412.717651367188)
+		}
+		WAYPOINT
+		{
+			id = 106
+			name = blue_5_1
+			globalPoint = (28963.265918731689, 301.70452880859375, 36468.484321594238)
+		}
+		WAYPOINT
+		{
+			id = 107
+			name = blue_5_2
+			globalPoint = (28498.346799373627, 317.68704223632813, 35878.222631454468)
+		}
+		WAYPOINT
+		{
+			id = 108
+			name = blue_5_3
+			globalPoint = (27755.504035949707, 321.18304443359375, 35585.906028747559)
+		}
+		WAYPOINT
+		{
+			id = 109
+			name = blue_5_4
+			globalPoint = (27311.856848716736, 373.72433471679688, 34350.964614868164)
+		}
+		WAYPOINT
+		{
+			id = 110
+			name = blue_5_5
+			globalPoint = (27007.910532951355, 436.05166625976563, 34188.297158241272)
+		}
+		WAYPOINT
+		{
+			id = 111
+			name = blue_5_6
+			globalPoint = (27081.259309768677, 436.05142211914063, 33369.563753128052)
+		}
+		WAYPOINT
+		{
+			id = 112
+			name = blue_5_7
+			globalPoint = (26501.264945983887, 535.5113525390625, 35116.171241760254)
+		}
+		WAYPOINT
+		{
+			id = 113
+			name = blue_5_8
+			globalPoint = (25643.186813354492, 498.41049194335938, 33024.523803710938)
+		}
+	}
+	UNITGROUPS
+	{
+		ALLIED
+		{
+			Alpha = 2;10;
+			Bravo = 2;11;
+			Charlie = 2;12;
+			Delta = 2;13;
+			Echo = 2;14;
+			Foxtrot = 2;15;
+			Golf = 2;16;
+			Hotel = 2;17;
+			Alpha_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Bravo_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Charlie_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Delta_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Echo_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Foxtrot_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Golf_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Hotel_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+		}
+		ENEMY
+		{
+			Alpha = 2;53;
+			Bravo = 2;54;
+			Charlie = 2;55;
+			Delta = 2;56;
+			Echo = 2;57;
+			Foxtrot = 2;58;
+			Golf = 2;59;
+			Hotel = 2;60;
+			Alpha_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Bravo_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Charlie_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Delta_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Echo_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Foxtrot_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Golf_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Hotel_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+		}
+	}
+	TimedEventGroups
+	{
+		TimedEventGroup
+		{
+			groupName = Timed
+			groupID = 0
+			beginImmediately = True
+			initialDelay = 0
+			TimedEventInfo
+			{
+				eventName = Game timeout
+				time = 1800
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Fire Conditional Action
+					methodName = FireConditionalAction
+					ParamInfo
+					{
+						type = ConditionalActionReference
+						value = 0
+						name = Action
+					}
+				}
+			}
+		}
+	}
+	TRIGGER_EVENTS
+	{
+	}
+	OBJECTIVES
+	{
+		Objective
+		{
+			objectiveName = Blue team wins
+			objectiveInfo = 
+			objectiveID = 0
+			orderID = 0
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = 0
+				failConditional = null
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 1b
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 7
+			orderID = 3
+			required = False
+			completionReward = 100
+			waypoint = 107
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue team scores
+			objectiveInfo = 
+			objectiveID = 2
+			orderID = 1
+			required = False
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Increment Value
+						methodName = IncrementValue
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 0
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Add
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,99999)
+							}
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Increment Value
+						methodName = IncrementValue
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 2
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Add
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,99999)
+							}
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 2
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Cancel Objective
+						methodName = CancelObjective
+					}
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = null
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 1a
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 6
+			orderID = 2
+			required = False
+			completionReward = 100
+			waypoint = 106
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 1c
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 8
+			orderID = 4
+			required = False
+			completionReward = 100
+			waypoint = 108
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 1d
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 9
+			orderID = 5
+			required = False
+			completionReward = 100
+			waypoint = 109
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 1e
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 10
+			orderID = 6
+			required = False
+			completionReward = 100
+			waypoint = 110
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 1f
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 11
+			orderID = 7
+			required = False
+			completionReward = 100
+			waypoint = 111
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 1g
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 12
+			orderID = 8
+			required = False
+			completionReward = 100
+			waypoint = 112
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 1h
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 13
+			orderID = 9
+			required = False
+			completionReward = 100
+			waypoint = 113
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 2a
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 14
+			orderID = 10
+			required = False
+			completionReward = 150
+			waypoint = 72
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 2b
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 15
+			orderID = 11
+			required = False
+			completionReward = 150
+			waypoint = 73
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 2c
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 16
+			orderID = 12
+			required = False
+			completionReward = 150
+			waypoint = 74
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 2d
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 17
+			orderID = 13
+			required = False
+			completionReward = 150
+			waypoint = 75
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 2e
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 18
+			orderID = 14
+			required = False
+			completionReward = 150
+			waypoint = 76
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 2f
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 19
+			orderID = 15
+			required = False
+			completionReward = 150
+			waypoint = 77
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 2g
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 20
+			orderID = 16
+			required = False
+			completionReward = 150
+			waypoint = 78
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 2h
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 21
+			orderID = 17
+			required = False
+			completionReward = 150
+			waypoint = 79
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 2i
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 22
+			orderID = 18
+			required = False
+			completionReward = 150
+			waypoint = 80
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 2j
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 23
+			orderID = 19
+			required = False
+			completionReward = 150
+			waypoint = 81
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 2k
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 24
+			orderID = 20
+			required = False
+			completionReward = 150
+			waypoint = 82
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 2l
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 25
+			orderID = 21
+			required = False
+			completionReward = 150
+			waypoint = 83
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 2m
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 26
+			orderID = 22
+			required = False
+			completionReward = 150
+			waypoint = 84
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 3a
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 27
+			orderID = 23
+			required = False
+			completionReward = 200
+			waypoint = 56
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 3b
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 28
+			orderID = 24
+			required = False
+			completionReward = 200
+			waypoint = 57
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 3c
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 29
+			orderID = 25
+			required = False
+			completionReward = 200
+			waypoint = 58
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 3d
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 30
+			orderID = 26
+			required = False
+			completionReward = 200
+			waypoint = 59
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 3e
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 31
+			orderID = 27
+			required = False
+			completionReward = 200
+			waypoint = 60
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 3f
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 32
+			orderID = 28
+			required = False
+			completionReward = 200
+			waypoint = 61
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 3g
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 33
+			orderID = 29
+			required = False
+			completionReward = 200
+			waypoint = 62
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 3h
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 34
+			orderID = 30
+			required = False
+			completionReward = 200
+			waypoint = 63
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 4a
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 35
+			orderID = 31
+			required = False
+			completionReward = 250
+			waypoint = 40
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 4b
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 36
+			orderID = 32
+			required = False
+			completionReward = 250
+			waypoint = 41
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 4c
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 37
+			orderID = 33
+			required = False
+			completionReward = 250
+			waypoint = 42
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 4d
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 38
+			orderID = 34
+			required = False
+			completionReward = 250
+			waypoint = 43
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 4e
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 39
+			orderID = 35
+			required = False
+			completionReward = 250
+			waypoint = 44
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 4f
+			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveID = 40
+			orderID = 36
+			required = False
+			completionReward = 250
+			waypoint = 45
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 41
+			orderID = 37
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 42
+			orderID = 38
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 43
+			orderID = 39
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 44
+			orderID = 40
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 45
+			orderID = 41
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 46
+			orderID = 42
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 47
+			orderID = 43
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 48
+			orderID = 44
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 49
+			orderID = 45
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 50
+			orderID = 46
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 51
+			orderID = 47
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 52
+			orderID = 48
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 53
+			orderID = 49
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 54
+			orderID = 50
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 55
+			orderID = 51
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 56
+			orderID = 52
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 57
+			orderID = 53
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 58
+			orderID = 54
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 59
+			orderID = 55
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 60
+			orderID = 56
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 61
+			orderID = 57
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 62
+			orderID = 58
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 63
+			orderID = 59
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 64
+			orderID = 60
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 65
+			orderID = 61
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 66
+			orderID = 62
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 67
+			orderID = 63
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 68
+			orderID = 64
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 69
+			orderID = 65
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 70
+			orderID = 66
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 71
+			orderID = 67
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 72
+			orderID = 68
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 73
+			orderID = 69
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 74
+			orderID = 70
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 75
+			orderID = 71
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 76
+			orderID = 72
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 77
+			orderID = 73
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 78
+			orderID = 74
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 79
+			orderID = 75
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 80
+			orderID = 76
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 81
+			orderID = 77
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 82
+			orderID = 78
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 83
+			orderID = 79
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 84
+			orderID = 80
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 85
+			orderID = 81
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 86
+			orderID = 82
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 87
+			orderID = 83
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 88
+			orderID = 84
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 89
+			orderID = 85
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 90
+			orderID = 86
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 91
+			orderID = 87
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 92
+			orderID = 88
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 93
+			orderID = 89
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 94
+			orderID = 90
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 95
+			orderID = 91
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 96
+			orderID = 92
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 97
+			orderID = 93
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 98
+			orderID = 94
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 99
+			orderID = 95
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 100
+			orderID = 96
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 101
+			orderID = 97
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 102
+			orderID = 98
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 103
+			orderID = 99
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 104
+			orderID = 100
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 105
+			orderID = 101
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 106
+			orderID = 102
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 107
+			orderID = 103
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 108
+			orderID = 104
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 109
+			orderID = 105
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 110
+			orderID = 106
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 111
+			orderID = 107
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 112
+			orderID = 108
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 113
+			orderID = 109
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 114
+			orderID = 110
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 115
+			orderID = 111
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 116
+			orderID = 112
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 117
+			orderID = 113
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 118
+			orderID = 114
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 119
+			orderID = 115
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 120
+			orderID = 116
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 121
+			orderID = 117
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 122
+			orderID = 118
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 123
+			orderID = 119
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 124
+			orderID = 120
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 125
+			orderID = 121
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 126
+			orderID = 122
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 127
+			orderID = 123
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 128
+			orderID = 124
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 129
+			orderID = 125
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 130
+			orderID = 126
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 131
+			orderID = 127
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 132
+			orderID = 128
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 133
+			orderID = 129
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 134
+			orderID = 130
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 135
+			orderID = 131
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 136
+			orderID = 132
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 137
+			orderID = 133
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 138
+			orderID = 134
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 139
+			orderID = 135
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 140
+			orderID = 136
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 141
+			orderID = 137
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 142
+			orderID = 138
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 143
+			orderID = 139
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 144
+			orderID = 140
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 145
+			orderID = 141
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 146
+			orderID = 142
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 147
+			orderID = 143
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 148
+			orderID = 144
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 149
+			orderID = 145
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 150
+			orderID = 146
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 151
+			orderID = 147
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 152
+			orderID = 148
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = New Objective
+			objectiveInfo = 
+			objectiveID = 153
+			orderID = 149
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 
+				minRequired = 0
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+	}
+	OBJECTIVES_OPFOR
+	{
+		Objective
+		{
+			objectiveName = Red team wins
+			objectiveInfo = 
+			objectiveID = 4
+			orderID = 0
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = 2
+				failConditional = null
+			}
+		}
+		Objective
+		{
+			objectiveName = Red team scores
+			objectiveInfo = 
+			objectiveID = 5
+			orderID = 1
+			required = False
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Increment Value
+						methodName = IncrementValue
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 1
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Add
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,99999)
+							}
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Decrement Value
+						methodName = DecrementValue
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 2
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Subtract
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,99999)
+							}
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 6
+							name = Action
+						}
+					}
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = null
+			}
+		}
+	}
+	StaticObjects
+	{
+		StaticObject
+		{
+			prefabID = WatchTower
+			id = 9
+			globalPos = (24093.537017822266, 599.529296875, 35554.419189453125)
+			rotation = (0, 135, 0)
+		}
+		StaticObject
+		{
+			prefabID = WatchTower
+			id = 8
+			globalPos = (24059.511291503906, 599.529296875, 35514.96923828125)
+			rotation = (0, 135, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 7
+			globalPos = (24090.625915527344, 599.52935791015625, 35576.247692108154)
+			rotation = (0, 315, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 6
+			globalPos = (24071.910278320313, 599.529296875, 35556.745697021484)
+			rotation = (0, 315, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 5
+			globalPos = (24053.82043838501, 599.529296875, 35537.874061584473)
+			rotation = (0, 315, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 4
+			globalPos = (24036.484592437744, 599.529296875, 35521.153129577637)
+			rotation = (0, 315, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 3
+			globalPos = (24011.833033561707, 599.529296875, 35546.007999420166)
+			rotation = (0, 135, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 2
+			globalPos = (24029.292314529419, 599.529296875, 35563.446849822998)
+			rotation = (0, 135, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 1
+			globalPos = (24047.468631744385, 599.529296875, 35581.6019115448)
+			rotation = (0, 135, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 0
+			globalPos = (24066.401870727539, 599.52923583984375, 35600.513005375862)
+			rotation = (0, 135, 0)
+		}
+		StaticObject
+		{
+			prefabID = WatchTower
+			id = 10
+			globalPos = (24007.177139282227, 599.529296875, 35568.277740478516)
+			rotation = (0, 135, 0)
+		}
+		StaticObject
+		{
+			prefabID = WatchTower
+			id = 11
+			globalPos = (24044.745574951172, 599.52923583984375, 35604.505508422852)
+			rotation = (0, 135, 0)
+		}
+		StaticObject
+		{
+			prefabID = FuelTank
+			id = 12
+			globalPos = (24024.305313110352, 599.52923583984375, 35587.080604553223)
+			rotation = (4.829672E-06, 135, -4.829672E-06)
+		}
+		StaticObject
+		{
+			prefabID = MilTent
+			id = 13
+			globalPos = (24073.071472167969, 599.529296875, 35526.307678222656)
+			rotation = (4.872018E-06, 224.4954, 4.786953E-06)
+		}
+		StaticObject
+		{
+			prefabID = MilTent
+			id = 14
+			globalPos = (24090.416473388672, 599.529296875, 35537.836639404297)
+			rotation = (4.872018E-06, 224.4954, 4.786953E-06)
+		}
+		StaticObject
+		{
+			prefabID = CargoCrate
+			id = 15
+			globalPos = (24110.407196044922, 599.52923583984375, 35563.036697387695)
+			rotation = (6.668558E-06, 167.5105, -1.477096E-06)
+		}
+		StaticObject
+		{
+			prefabID = CargoCrate
+			id = 16
+			globalPos = (24110.407196044922, 601.6502685546875, 35563.036697387695)
+			rotation = (-3.888191E-06, 167.5105, -1.762161E-06)
+		}
+		StaticObject
+		{
+			prefabID = CargoCrate
+			id = 17
+			globalPos = (24104.596923828125, 599.529296875, 35563.184188842773)
+			rotation = (6.668558E-06, 167.5105, -1.477096E-06)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 18
+			globalPos = (34698.500396728516, 599.52923583984375, 24135.881713867188)
+			rotation = (0, 135, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 19
+			globalPos = (34717.682556152344, 599.5291748046875, 24155.04801940918)
+			rotation = (0, 135, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 20
+			globalPos = (34737.653015136719, 599.5291748046875, 24174.848358154297)
+			rotation = (0, 135, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 21
+			globalPos = (34755.938323974609, 599.52923583984375, 24194.206604003906)
+			rotation = (0, 135, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 22
+			globalPos = (34779.272064208984, 599.5291748046875, 24170.911239624023)
+			rotation = (0, 315, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 23
+			globalPos = (34760.608901977539, 599.52923583984375, 24151.529434204102)
+			rotation = (0, 315, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 24
+			globalPos = (34741.300262451172, 599.5291748046875, 24132.01579284668)
+			rotation = (0, 315, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 25
+			globalPos = (34721.872650146484, 599.5291748046875, 24112.288421630859)
+			rotation = (0, 315, 0)
+		}
+		StaticObject
+		{
+			prefabID = WatchTower
+			id = 26
+			globalPos = (34732.162322998047, 599.5291748046875, 24198.454010009766)
+			rotation = (0, 135, 0)
+		}
+		StaticObject
+		{
+			prefabID = WatchTower
+			id = 27
+			globalPos = (34690.71728515625, 599.5291748046875, 24162.826797485352)
+			rotation = (0, 135, 0)
+		}
+		StaticObject
+		{
+			prefabID = WatchTower
+			id = 28
+			globalPos = (34749.833160400391, 599.52923583984375, 24102.776306152344)
+			rotation = (0, 135, 0)
+		}
+		StaticObject
+		{
+			prefabID = WatchTower
+			id = 29
+			globalPos = (34785.396667480469, 599.5291748046875, 24144.879043579102)
+			rotation = (0, 135, 0)
+		}
+		StaticObject
+		{
+			prefabID = MilTent
+			id = 30
+			globalPos = (34695.710388183594, 599.5291748046875, 24182.544616699219)
+			rotation = (6.427118E-06, 199.7821, 2.311632E-06)
+		}
+		StaticObject
+		{
+			prefabID = MilTent
+			id = 31
+			globalPos = (34714.674682617188, 599.5291748046875, 24193.804794311523)
+			rotation = (-2.30805E-06, 70.24986, -6.428405E-06)
+		}
+		StaticObject
+		{
+			prefabID = FuelTank
+			id = 32
+			globalPos = (34765.170471191406, 599.5291748046875, 24128.074584960938)
+			rotation = (-5.219643E-06, 40.16397, -4.405315E-06)
+		}
+		StaticObject
+		{
+			prefabID = CargoCrate
+			id = 33
+			globalPos = (34678.021728515625, 599.5291748046875, 24152.663467407227)
+			rotation = (-5.219643E-06, 40.16397, -4.405315E-06)
+		}
+		StaticObject
+		{
+			prefabID = CargoCrate
+			id = 34
+			globalPos = (34678.021728515625, 601.6502685546875, 24152.663467407227)
+			rotation = (-1.659839E-05, 40.16397, -2.836743E-06)
+		}
+		StaticObject
+		{
+			prefabID = CargoCrate
+			id = 35
+			globalPos = (34684.589447021484, 599.5291748046875, 24151.185089111328)
+			rotation = (-6.581794E-06, 15.49952, -1.825233E-06)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 36
+			globalPos = (30584.620468139648, 4.3746337890625, 31173.712585449219)
+			rotation = (0, 180, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 37
+			globalPos = (30388.851440429688, 4.3746337890625, 30453.945343017578)
+			rotation = (0, 180, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipad
+			id = 38
+			globalPos = (33584.463500976563, 109.46713256835938, 33691.242736816406)
+			rotation = (0, 180.3431, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 39
+			globalPos = (27716.442283630371, 802.19622802734375, 27998.554300546646)
+			rotation = (0, 180, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 40
+			globalPos = (28401.643035888672, 808.27972412109375, 28837.989551544189)
+			rotation = (0, 180, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 41
+			globalPos = (33621.166656494141, 5.6898818016052246, 34542.012786865234)
+			rotation = (0, 180, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 42
+			globalPos = (34043.444465637207, 4.3746490478515625, 34919.91234588623)
+			rotation = (0, 129.2241, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 43
+			globalPos = (34212.730659484863, 63.555561065673828, 33415.06037902832)
+			rotation = (0, 180, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 44
+			globalPos = (31267.497741699219, 219.63246154785156, 32901.651458740234)
+			rotation = (0, 180, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 45
+			globalPos = (31124.8271484375, 198.22444152832031, 32478.200103759766)
+			rotation = (0, 180, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 46
+			globalPos = (29035.08763885498, 200.15660095214844, 30307.324405193329)
+			rotation = (0, 180, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 47
+			globalPos = (26681.092380523682, 802.1961669921875, 28502.495880126953)
+			rotation = (0, 180, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 48
+			globalPos = (34569.868530273438, 10.123077392578125, 33474.02116394043)
+			rotation = (0, 179.8285, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 49
+			globalPos = (34308.875984191895, 49.528884887695313, 33242.457847595215)
+			rotation = (0, 180, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 50
+			globalPos = (33122.701812744141, 200.1568603515625, 31376.675752639771)
+			rotation = (0, 180, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 51
+			globalPos = (32357.404651641846, 198.4847412109375, 31418.033950805664)
+			rotation = (0, 180, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 52
+			globalPos = (30259.093627929688, 200.15673828125, 29303.372138977051)
+			rotation = (0, 180, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 53
+			globalPos = (27901.08521270752, 802.19598388671875, 27256.404247283936)
+			rotation = (0, 180, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 54
+			globalPos = (31312.405548095703, 216.13446044921875, 33728.33837890625)
+			rotation = (0, 180, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 55
+			globalPos = (29977.103242874146, 200.15672302246094, 32369.593505859375)
+			rotation = (0, 180, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 56
+			globalPos = (28590.429351806641, 205.66273498535156, 31179.613998413086)
+			rotation = (0, 180, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 57
+			globalPos = (26961.580932617188, 501.71527099609375, 30010.276237487793)
+			rotation = (0, 180, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 58
+			globalPos = (33064.372791290283, 206.08891296386719, 30913.145526885986)
+			rotation = (0, 180, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 59
+			globalPos = (30679.039764404297, 216.1405029296875, 28896.315948486328)
+			rotation = (0, 180, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 60
+			globalPos = (29772.486700057983, 498.19589233398438, 26769.624872207642)
+			rotation = (0, 180, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 61
+			globalPos = (31345.519241333008, 196.31121826171875, 34503.355975866318)
+			rotation = (0, 0.3430795, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 62
+			globalPos = (26498.79320526123, 519.1767578125, 30318.322830200195)
+			rotation = (0, 1.338863E-10, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 63
+			globalPos = (34109.391409873962, 193.65170288085938, 31198.252319335938)
+			rotation = (0, 359.5842, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 64
+			globalPos = (33769.228107452393, 212.13641357421875, 30644.064590454102)
+			rotation = (0, 3.024456E-12, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 65
+			globalPos = (32756.802795410156, 214.7335205078125, 29213.02588558197)
+			rotation = (0, 0, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 66
+			globalPos = (29755.836456298828, 546.1463623046875, 26352.073501586914)
+			rotation = (0, 0, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 67
+			globalPos = (30307.42512512207, 200.15679931640625, 34971.359954833984)
+			rotation = (0, 0, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 68
+			globalPos = (29567.568878173828, 212.1405029296875, 35214.529956817627)
+			rotation = (0, -1.961341E-12, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 69
+			globalPos = (29925.521234512329, 243.05204772949219, 34328.147378921509)
+			rotation = (0, 1.549381E-10, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 70
+			globalPos = (29222.083938598633, 200.15681457519531, 34739.197822570801)
+			rotation = (0, 0, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 71
+			globalPos = (28764.218852996826, 212.14060974121094, 34323.31169128418)
+			rotation = (0, 0, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 72
+			globalPos = (29243.214466094971, 200.15657043457031, 33567.942127227783)
+			rotation = (0, 0, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 73
+			globalPos = (28850.431838989258, 200.15660095214844, 33320.398735046387)
+			rotation = (0, 0, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 74
+			globalPos = (27158.708023071289, 301.48995971679688, 32932.484588623047)
+			rotation = (0, 0, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 75
+			globalPos = (25991.724456787109, 499.84271240234375, 31685.243516921997)
+			rotation = (0, -2.646622E-07, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 76
+			globalPos = (25891.463409423828, 498.1961669921875, 30783.405113220215)
+			rotation = (0, 0, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 77
+			globalPos = (34491.374450683594, 200.15692138671875, 30754.148708343506)
+			rotation = (0, 0, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 78
+			globalPos = (34599.708709716797, 213.17488098144531, 29519.901245117188)
+			rotation = (0, 0, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 79
+			globalPos = (33586.186706542969, 200.15667724609375, 29580.664321899414)
+			rotation = (0, 0, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 80
+			globalPos = (33345.027389526367, 200.15673828125, 29091.355087280273)
+			rotation = (0, 0, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 81
+			globalPos = (32536.551136016846, 301.49026489257813, 27717.66268157959)
+			rotation = (0, 0, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 82
+			globalPos = (30709.156196594238, 498.19601440429688, 25815.14875793457)
+			rotation = (0, 0, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 83
+			globalPos = (30463.435485839844, 498.196044921875, 25727.151481628418)
+			rotation = (0, 0, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 84
+			globalPos = (33833.500411987305, 322.98953247070313, 27699.14990234375)
+			rotation = (0, 1.077296E-17, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 85
+			globalPos = (33650.591613769531, 498.19598388671875, 26229.194274902344)
+			rotation = (0, 0, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 86
+			globalPos = (32831.070526123047, 514.1873779296875, 25979.379272460938)
+			rotation = (0, 0, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 87
+			globalPos = (32133.528503417969, 498.19598388671875, 25909.930053710938)
+			rotation = (0, 0, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 88
+			globalPos = (31578.753692626953, 498.19607543945313, 25412.717651367188)
+			rotation = (0, 0, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 89
+			globalPos = (28963.265918731689, 301.48992919921875, 36468.484321594238)
+			rotation = (0, 0, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 90
+			globalPos = (28498.346799373627, 317.47244262695313, 35878.222631454468)
+			rotation = (0, 7.994939E-12, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 91
+			globalPos = (27755.504035949707, 320.96844482421875, 35585.906028747559)
+			rotation = (0, 5.890231E-12, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 92
+			globalPos = (26501.264945983887, 535.2967529296875, 35116.171241760254)
+			rotation = (0, 0, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipadSmall
+			id = 93
+			globalPos = (25643.186813354492, 498.19589233398438, 33024.523803710938)
+			rotation = (0, 0, 0)
+		}
+	}
+	Conditionals
+	{
+		CONDITIONAL
+		{
+			id = 0
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-337, 49, 0)
+				gv = 0
+				comparison = Equals
+				c_value = 10
+			}
+		}
+		CONDITIONAL
+		{
+			id = 2
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-289, 45, 0)
+				gv = 1
+				comparison = Equals
+				c_value = 10
+			}
+		}
+	}
+	ConditionalActions
+	{
+		ConditionalAction
+		{
+			id = 0
+			name = 
+			BASE_BLOCK
+			{
+				blockName = blue leads
+				blockId = 1
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-277, 35, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 1
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 0
+						eventName = Complete Objective
+						methodName = CompleteObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 4
+						eventName = Fail Objective
+						methodName = FailObjective
+					}
+				}
+				ELSE_IF
+				{
+					blockName = red leads
+					blockId = 8
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCGlobalValue
+							uiPos = (-279, 43, 0)
+							gv = 3
+							comparison = Equals
+							c_value = -1
+						}
+					}
+					ACTIONS
+					{
+						eventName = 
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 4
+							eventName = Complete Objective
+							methodName = CompleteObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 0
+							eventName = Fail Objective
+							methodName = FailObjective
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 0
+						eventName = Fail Objective
+						methodName = FailObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 4
+						eventName = Fail Objective
+						methodName = FailObjective
+					}
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 2
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Score just changed to 1
+				blockId = 3
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-310, 43, 0)
+						gv = 2
+						comparison = Equals
+						c_value = 1
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Set Value
+						methodName = SetValue
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 3
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Set to
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (-99999,99999)
+							}
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 1
+						eventName = Display Message
+						methodName = DisplayMessage
+						ParamInfo
+						{
+							type = System.String
+							value = The blue team has taken the lead!
+							name = Text
+							ParamAttrInfo
+							{
+								type = TextInputModes
+								data = MultiLine
+							}
+							ParamAttrInfo
+							{
+								type = System.Int32
+								data = 140
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 5
+							name = Duration
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,9999)
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 1
+						eventName = Display Message
+						methodName = DisplayMessage
+						ParamInfo
+						{
+							type = System.String
+							value = The blue team made a delivery.
+							name = Text
+							ParamAttrInfo
+							{
+								type = TextInputModes
+								data = MultiLine
+							}
+							ParamAttrInfo
+							{
+								type = System.Int32
+								data = 140
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 5
+							name = Duration
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,9999)
+							}
+						}
+					}
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 6
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Score just changed to -1
+				blockId = 7
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-323, 43, 0)
+						gv = 2
+						comparison = Equals
+						c_value = -1
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Set Value
+						methodName = SetValue
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 3
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = -1
+							name = Set to
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (-99999,99999)
+							}
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 1
+						eventName = Display Message
+						methodName = DisplayMessage
+						ParamInfo
+						{
+							type = System.String
+							value = The red team has taken the lead!
+							name = Text
+							ParamAttrInfo
+							{
+								type = TextInputModes
+								data = MultiLine
+							}
+							ParamAttrInfo
+							{
+								type = System.Int32
+								data = 140
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 5
+							name = Duration
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,9999)
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 1
+						eventName = Display Message
+						methodName = DisplayMessage
+						ParamInfo
+						{
+							type = System.String
+							value = The read team made a delivery.
+							name = Text
+							ParamAttrInfo
+							{
+								type = TextInputModes
+								data = MultiLine
+							}
+							ParamAttrInfo
+							{
+								type = System.Int32
+								data = 140
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 5
+							name = Duration
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,9999)
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	EventSequences
+	{
+	}
+	BASES
+	{
+	}
+	GlobalValues
+	{
+		gv
+		{
+			data = 0;blue_del;Number of current blue team delivery.;1;
+		}
+		gv
+		{
+			data = 1;red_del;Number of current red team delivery.;1;
+		}
+		gv
+		{
+			data = 2;score;Determines, by how many deliveries one team is ahead. Positive - blue.;0;
+		}
+		gv
+		{
+			data = 3;lead;Determines wh is leading the game based on who is leading and got their highest score first. Positive - blue.;0;
+		}
+	}
+	Briefing
+	{
+	}
+	Briefing_B
+	{
+	}
+}
+

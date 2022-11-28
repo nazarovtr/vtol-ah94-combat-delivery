@@ -1,0 +1,23 @@
+VTMapCustom
+{
+	mapID = delivery_proto
+	mapName = 
+	mapDescription = 
+	mapType = HeightMap
+	edgeMode = Water
+	biome = Arctic
+	seed = timur2
+	mapSize = 14
+	TerrainSettings
+	{
+		mainNoiseScale = 6
+		maxMtnHeight = 4000
+	}
+	StaticPrefabs
+	{
+	}
+	BezierRoads
+	{
+	}
+}
+

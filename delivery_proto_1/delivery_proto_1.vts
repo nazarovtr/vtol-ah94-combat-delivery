@@ -1,0 +1,2716 @@
+CustomScenario
+{
+	gameVersion = 1.4.12f1
+	campaignID = AH-94 PvP Combat delivery
+	campaignOrderIdx = 0
+	scenarioName = AH-94 Pvp Combat delivery POC
+	scenarioID = delivery_proto_1
+	scenarioDescription = Proof of concept
+	mapID = delivery_proto
+	vehicle = AV-42C
+	multiplayer = True
+	mpPlayerCount = 8
+	autoPlayerCount = True
+	overrideAlliedPlayerCount = 0
+	overrideEnemyPlayerCount = 0
+	scorePerDeath_A = 0
+	scorePerDeath_B = 0
+	scorePerKill_A = 50
+	scorePerKill_B = 50
+	mpBudgetMode = Life
+	allowedEquips = gau-8;m230;h70-x7;h70-4x4;h70-x19;mk82x1;mk82x2;mk82x3;mk82HDx1;mk82HDx2;mk82HDx3;agm89x1;gbu38x1;gbu38x2;gbu38x3;gbu39x3;gbu39x4u;cbu97x1;hellfirex4;maverickx1;maverickx3;cagm-6;sidewinderx1;sidewinderx2;sidewinderx3;iris-t-x1;iris-t-x2;iris-t-x3;sidearmx1;sidearmx2;sidearmx3;marmx1;av42_gbu12x1;av42_gbu12x2;av42_gbu12x3;42c_aim9ex2;42c_aim9ex1;
+	forceEquips = False
+	normForcedFuel = 1
+	equipsConfigurable = True
+	baseBudget = 100000
+	isTraining = False
+	rtbWptID = 
+	refuelWptID = 
+	rtbWptID_B = 
+	refuelWptID_B = 
+	separateBriefings = False
+	envName = day
+	selectableEnv = True
+	qsMode = Anywhere
+	qsLimit = -1
+	UNITS
+	{
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (37078.812072753906, 149.45204162597656, 20738.815521240234)
+			unitInstanceID = 0
+			unitID = MultiplayerSpawn
+			rotation = (-2.053156E-05, 359.5046, -4.652326E-06)
+			spawnChance = 100
+			lastValidPlacement = (37078.812072753906, 149.45204162597656, 20738.815521240234)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = AH94
+				unitGroup = Allied:Alpha
+				startMode = FlightReady
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = True
+				limitedLives = False
+				lifeCount = 1
+				receiveFriendlyDamage = True
+				slots = 2
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Rearm/Refuel Point C
+			globalPosition = (37078.839960098267, 149.45216369628906, 20738.254638671875)
+			unitInstanceID = 3
+			unitID = AlliedRearmRefuelPointC
+			rotation = (-2.049056E-05, 1.727225E-12, -4.829672E-06)
+			spawnChance = 100
+			lastValidPlacement = (37078.839960098267, 149.45216369628906, 20738.254638671875)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				spawnOnStart = True
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Rearm/Refuel Point C
+			globalPosition = (37024.809383392334, 153.18910217285156, 20741.58740234375)
+			unitInstanceID = 4
+			unitID = AlliedRearmRefuelPointC
+			rotation = (-2.049056E-05, 1.727225E-12, -4.829672E-06)
+			spawnChance = 100
+			lastValidPlacement = (37024.809383392334, 153.18910217285156, 20741.58740234375)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				spawnOnStart = True
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (37024.809383392334, 153.18910217285156, 20741.58740234375)
+			unitInstanceID = 5
+			unitID = MultiplayerSpawn
+			rotation = (-2.049056E-05, 1.727225E-12, -4.829672E-06)
+			spawnChance = 100
+			lastValidPlacement = (37024.809383392334, 153.18910217285156, 20741.58740234375)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = AH94
+				unitGroup = Allied:Bravo
+				startMode = FlightReady
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = True
+				limitedLives = False
+				lifeCount = 1
+				receiveFriendlyDamage = True
+				slots = 2
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Rearm/Refuel Point C
+			globalPosition = (37281.983283996582, 139.9833984375, 21756.061828613281)
+			unitInstanceID = 6
+			unitID = EnemyRearmRefuelPointC
+			rotation = (2.049553E-05, 179.9409, 4.808549E-06)
+			spawnChance = 100
+			lastValidPlacement = (37281.983283996582, 139.9833984375, 21756.061828613281)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				spawnOnStart = True
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (37281.983283996582, 139.9833984375, 21756.061828613281)
+			unitInstanceID = 7
+			unitID = MultiplayerSpawnEnemy
+			rotation = (2.049553E-05, 179.9409, 4.808549E-06)
+			spawnChance = 100
+			lastValidPlacement = (37281.983283996582, 139.9833984375, 21756.061828613281)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = AH94
+				unitGroup = Enemy:Alpha
+				startMode = FlightReady
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = True
+				limitedLives = False
+				lifeCount = 1
+				receiveFriendlyDamage = True
+				slots = 2
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (37193.648574829102, 144.089111328125, 21759.586486816406)
+			unitInstanceID = 11
+			unitID = MultiplayerSpawnEnemy
+			rotation = (2.049553E-05, 179.9409, 4.808549E-06)
+			spawnChance = 100
+			lastValidPlacement = (37193.648574829102, 144.089111328125, 21759.586486816406)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = AH94
+				unitGroup = Enemy:Alpha
+				startMode = FlightReady
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = True
+				limitedLives = False
+				lifeCount = 1
+				receiveFriendlyDamage = True
+				slots = 2
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Rearm/Refuel Point C
+			globalPosition = (37194.104125976563, 144.089111328125, 21759.877075195313)
+			unitInstanceID = 12
+			unitID = EnemyRearmRefuelPointC
+			rotation = (2.049553E-05, 179.9409, 4.808549E-06)
+			spawnChance = 100
+			lastValidPlacement = (37194.104125976563, 144.089111328125, 21759.877075195313)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				spawnOnStart = True
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAM Launcher
+			globalPosition = (36932.252029418945, 192.02047729492188, 21710.631134033203)
+			unitInstanceID = 13
+			unitID = SamBattery1
+			rotation = (358.5005, 187.281, 11.5747)
+			spawnChance = 100
+			lastValidPlacement = (36932.252029418945, 192.02047729492188, 21710.631134033203)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				radarUnits = 
+				allowReload = False
+				reloadTime = 120
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAM Launcher
+			globalPosition = (36971.694229125977, 183.87382507324219, 21703.785720825195)
+			unitInstanceID = 14
+			unitID = SamBattery1
+			rotation = (358.5005, 187.281, 11.5747)
+			spawnChance = 100
+			lastValidPlacement = (36971.694229125977, 183.87382507324219, 21703.785720825195)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				radarUnits = 
+				allowReload = False
+				reloadTime = 120
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAM Launcher P
+			globalPosition = (36842.143310546875, 170.474609375, 20813.585693359375)
+			unitInstanceID = 15
+			unitID = PatriotLauncher
+			rotation = (351.2078, 4.868416, 359.2541)
+			spawnChance = 100
+			lastValidPlacement = (36842.143310546875, 170.474609375, 20813.585693359375)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				radarUnits = 
+				allowReload = False
+				reloadTime = 120
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAM Launcher P
+			globalPosition = (36875.881958007813, 169.44403076171875, 20810.517578125)
+			unitInstanceID = 16
+			unitID = PatriotLauncher
+			rotation = (351.4528, 5.265541, 356.5648)
+			spawnChance = 100
+			lastValidPlacement = (36875.881958007813, 169.44403076171875, 20810.517578125)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				radarUnits = 
+				allowReload = False
+				reloadTime = 120
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				receiveFriendlyDamage = False
+			}
+		}
+	}
+	PATHS
+	{
+	}
+	WAYPOINTS
+	{
+		WAYPOINT
+		{
+			id = 1
+			name = b_del_1_1
+			globalPoint = (37093.327919006348, 148.77749633789063, 20882.479417800903)
+		}
+		WAYPOINT
+		{
+			id = 2
+			name = b_del_1_2
+			globalPoint = (37027.350225448608, 150.81126403808594, 20890.145157814026)
+		}
+		WAYPOINT
+		{
+			id = 3
+			name = b_del_2_2
+			globalPoint = (37117.084327697754, 147.67984008789063, 21093.559814453125)
+		}
+		WAYPOINT
+		{
+			id = 4
+			name = b_del_2_1
+			globalPoint = (37240.90104675293, 141.91128540039063, 21095.724395751953)
+		}
+		WAYPOINT
+		{
+			id = 5
+			name = b_del_2_3
+			globalPoint = (37015.833938598633, 155.00308227539063, 21094.099578857422)
+		}
+		WAYPOINT
+		{
+			id = 6
+			name = r_del_1_1
+			globalPoint = (37094.687872409821, 162.58560180664063, 21430.245758056641)
+		}
+		WAYPOINT
+		{
+			id = 7
+			name = r_del_1_2
+			globalPoint = (37193.883460998535, 144.08316040039063, 21424.795776367188)
+		}
+		WAYPOINT
+		{
+			id = 8
+			name = r_del_2_1
+			globalPoint = (37045.105422973633, 151.01821899414063, 21202.049446105957)
+		}
+		WAYPOINT
+		{
+			id = 9
+			name = r_del_2_2
+			globalPoint = (37149.562026977539, 146.15042114257813, 21197.19066619873)
+		}
+		WAYPOINT
+		{
+			id = 10
+			name = r_del_2_3
+			globalPoint = (37229.528259277344, 142.42947387695313, 21193.706558227539)
+		}
+	}
+	UNITGROUPS
+	{
+		ALLIED
+		{
+			Alpha = 2;0;
+			Bravo = 2;5;
+			Alpha_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Bravo_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+		}
+		ENEMY
+		{
+			Alpha = 2;7;11;
+			Alpha_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+		}
+	}
+	TimedEventGroups
+	{
+		TimedEventGroup
+		{
+			groupName = Timer
+			groupID = 0
+			beginImmediately = True
+			initialDelay = 0
+			TimedEventInfo
+			{
+				eventName = start
+				time = 60
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Fire Conditional Action
+					methodName = FireConditionalAction
+					ParamInfo
+					{
+						type = ConditionalActionReference
+						value = 20
+						name = Action
+					}
+				}
+			}
+		}
+	}
+	TRIGGER_EVENTS
+	{
+		TriggerEvent
+		{
+			id = 2
+			enabled = True
+			triggerType = Conditional
+			conditional = 4
+			eventName = start_b_del_1
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Fire Conditional Action
+					methodName = FireConditionalAction
+					ParamInfo
+					{
+						type = ConditionalActionReference
+						value = 0
+						name = Action
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 3
+			enabled = True
+			triggerType = Conditional
+			conditional = 5
+			eventName = start_b_del_2
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Fire Conditional Action
+					methodName = FireConditionalAction
+					ParamInfo
+					{
+						type = ConditionalActionReference
+						value = 2
+						name = Action
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 5
+			enabled = True
+			triggerType = Conditional
+			conditional = 8
+			eventName = start_r_del_1
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Fire Conditional Action
+					methodName = FireConditionalAction
+					ParamInfo
+					{
+						type = ConditionalActionReference
+						value = 5
+						name = Action
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 6
+			enabled = True
+			triggerType = Conditional
+			conditional = 9
+			eventName = start_r_del_2
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Fire Conditional Action
+					methodName = FireConditionalAction
+					ParamInfo
+					{
+						type = ConditionalActionReference
+						value = 7
+						name = Action
+					}
+				}
+			}
+		}
+	}
+	OBJECTIVES
+	{
+		Objective
+		{
+			objectiveName = Blue delivery 1 (1)
+			objectiveInfo = Land at the helipad to complete the delivery.
+			objectiveID = 0
+			orderID = 0
+			required = False
+			completionReward = 100
+			waypoint = 1
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 22
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 1 (2)
+			objectiveInfo = Land at the helipad to complete the delivery.
+			objectiveID = 1
+			orderID = 1
+			required = False
+			completionReward = 100
+			waypoint = 2
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 22
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 2 (1)
+			objectiveInfo = Land at the helipad to complete the delivery.
+			objectiveID = 2
+			orderID = 2
+			required = False
+			completionReward = 150
+			waypoint = 4
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 22
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 2 (2)
+			objectiveInfo = Land at the helipad to complete the delivery.
+			objectiveID = 3
+			orderID = 3
+			required = False
+			completionReward = 150
+			waypoint = 3
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 22
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 2 (3)
+			objectiveInfo = Land at the helipad to complete the delivery.
+			objectiveID = 4
+			orderID = 4
+			required = False
+			completionReward = 150
+			waypoint = 5
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 22
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue all deliveries
+			objectiveInfo = Complete all deliveries
+			objectiveID = 5
+			orderID = 5
+			required = True
+			completionReward = 200
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = 6
+				failConditional = null
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 1 (1)
+			objectiveInfo = Intercept or delay the enemy delivery.
+			objectiveID = 12
+			orderID = 6
+			required = False
+			completionReward = 0
+			waypoint = 6
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 10
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 1 (2)
+			objectiveInfo = Intercept or delay the enemy delivery.
+			objectiveID = 13
+			orderID = 7
+			required = False
+			completionReward = 0
+			waypoint = 7
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 11
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 2 (1)
+			objectiveInfo = Intercept or delay the enemy delivery.
+			objectiveID = 14
+			orderID = 8
+			required = False
+			completionReward = 0
+			waypoint = 8
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 12
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 2 (2)
+			objectiveInfo = Intercept or delay the enemy delivery.
+			objectiveID = 15
+			orderID = 9
+			required = False
+			completionReward = 0
+			waypoint = 9
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 13
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept red 2 (3)
+			objectiveInfo = Intercept or delay the enemy delivery.
+			objectiveID = 16
+			orderID = 10
+			required = False
+			completionReward = 0
+			waypoint = 10
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 14
+			}
+		}
+		Objective
+		{
+			objectiveName = Finish blue delivery
+			objectiveInfo = 
+			objectiveID = 22
+			orderID = 11
+			required = False
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Increment Value
+						methodName = IncrementValue
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 0
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Add
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,99999)
+							}
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Increment Value
+						methodName = IncrementValue
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 2
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Add
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,99999)
+							}
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 23
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 1
+						eventName = Display Message
+						methodName = DisplayMessage
+						ParamInfo
+						{
+							type = System.String
+							value = blue score
+							name = Text
+							ParamAttrInfo
+							{
+								type = TextInputModes
+								data = MultiLine
+							}
+							ParamAttrInfo
+							{
+								type = System.Int32
+								data = 140
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Duration
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,9999)
+							}
+						}
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 22
+						eventName = Cancel Objective
+						methodName = CancelObjective
+					}
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = null
+			}
+		}
+	}
+	OBJECTIVES_OPFOR
+	{
+		Objective
+		{
+			objectiveName = Red delivery 1 (1)
+			objectiveInfo = Land at the helipad to complete the delivery.
+			objectiveID = 6
+			orderID = 0
+			required = False
+			completionReward = 100
+			waypoint = 6
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 23
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Red delivery 1 (2)
+			objectiveInfo = Land at the helipad to complete the delivery.
+			objectiveID = 7
+			orderID = 1
+			required = False
+			completionReward = 100
+			waypoint = 7
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 23
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Red delivery 2 (1)
+			objectiveInfo = Land at the helipad to complete the delivery.
+			objectiveID = 8
+			orderID = 2
+			required = False
+			completionReward = 150
+			waypoint = 8
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 23
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Red delivery 2 (2)
+			objectiveInfo = Land at the helipad to complete the delivery.
+			objectiveID = 9
+			orderID = 3
+			required = False
+			completionReward = 150
+			waypoint = 9
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 23
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Red delivery 2 (3)
+			objectiveInfo = Land at the helipad to complete the delivery.
+			objectiveID = 10
+			orderID = 4
+			required = False
+			completionReward = 150
+			waypoint = 10
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 23
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Red all deliveries
+			objectiveInfo = Complete all deliveries
+			objectiveID = 11
+			orderID = 5
+			required = True
+			completionReward = 200
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = 7
+				failConditional = null
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 1 (1)
+			objectiveInfo = Intercept or delay the enemy delivery.
+			objectiveID = 17
+			orderID = 6
+			required = False
+			completionReward = 0
+			waypoint = 1
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 15
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 1 (2)
+			objectiveInfo = Intercept or delay the enemy delivery.
+			objectiveID = 18
+			orderID = 7
+			required = False
+			completionReward = 0
+			waypoint = 2
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 16
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 2 (1)
+			objectiveInfo = Intercept or delay the enemy delivery.
+			objectiveID = 19
+			orderID = 8
+			required = False
+			completionReward = 0
+			waypoint = 4
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 17
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 2 (2)
+			objectiveInfo = Intercept or delay the enemy delivery.
+			objectiveID = 20
+			orderID = 9
+			required = False
+			completionReward = 0
+			waypoint = 3
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 18
+			}
+		}
+		Objective
+		{
+			objectiveName = Intercept blue 2 (3)
+			objectiveInfo = Intercept or delay the enemy delivery.
+			objectiveID = 21
+			orderID = 10
+			required = False
+			completionReward = 0
+			waypoint = 5
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = 19
+			}
+		}
+		Objective
+		{
+			objectiveName = Finish red delivery
+			objectiveInfo = 
+			objectiveID = 23
+			orderID = 11
+			required = False
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Increment Value
+						methodName = IncrementValue
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 1
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Add
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,99999)
+							}
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Decrement Value
+						methodName = DecrementValue
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 2
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Subtract
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,99999)
+							}
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 25
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 1
+						eventName = Display Message
+						methodName = DisplayMessage
+						ParamInfo
+						{
+							type = System.String
+							value = red score
+							name = Text
+							ParamAttrInfo
+							{
+								type = TextInputModes
+								data = MultiLine
+							}
+							ParamAttrInfo
+							{
+								type = System.Int32
+								data = 140
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Duration
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,9999)
+							}
+						}
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 23
+						eventName = Cancel Objective
+						methodName = CancelObjective
+					}
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = null
+			}
+		}
+	}
+	StaticObjects
+	{
+		StaticObject
+		{
+			prefabID = helipad
+			id = 0
+			globalPos = (37078.71142578125, 149.1268310546875, 20738.224975585938)
+			rotation = (0, -2.591476E-06, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipad
+			id = 1
+			globalPos = (37093.329879760742, 148.4521484375, 20882.564300537109)
+			rotation = (0, 359.5057, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipad
+			id = 2
+			globalPos = (37027.072601318359, 152.4437255859375, 20892.300506591797)
+			rotation = (0, 359.5057, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipad
+			id = 3
+			globalPos = (37016.001831054688, 154.67770385742188, 21094.072967529297)
+			rotation = (0, 359.524, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipad
+			id = 4
+			globalPos = (37116.904144287109, 147.35455322265625, 21093.364837646484)
+			rotation = (0, 359.5057, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipad
+			id = 5
+			globalPos = (37240.802669525146, 141.5859375, 21095.989715576172)
+			rotation = (0, 359.5057, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipad
+			id = 6
+			globalPos = (37024.86156463623, 152.86392211914063, 20741.818984985352)
+			rotation = (0, -2.591476E-06, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipad
+			id = 7
+			globalPos = (37045.073272705078, 150.69281005859375, 21202.222015380859)
+			rotation = (0, 3.173157E-07, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipad
+			id = 8
+			globalPos = (37149.623764038086, 145.82510375976563, 21197.327972412109)
+			rotation = (0, 3.173157E-07, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipad
+			id = 9
+			globalPos = (37229.542510986328, 142.1041259765625, 21193.587036132813)
+			rotation = (0, 3.173245E-07, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipad
+			id = 10
+			globalPos = (37194.025177001953, 143.7578125, 21425.015197753906)
+			rotation = (0, 3.173245E-07, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipad
+			id = 11
+			globalPos = (37094.322235107422, 162.26033020019531, 21429.682006835938)
+			rotation = (0, 1.296019E-06, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipad
+			id = 12
+			globalPos = (37193.900527954102, 143.76393127441406, 21759.965789794922)
+			rotation = (0, 3.173245E-07, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipad
+			id = 13
+			globalPos = (37282.081207275391, 139.65824890136719, 21755.838073730469)
+			rotation = (0, 3.173245E-07, 0)
+		}
+	}
+	Conditionals
+	{
+		CONDITIONAL
+		{
+			id = 2
+			outputNodePos = (0, 0, 0)
+		}
+		CONDITIONAL
+		{
+			id = 3
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCChance
+				uiPos = (-306.5657, 42.90009, 0)
+				chance = 100
+			}
+		}
+		CONDITIONAL
+		{
+			id = 4
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-317, 43, 0)
+				gv = 0
+				comparison = Equals
+				c_value = 1
+			}
+		}
+		CONDITIONAL
+		{
+			id = 5
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-343, 30, 0)
+				gv = 0
+				comparison = Equals
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 6
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-344, 41, 0)
+				gv = 0
+				comparison = Equals
+				c_value = 3
+			}
+		}
+		CONDITIONAL
+		{
+			id = 7
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-324, 43, 0)
+				gv = 1
+				comparison = Equals
+				c_value = 3
+			}
+		}
+		CONDITIONAL
+		{
+			id = 8
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-348, 40, 0)
+				gv = 1
+				comparison = Equals
+				c_value = 1
+			}
+		}
+		CONDITIONAL
+		{
+			id = 9
+			outputNodePos = (0, 0, 0)
+			root = 1
+			COMP
+			{
+				id = 1
+				type = SCCGlobalValue
+				uiPos = (-312, 44, 0)
+				gv = 1
+				comparison = Equals
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 10
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-278, 34, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 1
+			}
+		}
+		CONDITIONAL
+		{
+			id = 11
+			outputNodePos = (1, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-311, 36, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 1
+			}
+		}
+		CONDITIONAL
+		{
+			id = 12
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-378, 54, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 1
+			}
+		}
+		CONDITIONAL
+		{
+			id = 13
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-317, 47, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 14
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-308, 40, 0)
+				gv = 1
+				comparison = Greater_Than
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 15
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-330, 43, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 1
+			}
+		}
+		CONDITIONAL
+		{
+			id = 16
+			outputNodePos = (1, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-272, 42, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 1
+			}
+		}
+		CONDITIONAL
+		{
+			id = 17
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-307, 48, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 18
+			outputNodePos = (1, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-293, 42, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 19
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-313, 46, 0)
+				gv = 0
+				comparison = Greater_Than
+				c_value = 1
+			}
+		}
+	}
+	ConditionalActions
+	{
+		ConditionalAction
+		{
+			id = 0
+			name = 
+			BASE_BLOCK
+			{
+				blockName = 50%
+				blockId = 1
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-303, 42, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 0
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 17
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 1
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 18
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 2
+			name = 
+			BASE_BLOCK
+			{
+				blockName = 33%
+				blockId = 3
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-358, 44, 0)
+						chance = 33
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 19
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 50%
+					blockId = 4
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-321, 45, 0)
+							chance = 50
+						}
+					}
+					ACTIONS
+					{
+						eventName = 
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 3
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 20
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 4
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 21
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 5
+			name = 
+			BASE_BLOCK
+			{
+				blockName = 50%
+				blockId = 6
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-300, 45, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 6
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 12
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 7
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 13
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 7
+			name = 
+			BASE_BLOCK
+			{
+				blockName = 33%
+				blockId = 8
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-269, 41, 0)
+						chance = 33
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 8
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 14
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 50%
+					blockId = 9
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-337, 38, 0)
+							chance = 50
+						}
+					}
+					ACTIONS
+					{
+						eventName = 
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 9
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 15
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 10
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 16
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 10
+			name = 
+			BASE_BLOCK
+			{
+				blockName = 
+				blockId = 11
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					COMP
+					{
+						id = 2
+						type = SCCGlobalValue
+						uiPos = (-384, -5, 0)
+						gv = 0
+						comparison = Less_Than
+						c_value = 0
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 20
+			name = 
+			BASE_BLOCK
+			{
+				blockName = blue leads
+				blockId = 21
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-397, 58, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 1
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 5
+						eventName = Complete Objective
+						methodName = CompleteObjective
+					}
+				}
+				ELSE_IF
+				{
+					blockName = red leads
+					blockId = 22
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCGlobalValue
+							uiPos = (-359, 65, 0)
+							gv = 3
+							comparison = Equals
+							c_value = -1
+						}
+					}
+					ACTIONS
+					{
+						eventName = 
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 11
+							eventName = Complete Objective
+							methodName = CompleteObjective
+						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 5
+						eventName = Fail Objective
+						methodName = FailObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 11
+						eventName = Fail Objective
+						methodName = FailObjective
+					}
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 23
+			name = 
+			BASE_BLOCK
+			{
+				{blockName} = {score=1}
+				blockId = 24
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-307, 54, 0)
+						gv = 2
+						comparison = Equals
+						c_value = 1
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Set Value
+						methodName = SetValue
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 3
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Set to
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (-99999,99999)
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 25
+			name = 
+			BASE_BLOCK
+			{
+				{blockName} = {score=-1}
+				blockId = 26
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-383, 43, 0)
+						gv = 2
+						comparison = Equals
+						c_value = -1
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Set Value
+						methodName = SetValue
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 3
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = -1
+							name = Set to
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (-99999,99999)
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+	}
+	EventSequences
+	{
+	}
+	BASES
+	{
+	}
+	GlobalValues
+	{
+		gv
+		{
+			data = 0;b_del_number;;1;
+		}
+		gv
+		{
+			data = 1;r_del_number;;1;
+		}
+		gv
+		{
+			data = 2;score;;0;
+		}
+		gv
+		{
+			data = 3;lead;;0;
+		}
+	}
+	Briefing
+	{
+		BRIEFING_NOTE
+		{
+			text = Deliver packages by landing on helipads
+			imagePath = 
+			audioClipPath = 
+		}
+		BRIEFING_NOTE
+		{
+			text = Intercept enemy helicopters to delay their deliveries.
+			imagePath = 
+			audioClipPath = 
+		}
+	}
+	Briefing_B
+	{
+	}
+}
+
