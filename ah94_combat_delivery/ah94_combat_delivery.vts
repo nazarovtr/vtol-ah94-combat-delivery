@@ -2107,7 +2107,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 1b
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 7
 			orderID = 3
 			required = False
@@ -2269,7 +2269,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 1a
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 6
 			orderID = 2
 			required = False
@@ -2314,7 +2314,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 1c
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 8
 			orderID = 4
 			required = False
@@ -2359,7 +2359,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 1d
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 9
 			orderID = 5
 			required = False
@@ -2404,7 +2404,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 1e
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 10
 			orderID = 6
 			required = False
@@ -2449,7 +2449,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 1f
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 11
 			orderID = 7
 			required = False
@@ -2494,7 +2494,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 1g
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 12
 			orderID = 8
 			required = False
@@ -2539,7 +2539,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 1h
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 13
 			orderID = 9
 			required = False
@@ -2584,7 +2584,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 2a
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 14
 			orderID = 10
 			required = False
@@ -2629,7 +2629,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 2b
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 15
 			orderID = 11
 			required = False
@@ -2674,7 +2674,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 2c
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 16
 			orderID = 12
 			required = False
@@ -2719,7 +2719,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 2d
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 17
 			orderID = 13
 			required = False
@@ -2764,7 +2764,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 2e
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 18
 			orderID = 14
 			required = False
@@ -2809,7 +2809,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 2f
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 19
 			orderID = 15
 			required = False
@@ -2854,7 +2854,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 2g
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 20
 			orderID = 16
 			required = False
@@ -2899,7 +2899,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 2h
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 21
 			orderID = 17
 			required = False
@@ -2944,7 +2944,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 2i
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 22
 			orderID = 18
 			required = False
@@ -2989,7 +2989,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 2j
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 23
 			orderID = 19
 			required = False
@@ -3034,7 +3034,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 2k
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 24
 			orderID = 20
 			required = False
@@ -3079,7 +3079,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 2l
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 25
 			orderID = 21
 			required = False
@@ -3124,7 +3124,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 2m
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 26
 			orderID = 22
 			required = False
@@ -3169,7 +3169,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 3a
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 27
 			orderID = 23
 			required = False
@@ -3214,7 +3214,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 3b
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 28
 			orderID = 24
 			required = False
@@ -3259,7 +3259,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 3c
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 29
 			orderID = 25
 			required = False
@@ -3304,7 +3304,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 3d
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 30
 			orderID = 26
 			required = False
@@ -3342,7 +3342,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 3e
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 31
 			orderID = 27
 			required = False
@@ -3387,7 +3387,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 3f
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 32
 			orderID = 28
 			required = False
@@ -3432,7 +3432,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 3g
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 33
 			orderID = 29
 			required = False
@@ -3477,7 +3477,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 3h
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 34
 			orderID = 30
 			required = False
@@ -3522,7 +3522,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 4a
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 35
 			orderID = 31
 			required = False
@@ -3567,7 +3567,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 4b
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 36
 			orderID = 32
 			required = False
@@ -3612,7 +3612,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 4c
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 37
 			orderID = 33
 			required = False
@@ -3657,7 +3657,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 4d
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 38
 			orderID = 34
 			required = False
@@ -3702,7 +3702,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 4e
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 39
 			orderID = 35
 			required = False
@@ -3747,7 +3747,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Blue delivery 4f
-			objectiveInfo = Land at the waypont to make a delivery.
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 40
 			orderID = 36
 			required = False
@@ -3791,16 +3791,16 @@ CustomScenario
 		}
 		Objective
 		{
-			objectiveName = New Objective
-			objectiveInfo = 
+			objectiveName = Blue delivery 4g
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 41
 			orderID = 37
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
+			required = False
+			completionReward = 250
+			waypoint = 46
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
 			startEvent
 			{
 				EventInfo
@@ -3820,4608 +3820,1010 @@ CustomScenario
 				EventInfo
 				{
 					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
 				}
 			}
 			fields
 			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
+				radius = 5
 			}
 		}
 		Objective
 		{
-			objectiveName = New Objective
-			objectiveInfo = 
+			objectiveName = Blue delivery 4h
+			objectiveInfo = Land at the waypoint to complete a delivery.
 			objectiveID = 42
 			orderID = 38
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 43
-			orderID = 39
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 44
-			orderID = 40
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 45
-			orderID = 41
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 46
-			orderID = 42
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 47
-			orderID = 43
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 48
-			orderID = 44
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 49
-			orderID = 45
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 50
-			orderID = 46
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 51
-			orderID = 47
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 52
-			orderID = 48
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 53
-			orderID = 49
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 54
-			orderID = 50
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 55
-			orderID = 51
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 56
-			orderID = 52
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 57
-			orderID = 53
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 58
-			orderID = 54
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 59
-			orderID = 55
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 60
-			orderID = 56
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 61
-			orderID = 57
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 62
-			orderID = 58
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 63
-			orderID = 59
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 64
-			orderID = 60
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 65
-			orderID = 61
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 66
-			orderID = 62
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 67
-			orderID = 63
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 68
-			orderID = 64
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 69
-			orderID = 65
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 70
-			orderID = 66
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 71
-			orderID = 67
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 72
-			orderID = 68
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 73
-			orderID = 69
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 74
-			orderID = 70
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 75
-			orderID = 71
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 76
-			orderID = 72
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 77
-			orderID = 73
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 78
-			orderID = 74
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 79
-			orderID = 75
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 80
-			orderID = 76
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 81
-			orderID = 77
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 82
-			orderID = 78
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 83
-			orderID = 79
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 84
-			orderID = 80
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 85
-			orderID = 81
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 86
-			orderID = 82
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 87
-			orderID = 83
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 88
-			orderID = 84
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 89
-			orderID = 85
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 90
-			orderID = 86
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 91
-			orderID = 87
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 92
-			orderID = 88
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 93
-			orderID = 89
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 94
-			orderID = 90
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 95
-			orderID = 91
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 96
-			orderID = 92
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 97
-			orderID = 93
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 98
-			orderID = 94
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 99
-			orderID = 95
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 100
-			orderID = 96
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 101
-			orderID = 97
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 102
-			orderID = 98
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 103
-			orderID = 99
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 104
-			orderID = 100
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 105
-			orderID = 101
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 106
-			orderID = 102
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 107
-			orderID = 103
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 108
-			orderID = 104
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 109
-			orderID = 105
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 110
-			orderID = 106
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 111
-			orderID = 107
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 112
-			orderID = 108
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 113
-			orderID = 109
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 114
-			orderID = 110
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 115
-			orderID = 111
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 116
-			orderID = 112
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 117
-			orderID = 113
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 118
-			orderID = 114
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 119
-			orderID = 115
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 120
-			orderID = 116
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 121
-			orderID = 117
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 122
-			orderID = 118
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 123
-			orderID = 119
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 124
-			orderID = 120
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 125
-			orderID = 121
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 126
-			orderID = 122
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 127
-			orderID = 123
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 128
-			orderID = 124
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 129
-			orderID = 125
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 130
-			orderID = 126
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 131
-			orderID = 127
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 132
-			orderID = 128
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 133
-			orderID = 129
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 134
-			orderID = 130
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 135
-			orderID = 131
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 136
-			orderID = 132
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 137
-			orderID = 133
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 138
-			orderID = 134
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 139
-			orderID = 135
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 140
-			orderID = 136
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 141
-			orderID = 137
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 142
-			orderID = 138
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 143
-			orderID = 139
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 144
-			orderID = 140
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 145
-			orderID = 141
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 146
-			orderID = 142
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 147
-			orderID = 143
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 148
-			orderID = 144
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 149
-			orderID = 145
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 150
-			orderID = 146
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 151
-			orderID = 147
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 152
-			orderID = 148
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = New Objective
-			objectiveInfo = 
-			objectiveID = 153
-			orderID = 149
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Immediate
-			objectiveType = Destroy
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-				}
-			}
-			fields
-			{
-				targets = 
-				minRequired = 0
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
+			required = False
+			completionReward = 250
+			waypoint = 47
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+        {
+            objectiveName = Blue delivery 5a
+            objectiveInfo = Land at the waypoint to complete a delivery.
+            objectiveID = 43
+            orderID = 39
+            required = False
+            completionReward = 300
+            waypoint = 14
+            autoSetWaypoint = True
+            startMode = Triggered
+            objectiveType = Land
+            startEvent
+            {
+                EventInfo
+                {
+                    eventName = Start Event
+                }
+            }
+            failEvent
+            {
+                EventInfo
+                {
+                    eventName = Failed Event
+                }
+            }
+            completeEvent
+            {
+                EventInfo
+                {
+                    eventName = Completed Event
+                    EventTarget
+                    {
+                        targetType = Objective
+                        targetID = 2
+                        eventName = Begin Objective
+                        methodName = BeginObjective
+                    }
+                }
+            }
+            fields
+            {
+                radius = 5
+            }
+        }
+        Objective
+        {
+            objectiveName = Blue delivery 5b
+            objectiveInfo = Land at the waypoint to complete a delivery.
+            objectiveID = 44
+            orderID = 40
+            required = False
+            completionReward = 300
+            waypoint = 15
+            autoSetWaypoint = True
+            startMode = Triggered
+            objectiveType = Land
+            startEvent
+            {
+                EventInfo
+                {
+                    eventName = Start Event
+                }
+            }
+            failEvent
+            {
+                EventInfo
+                {
+                    eventName = Failed Event
+                }
+            }
+            completeEvent
+            {
+                EventInfo
+                {
+                    eventName = Completed Event
+                    EventTarget
+                    {
+                        targetType = Objective
+                        targetID = 2
+                        eventName = Begin Objective
+                        methodName = BeginObjective
+                    }
+                }
+            }
+            fields
+            {
+                radius = 5
+            }
+        }
+        Objective
+        {
+            objectiveName = Blue delivery 5c
+            objectiveInfo = Land at the waypoint to complete a delivery.
+            objectiveID = 45
+            orderID = 41
+            required = False
+            completionReward = 300
+            waypoint = 17
+            autoSetWaypoint = True
+            startMode = Triggered
+            objectiveType = Land
+            startEvent
+            {
+                EventInfo
+                {
+                    eventName = Start Event
+                }
+            }
+            failEvent
+            {
+                EventInfo
+                {
+                    eventName = Failed Event
+                }
+            }
+            completeEvent
+            {
+                EventInfo
+                {
+                    eventName = Completed Event
+                    EventTarget
+                    {
+                        targetType = Objective
+                        targetID = 2
+                        eventName = Begin Objective
+                        methodName = BeginObjective
+                    }
+                }
+            }
+            fields
+            {
+                radius = 5
+            }
+        }
+        Objective
+        {
+            objectiveName = Blue delivery 5d
+            objectiveInfo = Land at the waypoint to complete a delivery.
+            objectiveID = 46
+            orderID = 42
+            required = False
+            completionReward = 300
+            waypoint = 18
+            autoSetWaypoint = True
+            startMode = Triggered
+            objectiveType = Land
+            startEvent
+            {
+                EventInfo
+                {
+                    eventName = Start Event
+                }
+            }
+            failEvent
+            {
+                EventInfo
+                {
+                    eventName = Failed Event
+                }
+            }
+            completeEvent
+            {
+                EventInfo
+                {
+                    eventName = Completed Event
+                    EventTarget
+                    {
+                        targetType = Objective
+                        targetID = 2
+                        eventName = Begin Objective
+                        methodName = BeginObjective
+                    }
+                }
+            }
+            fields
+            {
+                radius = 5
+            }
+        }
+        Objective
+        {
+            objectiveName = Blue delivery 5e
+            objectiveInfo = Land at the waypoint to complete a delivery.
+            objectiveID = 47
+            orderID = 43
+            required = False
+            completionReward = 300
+            waypoint = 19
+            autoSetWaypoint = True
+            startMode = Triggered
+            objectiveType = Land
+            startEvent
+            {
+                EventInfo
+                {
+                    eventName = Start Event
+                }
+            }
+            failEvent
+            {
+                EventInfo
+                {
+                    eventName = Failed Event
+                }
+            }
+            completeEvent
+            {
+                EventInfo
+                {
+                    eventName = Completed Event
+                    EventTarget
+                    {
+                        targetType = Objective
+                        targetID = 2
+                        eventName = Begin Objective
+                        methodName = BeginObjective
+                    }
+                }
+            }
+            fields
+            {
+                radius = 5
+            }
+        }
+        Objective
+        {
+            objectiveName = Blue delivery 5f
+            objectiveInfo = Land at the waypoint to complete a delivery.
+            objectiveID = 48
+            orderID = 44
+            required = False
+            completionReward = 300
+            waypoint = 20
+            autoSetWaypoint = True
+            startMode = Triggered
+            objectiveType = Land
+            startEvent
+            {
+                EventInfo
+                {
+                    eventName = Start Event
+                }
+            }
+            failEvent
+            {
+                EventInfo
+                {
+                    eventName = Failed Event
+                }
+            }
+            completeEvent
+            {
+                EventInfo
+                {
+                    eventName = Completed Event
+                    EventTarget
+                    {
+                        targetType = Objective
+                        targetID = 2
+                        eventName = Begin Objective
+                        methodName = BeginObjective
+                    }
+                }
+            }
+            fields
+            {
+                radius = 5
+            }
+        }
+        Objective
+        {
+            objectiveName = Blue delivery 5g
+            objectiveInfo = Land at the waypoint to complete a delivery.
+            objectiveID = 49
+            orderID = 45
+            required = False
+            completionReward = 300
+            waypoint = 22
+            autoSetWaypoint = True
+            startMode = Triggered
+            objectiveType = Land
+            startEvent
+            {
+                EventInfo
+                {
+                    eventName = Start Event
+                }
+            }
+            failEvent
+            {
+                EventInfo
+                {
+                    eventName = Failed Event
+                }
+            }
+            completeEvent
+            {
+                EventInfo
+                {
+                    eventName = Completed Event
+                    EventTarget
+                    {
+                        targetType = Objective
+                        targetID = 2
+                        eventName = Begin Objective
+                        methodName = BeginObjective
+                    }
+                }
+            }
+            fields
+            {
+                radius = 5
+            }
+        }
+        Objective
+        {
+            objectiveName = Blue delivery 5h
+            objectiveInfo = Land at the waypoint to complete a delivery.
+            objectiveID = 50
+            orderID = 46
+            required = False
+            completionReward = 300
+            waypoint = 23
+            autoSetWaypoint = True
+            startMode = Triggered
+            objectiveType = Land
+            startEvent
+            {
+                EventInfo
+                {
+                    eventName = Start Event
+                }
+            }
+            failEvent
+            {
+                EventInfo
+                {
+                    eventName = Failed Event
+                }
+            }
+            completeEvent
+            {
+                EventInfo
+                {
+                    eventName = Completed Event
+                    EventTarget
+                    {
+                        targetType = Objective
+                        targetID = 2
+                        eventName = Begin Objective
+                        methodName = BeginObjective
+                    }
+                }
+            }
+            fields
+            {
+                radius = 5
+            }
+        }
+        Objective
+        {
+            objectiveName = Blue delivery 5i
+            objectiveInfo = Land at the waypoint to complete a delivery.
+            objectiveID = 51
+            orderID = 47
+            required = False
+            completionReward = 300
+            waypoint = 24
+            autoSetWaypoint = True
+            startMode = Triggered
+            objectiveType = Land
+            startEvent
+            {
+                EventInfo
+                {
+                    eventName = Start Event
+                }
+            }
+            failEvent
+            {
+                EventInfo
+                {
+                    eventName = Failed Event
+                }
+            }
+            completeEvent
+            {
+                EventInfo
+                {
+                    eventName = Completed Event
+                    EventTarget
+                    {
+                        targetType = Objective
+                        targetID = 2
+                        eventName = Begin Objective
+                        methodName = BeginObjective
+                    }
+                }
+            }
+            fields
+            {
+                radius = 5
+            }
+        }
+        Objective
+        {
+            objectiveName = Blue delivery 5j
+            objectiveInfo = Land at the waypoint to complete a delivery.
+            objectiveID = 52
+            orderID = 48
+            required = False
+            completionReward = 300
+            waypoint = 25
+            autoSetWaypoint = True
+            startMode = Triggered
+            objectiveType = Land
+            startEvent
+            {
+                EventInfo
+                {
+                    eventName = Start Event
+                }
+            }
+            failEvent
+            {
+                EventInfo
+                {
+                    eventName = Failed Event
+                }
+            }
+            completeEvent
+            {
+                EventInfo
+                {
+                    eventName = Completed Event
+                    EventTarget
+                    {
+                        targetType = Objective
+                        targetID = 2
+                        eventName = Begin Objective
+                        methodName = BeginObjective
+                    }
+                }
+            }
+            fields
+            {
+                radius = 5
+            }
+        }
+        Objective
+        {
+            objectiveName = Blue delivery 5k
+            objectiveInfo = Land at the waypoint to complete a delivery.
+            objectiveID = 53
+            orderID = 49
+            required = False
+            completionReward = 300
+            waypoint = 26
+            autoSetWaypoint = True
+            startMode = Triggered
+            objectiveType = Land
+            startEvent
+            {
+                EventInfo
+                {
+                    eventName = Start Event
+                }
+            }
+            failEvent
+            {
+                EventInfo
+                {
+                    eventName = Failed Event
+                }
+            }
+            completeEvent
+            {
+                EventInfo
+                {
+                    eventName = Completed Event
+                    EventTarget
+                    {
+                        targetType = Objective
+                        targetID = 2
+                        eventName = Begin Objective
+                        methodName = BeginObjective
+                    }
+                }
+            }
+            fields
+            {
+                radius = 5
+            }
+        }
+        Objective
+        {
+            objectiveName = Blue delivery 6a
+            objectiveInfo = Land at the waypoint to complete a delivery.
+            objectiveID = 54
+            orderID = 50
+            required = False
+            completionReward = 350
+            waypoint = 2
+            autoSetWaypoint = True
+            startMode = Triggered
+            objectiveType = Land
+            startEvent
+            {
+                EventInfo
+                {
+                    eventName = Start Event
+                }
+            }
+            failEvent
+            {
+                EventInfo
+                {
+                    eventName = Failed Event
+                }
+            }
+            completeEvent
+            {
+                EventInfo
+                {
+                    eventName = Completed Event
+                    EventTarget
+                    {
+                        targetType = Objective
+                        targetID = 2
+                        eventName = Begin Objective
+                        methodName = BeginObjective
+                    }
+                }
+            }
+            fields
+            {
+                radius = 5
+            }
+        }
+        Objective
+        {
+            objectiveName = Blue delivery 6b
+            objectiveInfo = Land at the waypoint to complete a delivery.
+            objectiveID = 55
+            orderID = 51
+            required = False
+            completionReward = 350
+            waypoint = 3
+            autoSetWaypoint = True
+            startMode = Triggered
+            objectiveType = Land
+            startEvent
+            {
+                EventInfo
+                {
+                    eventName = Start Event
+                }
+            }
+            failEvent
+            {
+                EventInfo
+                {
+                    eventName = Failed Event
+                }
+            }
+            completeEvent
+            {
+                EventInfo
+                {
+                    eventName = Completed Event
+                    EventTarget
+                    {
+                        targetType = Objective
+                        targetID = 2
+                        eventName = Begin Objective
+                        methodName = BeginObjective
+                    }
+                }
+            }
+            fields
+            {
+                radius = 5
+            }
+        }
+        Objective
+        {
+            objectiveName = Blue delivery 6c
+            objectiveInfo = Land at the waypoint to complete a delivery.
+            objectiveID = 56
+            orderID = 52
+            required = False
+            completionReward = 350
+            waypoint = 5
+            autoSetWaypoint = True
+            startMode = Triggered
+            objectiveType = Land
+            startEvent
+            {
+                EventInfo
+                {
+                    eventName = Start Event
+                }
+            }
+            failEvent
+            {
+                EventInfo
+                {
+                    eventName = Failed Event
+                }
+            }
+            completeEvent
+            {
+                EventInfo
+                {
+                    eventName = Completed Event
+                    EventTarget
+                    {
+                        targetType = Objective
+                        targetID = 2
+                        eventName = Begin Objective
+                        methodName = BeginObjective
+                    }
+                }
+            }
+            fields
+            {
+                radius = 5
+            }
+        }
+        Objective
+        {
+            objectiveName = Blue delivery 6d
+            objectiveInfo = Land at the waypoint to complete a delivery.
+            objectiveID = 57
+            orderID = 53
+            required = False
+            completionReward = 350
+            waypoint = 6
+            autoSetWaypoint = True
+            startMode = Triggered
+            objectiveType = Land
+            startEvent
+            {
+                EventInfo
+                {
+                    eventName = Start Event
+                }
+            }
+            failEvent
+            {
+                EventInfo
+                {
+                    eventName = Failed Event
+                }
+            }
+            completeEvent
+            {
+                EventInfo
+                {
+                    eventName = Completed Event
+                    EventTarget
+                    {
+                        targetType = Objective
+                        targetID = 2
+                        eventName = Begin Objective
+                        methodName = BeginObjective
+                    }
+                }
+            }
+            fields
+            {
+                radius = 5
+            }
+        }
+        Objective
+        {
+            objectiveName = Blue delivery 6e
+            objectiveInfo = Land at the waypoint to complete a delivery.
+            objectiveID = 58
+            orderID = 54
+            required = False
+            completionReward = 350
+            waypoint = 7
+            autoSetWaypoint = True
+            startMode = Triggered
+            objectiveType = Land
+            startEvent
+            {
+                EventInfo
+                {
+                    eventName = Start Event
+                }
+            }
+            failEvent
+            {
+                EventInfo
+                {
+                    eventName = Failed Event
+                }
+            }
+            completeEvent
+            {
+                EventInfo
+                {
+                    eventName = Completed Event
+                    EventTarget
+                    {
+                        targetType = Objective
+                        targetID = 2
+                        eventName = Begin Objective
+                        methodName = BeginObjective
+                    }
+                }
+            }
+            fields
+            {
+                radius = 5
+            }
+        }
+        Objective
+        {
+            objectiveName = Blue delivery 6f
+            objectiveInfo = Land at the waypoint to complete a delivery.
+            objectiveID = 59
+            orderID = 55
+            required = False
+            completionReward = 350
+            waypoint = 8
+            autoSetWaypoint = True
+            startMode = Triggered
+            objectiveType = Land
+            startEvent
+            {
+                EventInfo
+                {
+                    eventName = Start Event
+                }
+            }
+            failEvent
+            {
+                EventInfo
+                {
+                    eventName = Failed Event
+                }
+            }
+            completeEvent
+            {
+                EventInfo
+                {
+                    eventName = Completed Event
+                    EventTarget
+                    {
+                        targetType = Objective
+                        targetID = 2
+                        eventName = Begin Objective
+                        methodName = BeginObjective
+                    }
+                }
+            }
+            fields
+            {
+                radius = 5
+            }
+        }
+        Objective
+        {
+            objectiveName = Blue delivery 6g
+            objectiveInfo = Land at the waypoint to complete a delivery.
+            objectiveID = 60
+            orderID = 56
+            required = False
+            completionReward = 350
+            waypoint = 9
+            autoSetWaypoint = True
+            startMode = Triggered
+            objectiveType = Land
+            startEvent
+            {
+                EventInfo
+                {
+                    eventName = Start Event
+                }
+            }
+            failEvent
+            {
+                EventInfo
+                {
+                    eventName = Failed Event
+                }
+            }
+            completeEvent
+            {
+                EventInfo
+                {
+                    eventName = Completed Event
+                    EventTarget
+                    {
+                        targetType = Objective
+                        targetID = 2
+                        eventName = Begin Objective
+                        methodName = BeginObjective
+                    }
+                }
+            }
+            fields
+            {
+                radius = 5
+            }
+        }
+        Objective
+        {
+            objectiveName = Blue delivery 6h
+            objectiveInfo = Land at the waypoint to complete a delivery.
+            objectiveID = 61
+            orderID = 57
+            required = False
+            completionReward = 350
+            waypoint = 10
+            autoSetWaypoint = True
+            startMode = Triggered
+            objectiveType = Land
+            startEvent
+            {
+                EventInfo
+                {
+                    eventName = Start Event
+                }
+            }
+            failEvent
+            {
+                EventInfo
+                {
+                    eventName = Failed Event
+                }
+            }
+            completeEvent
+            {
+                EventInfo
+                {
+                    eventName = Completed Event
+                    EventTarget
+                    {
+                        targetType = Objective
+                        targetID = 2
+                        eventName = Begin Objective
+                        methodName = BeginObjective
+                    }
+                }
+            }
+            fields
+            {
+                radius = 5
+            }
+        }
+        Objective
+        {
+            objectiveName = Blue delivery 6i
+            objectiveInfo = Land at the waypoint to complete a delivery.
+            objectiveID = 62
+            orderID = 58
+            required = False
+            completionReward = 350
+            waypoint = 12
+            autoSetWaypoint = True
+            startMode = Triggered
+            objectiveType = Land
+            startEvent
+            {
+                EventInfo
+                {
+                    eventName = Start Event
+                }
+            }
+            failEvent
+            {
+                EventInfo
+                {
+                    eventName = Failed Event
+                }
+            }
+            completeEvent
+            {
+                EventInfo
+                {
+                    eventName = Completed Event
+                    EventTarget
+                    {
+                        targetType = Objective
+                        targetID = 2
+                        eventName = Begin Objective
+                        methodName = BeginObjective
+                    }
+                }
+            }
+            fields
+            {
+                radius = 5
+            }
+        }
+        Objective
+        {
+            objectiveName = Blue delivery 6j
+            objectiveInfo = Land at the waypoint to complete a delivery.
+            objectiveID = 63
+            orderID = 59
+            required = False
+            completionReward = 350
+            waypoint = 13
+            autoSetWaypoint = True
+            startMode = Triggered
+            objectiveType = Land
+            startEvent
+            {
+                EventInfo
+                {
+                    eventName = Start Event
+                }
+            }
+            failEvent
+            {
+                EventInfo
+                {
+                    eventName = Failed Event
+                }
+            }
+            completeEvent
+            {
+                EventInfo
+                {
+                    eventName = Completed Event
+                    EventTarget
+                    {
+                        targetType = Objective
+                        targetID = 2
+                        eventName = Begin Objective
+                        methodName = BeginObjective
+                    }
+                }
+            }
+            fields
+            {
+                radius = 5
+            }
+        }
 	}
 	OBJECTIVES_OPFOR
 	{
