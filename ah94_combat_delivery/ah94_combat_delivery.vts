@@ -2,7 +2,7 @@ CustomScenario
 {
 	gameVersion = 1.4.14f1
 	campaignID = AH-94 PvP Combat delivery
-	campaignOrderIdx = 1
+	campaignOrderIdx = 0
 	scenarioName = AH-94 PvP Combat delivery
 	scenarioID = ah94_combat_delivery
 	scenarioDescription = Deliver packages in a dense urban environment by landing on a sequence of helipads while fighting the enemies who are trying to do the same.
