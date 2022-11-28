@@ -657,7 +657,7 @@ CustomScenario
 			globalPosition = (24104.07666015625, 599.52923583984375, 35646.6298828125)
 			unitInstanceID = 30
 			unitID = AlliedEWRadar
-			rotation = (6.829248E-06, 180.9559, 1.139489E-07)
+			rotation = (6.829249E-06, 180.9559, 1.139489E-07)
 			spawnChance = 100
 			lastValidPlacement = (24104.07666015625, 599.52923583984375, 35646.6298828125)
 			editorPlacementMode = Ground
@@ -2121,7 +2121,7 @@ CustomScenario
 			eventName = start_blue_3
 			EventInfo
 			{
-				eventName =
+				eventName = 
 				EventTarget
 				{
 					targetType = System
@@ -2146,7 +2146,7 @@ CustomScenario
 			eventName = start_blue_4
 			EventInfo
 			{
-				eventName =
+				eventName = 
 				EventTarget
 				{
 					targetType = System
@@ -2171,7 +2171,7 @@ CustomScenario
 			eventName = start_blue_5
 			EventInfo
 			{
-				eventName =
+				eventName = 
 				EventTarget
 				{
 					targetType = System
@@ -2196,7 +2196,7 @@ CustomScenario
 			eventName = start_blue_6
 			EventInfo
 			{
-				eventName =
+				eventName = 
 				EventTarget
 				{
 					targetType = System
@@ -2221,7 +2221,7 @@ CustomScenario
 			eventName = start_blue_7
 			EventInfo
 			{
-				eventName =
+				eventName = 
 				EventTarget
 				{
 					targetType = System
@@ -2246,7 +2246,7 @@ CustomScenario
 			eventName = start_blue_8
 			EventInfo
 			{
-				eventName =
+				eventName = 
 				EventTarget
 				{
 					targetType = System
@@ -2271,7 +2271,7 @@ CustomScenario
 			eventName = start_blue_9
 			EventInfo
 			{
-				eventName =
+				eventName = 
 				EventTarget
 				{
 					targetType = System
@@ -2296,7 +2296,7 @@ CustomScenario
 			eventName = start_blue_10
 			EventInfo
 			{
-				eventName =
+				eventName = 
 				EventTarget
 				{
 					targetType = System
@@ -2321,7 +2321,7 @@ CustomScenario
 			eventName = start_blue_11
 			EventInfo
 			{
-				eventName =
+				eventName = 
 				EventTarget
 				{
 					targetType = System
@@ -2332,6 +2332,31 @@ CustomScenario
 					{
 						type = ConditionalActionReference
 						value = 107
+						name = Action
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 11
+			enabled = True
+			triggerType = Conditional
+			conditional = 226
+			eventName = start_red_1
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Fire Conditional Action
+					methodName = FireConditionalAction
+					ParamInfo
+					{
+						type = ConditionalActionReference
+						value = 115
 						name = Action
 					}
 				}
@@ -24495,6 +24520,21 @@ CustomScenario
 				c_value = 11
 			}
 		}
+		CONDITIONAL
+		{
+			id = 226
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-328, 44, 0)
+				gv = 1
+				comparison = Equals
+				c_value = 1
+			}
+		}
 	}
 	ConditionalActions
 	{
@@ -24884,7 +24924,7 @@ CustomScenario
 				}
 				ACTIONS
 				{
-					eventName =
+					eventName = 
 					EventTarget
 					{
 						targetType = Objective
@@ -24919,7 +24959,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -24934,6 +24974,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -24955,7 +24999,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -24970,6 +25014,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -24991,7 +25039,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -25006,6 +25054,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -25027,7 +25079,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -25042,6 +25094,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -25063,7 +25119,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -25078,6 +25134,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -25099,7 +25159,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -25115,10 +25175,14 @@ CustomScenario
 							methodName = BeginObjective
 						}
 					}
+					ELSE_ACTIONS
+					{
+						eventName = 
+					}
 				}
 				ELSE_ACTIONS
 				{
-					eventName =
+					eventName = 
 					EventTarget
 					{
 						targetType = Objective
@@ -25159,7 +25223,7 @@ CustomScenario
 				}
 				ACTIONS
 				{
-					eventName =
+					eventName = 
 					EventTarget
 					{
 						targetType = Objective
@@ -25194,7 +25258,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -25209,6 +25273,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -25230,7 +25298,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -25245,6 +25313,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -25266,7 +25338,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -25281,6 +25353,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -25302,7 +25378,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -25317,6 +25393,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -25338,7 +25418,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -25353,6 +25433,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -25374,7 +25458,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -25389,6 +25473,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -25410,7 +25498,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -25425,6 +25513,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -25446,7 +25538,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -25461,6 +25553,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -25482,7 +25578,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -25497,6 +25593,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -25518,7 +25618,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -25533,6 +25633,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -25554,7 +25658,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -25570,10 +25674,14 @@ CustomScenario
 							methodName = BeginObjective
 						}
 					}
+					ELSE_ACTIONS
+					{
+						eventName = 
+					}
 				}
 				ELSE_ACTIONS
 				{
-					eventName =
+					eventName = 
 					EventTarget
 					{
 						targetType = Objective
@@ -25614,7 +25722,7 @@ CustomScenario
 				}
 				ACTIONS
 				{
-					eventName =
+					eventName = 
 					EventTarget
 					{
 						targetType = Objective
@@ -25649,7 +25757,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -25664,6 +25772,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -25685,7 +25797,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -25700,6 +25812,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -25721,7 +25837,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -25736,6 +25852,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -25757,7 +25877,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -25772,6 +25892,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -25793,7 +25917,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -25808,6 +25932,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -25829,7 +25957,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -25845,10 +25973,14 @@ CustomScenario
 							methodName = BeginObjective
 						}
 					}
+					ELSE_ACTIONS
+					{
+						eventName = 
+					}
 				}
 				ELSE_ACTIONS
 				{
-					eventName =
+					eventName = 
 					EventTarget
 					{
 						targetType = Objective
@@ -25889,7 +26021,7 @@ CustomScenario
 				}
 				ACTIONS
 				{
-					eventName =
+					eventName = 
 					EventTarget
 					{
 						targetType = Objective
@@ -25924,7 +26056,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -25939,6 +26071,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -25960,7 +26096,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -25975,6 +26111,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -25996,7 +26136,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -26011,6 +26151,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -26032,7 +26176,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -26047,6 +26191,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -26068,7 +26216,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -26083,6 +26231,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -26104,7 +26256,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -26120,10 +26272,14 @@ CustomScenario
 							methodName = BeginObjective
 						}
 					}
+					ELSE_ACTIONS
+					{
+						eventName = 
+					}
 				}
 				ELSE_ACTIONS
 				{
-					eventName =
+					eventName = 
 					EventTarget
 					{
 						targetType = Objective
@@ -26164,7 +26320,7 @@ CustomScenario
 				}
 				ACTIONS
 				{
-					eventName =
+					eventName = 
 					EventTarget
 					{
 						targetType = Objective
@@ -26199,7 +26355,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -26214,6 +26370,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -26235,7 +26395,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -26250,6 +26410,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -26271,7 +26435,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -26286,6 +26450,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -26307,7 +26475,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -26322,6 +26490,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -26343,7 +26515,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -26358,6 +26530,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -26379,7 +26555,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -26394,6 +26570,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -26415,7 +26595,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -26430,6 +26610,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -26451,7 +26635,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -26466,6 +26650,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -26487,7 +26675,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -26503,10 +26691,14 @@ CustomScenario
 							methodName = BeginObjective
 						}
 					}
+					ELSE_ACTIONS
+					{
+						eventName = 
+					}
 				}
 				ELSE_ACTIONS
 				{
-					eventName =
+					eventName = 
 					EventTarget
 					{
 						targetType = Objective
@@ -26547,7 +26739,7 @@ CustomScenario
 				}
 				ACTIONS
 				{
-					eventName =
+					eventName = 
 					EventTarget
 					{
 						targetType = Objective
@@ -26582,7 +26774,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -26597,6 +26789,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -26618,7 +26814,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -26633,6 +26829,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -26654,7 +26854,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -26669,6 +26869,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -26690,7 +26894,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -26705,6 +26909,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -26726,7 +26934,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -26741,6 +26949,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -26762,7 +26974,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -26777,6 +26989,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -26798,7 +27014,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -26813,6 +27029,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -26834,7 +27054,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -26850,10 +27070,14 @@ CustomScenario
 							methodName = BeginObjective
 						}
 					}
+					ELSE_ACTIONS
+					{
+						eventName = 
+					}
 				}
 				ELSE_ACTIONS
 				{
-					eventName =
+					eventName = 
 					EventTarget
 					{
 						targetType = Objective
@@ -26894,7 +27118,7 @@ CustomScenario
 				}
 				ACTIONS
 				{
-					eventName =
+					eventName = 
 					EventTarget
 					{
 						targetType = Objective
@@ -26929,7 +27153,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -26944,6 +27168,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -26965,7 +27193,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -26980,6 +27208,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -27001,7 +27233,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -27016,6 +27248,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -27037,7 +27273,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -27052,6 +27288,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -27073,7 +27313,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -27088,6 +27328,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -27109,7 +27353,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -27124,6 +27368,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -27145,7 +27393,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -27160,6 +27408,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -27181,7 +27433,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -27196,6 +27448,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -27217,7 +27473,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -27233,10 +27489,14 @@ CustomScenario
 							methodName = BeginObjective
 						}
 					}
+					ELSE_ACTIONS
+					{
+						eventName = 
+					}
 				}
 				ELSE_ACTIONS
 				{
-					eventName =
+					eventName = 
 					EventTarget
 					{
 						targetType = Objective
@@ -27277,7 +27537,7 @@ CustomScenario
 				}
 				ACTIONS
 				{
-					eventName =
+					eventName = 
 					EventTarget
 					{
 						targetType = Objective
@@ -27312,7 +27572,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -27327,6 +27587,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -27348,7 +27612,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -27363,6 +27627,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -27384,7 +27652,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -27399,6 +27667,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -27420,7 +27692,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -27435,6 +27707,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -27456,7 +27732,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -27471,6 +27747,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -27492,7 +27772,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -27508,10 +27788,14 @@ CustomScenario
 							methodName = BeginObjective
 						}
 					}
+					ELSE_ACTIONS
+					{
+						eventName = 
+					}
 				}
 				ELSE_ACTIONS
 				{
-					eventName =
+					eventName = 
 					EventTarget
 					{
 						targetType = Objective
@@ -27552,7 +27836,7 @@ CustomScenario
 				}
 				ACTIONS
 				{
-					eventName =
+					eventName = 
 					EventTarget
 					{
 						targetType = Objective
@@ -27587,7 +27871,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -27602,6 +27886,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -27623,7 +27911,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -27638,6 +27926,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -27659,7 +27951,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -27674,6 +27966,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -27695,7 +27991,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -27710,6 +28006,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -27731,7 +28031,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -27746,6 +28046,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -27767,7 +28071,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -27783,10 +28087,14 @@ CustomScenario
 							methodName = BeginObjective
 						}
 					}
+					ELSE_ACTIONS
+					{
+						eventName = 
+					}
 				}
 				ELSE_ACTIONS
 				{
-					eventName =
+					eventName = 
 					EventTarget
 					{
 						targetType = Objective
@@ -27827,7 +28135,7 @@ CustomScenario
 				}
 				ACTIONS
 				{
-					eventName =
+					eventName = 
 					EventTarget
 					{
 						targetType = Objective
@@ -27862,7 +28170,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -27877,6 +28185,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -27898,7 +28210,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -27913,6 +28225,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -27934,7 +28250,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -27949,6 +28265,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -27970,7 +28290,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -27985,6 +28305,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -28006,7 +28330,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -28021,6 +28345,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -28042,7 +28370,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -28057,6 +28385,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -28078,7 +28410,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -28093,6 +28425,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -28114,7 +28450,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -28129,6 +28465,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -28150,7 +28490,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -28165,6 +28505,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -28186,7 +28530,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -28201,6 +28545,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -28222,7 +28570,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -28238,10 +28586,14 @@ CustomScenario
 							methodName = BeginObjective
 						}
 					}
+					ELSE_ACTIONS
+					{
+						eventName = 
+					}
 				}
 				ELSE_ACTIONS
 				{
-					eventName =
+					eventName = 
 					EventTarget
 					{
 						targetType = Objective
@@ -28282,7 +28634,7 @@ CustomScenario
 				}
 				ACTIONS
 				{
-					eventName =
+					eventName = 
 					EventTarget
 					{
 						targetType = Objective
@@ -28317,7 +28669,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -28332,6 +28684,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -28353,7 +28709,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -28368,6 +28724,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -28389,7 +28749,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -28404,6 +28764,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -28425,7 +28789,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -28440,6 +28804,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -28461,7 +28829,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -28476,6 +28844,10 @@ CustomScenario
 							eventName = Begin Objective
 							methodName = BeginObjective
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -28497,7 +28869,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = Objective
@@ -28513,10 +28885,14 @@ CustomScenario
 							methodName = BeginObjective
 						}
 					}
+					ELSE_ACTIONS
+					{
+						eventName = 
+					}
 				}
 				ELSE_ACTIONS
 				{
-					eventName =
+					eventName = 
 					EventTarget
 					{
 						targetType = Objective
@@ -28528,6 +28904,65 @@ CustomScenario
 					{
 						targetType = Objective
 						targetID = 429
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 115
+			name = 
+			BASE_BLOCK
+			{
+				blockName = 
+				blockId = 116
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (256, -42, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (0, 0, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 112
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 218
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 113
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 219
 						eventName = Begin Objective
 						methodName = BeginObjective
 					}
