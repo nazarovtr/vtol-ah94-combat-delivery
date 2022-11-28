@@ -657,7 +657,7 @@ CustomScenario
 			globalPosition = (24104.07666015625, 599.52923583984375, 35646.6298828125)
 			unitInstanceID = 30
 			unitID = AlliedEWRadar
-			rotation = (6.829247E-06, 180.9559, 1.139489E-07)
+			rotation = (6.829248E-06, 180.9559, 1.139489E-07)
 			spawnChance = 100
 			lastValidPlacement = (24104.07666015625, 599.52923583984375, 35646.6298828125)
 			editorPlacementMode = Ground
@@ -2062,6 +2062,281 @@ CustomScenario
 	}
 	TRIGGER_EVENTS
 	{
+		TriggerEvent
+		{
+			id = 0
+			enabled = True
+			triggerType = Conditional
+			conditional = 215
+			eventName = start_blue_1
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Fire Conditional Action
+					methodName = FireConditionalAction
+					ParamInfo
+					{
+						type = ConditionalActionReference
+						value = 9
+						name = Action
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 1
+			enabled = True
+			triggerType = Conditional
+			conditional = 216
+			eventName = start_blue_2
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Fire Conditional Action
+					methodName = FireConditionalAction
+					ParamInfo
+					{
+						type = ConditionalActionReference
+						value = 17
+						name = Action
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 2
+			enabled = True
+			triggerType = Conditional
+			conditional = 217
+			eventName = start_blue_3
+			EventInfo
+			{
+				eventName =
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Fire Conditional Action
+					methodName = FireConditionalAction
+					ParamInfo
+					{
+						type = ConditionalActionReference
+						value = 30
+						name = Action
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 3
+			enabled = True
+			triggerType = Conditional
+			conditional = 218
+			eventName = start_blue_4
+			EventInfo
+			{
+				eventName =
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Fire Conditional Action
+					methodName = FireConditionalAction
+					ParamInfo
+					{
+						type = ConditionalActionReference
+						value = 38
+						name = Action
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 4
+			enabled = True
+			triggerType = Conditional
+			conditional = 219
+			eventName = start_blue_5
+			EventInfo
+			{
+				eventName =
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Fire Conditional Action
+					methodName = FireConditionalAction
+					ParamInfo
+					{
+						type = ConditionalActionReference
+						value = 46
+						name = Action
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 5
+			enabled = True
+			triggerType = Conditional
+			conditional = 220
+			eventName = start_blue_6
+			EventInfo
+			{
+				eventName =
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Fire Conditional Action
+					methodName = FireConditionalAction
+					ParamInfo
+					{
+						type = ConditionalActionReference
+						value = 57
+						name = Action
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 6
+			enabled = True
+			triggerType = Conditional
+			conditional = 221
+			eventName = start_blue_7
+			EventInfo
+			{
+				eventName =
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Fire Conditional Action
+					methodName = FireConditionalAction
+					ParamInfo
+					{
+						type = ConditionalActionReference
+						value = 67
+						name = Action
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 7
+			enabled = True
+			triggerType = Conditional
+			conditional = 222
+			eventName = start_blue_8
+			EventInfo
+			{
+				eventName =
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Fire Conditional Action
+					methodName = FireConditionalAction
+					ParamInfo
+					{
+						type = ConditionalActionReference
+						value = 78
+						name = Action
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 8
+			enabled = True
+			triggerType = Conditional
+			conditional = 223
+			eventName = start_blue_9
+			EventInfo
+			{
+				eventName =
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Fire Conditional Action
+					methodName = FireConditionalAction
+					ParamInfo
+					{
+						type = ConditionalActionReference
+						value = 86
+						name = Action
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 9
+			enabled = True
+			triggerType = Conditional
+			conditional = 224
+			eventName = start_blue_10
+			EventInfo
+			{
+				eventName =
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Fire Conditional Action
+					methodName = FireConditionalAction
+					ParamInfo
+					{
+						type = ConditionalActionReference
+						value = 94
+						name = Action
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 10
+			enabled = True
+			triggerType = Conditional
+			conditional = 225
+			eventName = start_blue_11
+			EventInfo
+			{
+				eventName =
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Fire Conditional Action
+					methodName = FireConditionalAction
+					ParamInfo
+					{
+						type = ConditionalActionReference
+						value = 107
+						name = Action
+					}
+				}
+			}
+		}
 	}
 	OBJECTIVES
 	{
@@ -24055,6 +24330,171 @@ CustomScenario
 				c_value = 11
 			}
 		}
+		CONDITIONAL
+		{
+			id = 215
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Equals
+				c_value = 1
+			}
+		}
+		CONDITIONAL
+		{
+			id = 216
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Equals
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 217
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Equals
+				c_value = 3
+			}
+		}
+		CONDITIONAL
+		{
+			id = 218
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Equals
+				c_value = 4
+			}
+		}
+		CONDITIONAL
+		{
+			id = 219
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Equals
+				c_value = 5
+			}
+		}
+		CONDITIONAL
+		{
+			id = 220
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Equals
+				c_value = 6
+			}
+		}
+		CONDITIONAL
+		{
+			id = 221
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Equals
+				c_value = 7
+			}
+		}
+		CONDITIONAL
+		{
+			id = 222
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Equals
+				c_value = 8
+			}
+		}
+		CONDITIONAL
+		{
+			id = 223
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Equals
+				c_value = 9
+			}
+		}
+		CONDITIONAL
+		{
+			id = 224
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Equals
+				c_value = 10
+			}
+		}
+		CONDITIONAL
+		{
+			id = 225
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-285, 44, 0)
+				gv = 0
+				comparison = Equals
+				c_value = 11
+			}
+		}
 	}
 	ConditionalActions
 	{
@@ -24417,6 +24857,3679 @@ CustomScenario
 								data = (1,9999)
 							}
 						}
+					}
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 9
+			name = Select random delivery objective
+			BASE_BLOCK
+			{
+				blockName = 1/8
+				blockId = 10
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-258, 43, 0)
+						chance = 13
+					}
+				}
+				ACTIONS
+				{
+					eventName =
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 6
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 324
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/7
+					blockId = 11
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 14
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 7
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 325
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/6
+					blockId = 12
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 17
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 8
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 326
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/5
+					blockId = 13
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 20
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 9
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 327
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/4
+					blockId = 14
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 25
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 10
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 328
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/3
+					blockId = 15
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 33
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 11
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 329
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/2
+					blockId = 16
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 50
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 12
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 330
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName =
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 13
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 331
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 17
+			name = Select random delivery objective
+			BASE_BLOCK
+			{
+				blockName = 1/13
+				blockId = 18
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-258, 43, 0)
+						chance = 8
+					}
+				}
+				ACTIONS
+				{
+					eventName =
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 14
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 332
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/12
+					blockId = 19
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 8
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 15
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 333
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/11
+					blockId = 20
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 9
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 16
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 334
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/10
+					blockId = 21
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 10
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 17
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 335
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/9
+					blockId = 22
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 11
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 18
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 336
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/8
+					blockId = 23
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 13
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 19
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 337
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/7
+					blockId = 24
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 14
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 20
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 338
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/6
+					blockId = 25
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 17
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 21
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 339
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/5
+					blockId = 26
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 20
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 22
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 340
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/4
+					blockId = 27
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 25
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 23
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 341
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/3
+					blockId = 28
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 33
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 24
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 342
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/2
+					blockId = 29
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 50
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 25
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 343
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName =
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 26
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 344
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 30
+			name = Select random delivery objective
+			BASE_BLOCK
+			{
+				blockName = 1/8
+				blockId = 31
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-258, 43, 0)
+						chance = 13
+					}
+				}
+				ACTIONS
+				{
+					eventName =
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 27
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 345
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/7
+					blockId = 32
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 14
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 28
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 346
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/6
+					blockId = 33
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 17
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 29
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 347
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/5
+					blockId = 34
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 20
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 30
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 348
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/4
+					blockId = 35
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 25
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 31
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 349
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/3
+					blockId = 36
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 33
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 32
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 350
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/2
+					blockId = 37
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 50
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 33
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 351
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName =
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 34
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 352
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 38
+			name = Select random delivery objective
+			BASE_BLOCK
+			{
+				blockName = 1/8
+				blockId = 39
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-258, 43, 0)
+						chance = 13
+					}
+				}
+				ACTIONS
+				{
+					eventName =
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 35
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 353
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/7
+					blockId = 40
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 14
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 36
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 354
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/6
+					blockId = 41
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 17
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 37
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 355
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/5
+					blockId = 42
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 20
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 38
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 356
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/4
+					blockId = 43
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 25
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 39
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 357
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/3
+					blockId = 44
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 33
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 40
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 358
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/2
+					blockId = 45
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 50
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 41
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 359
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName =
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 42
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 360
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 46
+			name = Select random delivery objective
+			BASE_BLOCK
+			{
+				blockName = 1/11
+				blockId = 47
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-258, 43, 0)
+						chance = 9
+					}
+				}
+				ACTIONS
+				{
+					eventName =
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 43
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 361
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/10
+					blockId = 48
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 10
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 44
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 362
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/9
+					blockId = 49
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 11
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 45
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 363
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/8
+					blockId = 50
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 13
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 46
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 364
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/7
+					blockId = 51
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 14
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 47
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 365
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/6
+					blockId = 52
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 17
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 48
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 366
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/5
+					blockId = 53
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 20
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 49
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 367
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/4
+					blockId = 54
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 25
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 50
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 368
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/3
+					blockId = 55
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 33
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 51
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 369
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/2
+					blockId = 56
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 50
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 52
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 370
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName =
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 53
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 371
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 57
+			name = Select random delivery objective
+			BASE_BLOCK
+			{
+				blockName = 1/10
+				blockId = 58
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-258, 43, 0)
+						chance = 10
+					}
+				}
+				ACTIONS
+				{
+					eventName =
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 54
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 372
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/9
+					blockId = 59
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 11
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 55
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 373
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/8
+					blockId = 60
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 13
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 56
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 374
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/7
+					blockId = 61
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 14
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 57
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 375
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/6
+					blockId = 62
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 17
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 58
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 376
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/5
+					blockId = 63
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 20
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 59
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 377
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/4
+					blockId = 64
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 25
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 60
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 378
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/3
+					blockId = 65
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 33
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 61
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 379
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/2
+					blockId = 66
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 50
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 62
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 380
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName =
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 63
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 381
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 67
+			name = Select random delivery objective
+			BASE_BLOCK
+			{
+				blockName = 1/11
+				blockId = 68
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-258, 43, 0)
+						chance = 9
+					}
+				}
+				ACTIONS
+				{
+					eventName =
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 64
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 382
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/10
+					blockId = 69
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 10
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 65
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 383
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/9
+					blockId = 70
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 11
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 66
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 384
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/8
+					blockId = 71
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 13
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 67
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 385
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/7
+					blockId = 72
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 14
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 68
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 386
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/6
+					blockId = 73
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 17
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 69
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 387
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/5
+					blockId = 74
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 20
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 70
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 388
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/4
+					blockId = 75
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 25
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 71
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 389
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/3
+					blockId = 76
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 33
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 72
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 390
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/2
+					blockId = 77
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 50
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 73
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 391
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName =
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 74
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 392
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 78
+			name = Select random delivery objective
+			BASE_BLOCK
+			{
+				blockName = 1/8
+				blockId = 79
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-258, 43, 0)
+						chance = 13
+					}
+				}
+				ACTIONS
+				{
+					eventName =
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 75
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 393
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/7
+					blockId = 80
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 14
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 76
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 394
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/6
+					blockId = 81
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 17
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 77
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 395
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/5
+					blockId = 82
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 20
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 78
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 396
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/4
+					blockId = 83
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 25
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 79
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 397
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/3
+					blockId = 84
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 33
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 80
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 398
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/2
+					blockId = 85
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 50
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 81
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 399
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName =
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 82
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 400
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 86
+			name = Select random delivery objective
+			BASE_BLOCK
+			{
+				blockName = 1/8
+				blockId = 87
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-258, 43, 0)
+						chance = 13
+					}
+				}
+				ACTIONS
+				{
+					eventName =
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 83
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 401
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/7
+					blockId = 88
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 14
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 84
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 402
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/6
+					blockId = 89
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 17
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 85
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 403
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/5
+					blockId = 90
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 20
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 86
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 404
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/4
+					blockId = 91
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 25
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 87
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 405
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/3
+					blockId = 92
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 33
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 88
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 406
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/2
+					blockId = 93
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 50
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 89
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 407
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName =
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 90
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 408
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 94
+			name = Select random delivery objective
+			BASE_BLOCK
+			{
+				blockName = 1/13
+				blockId = 95
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-258, 43, 0)
+						chance = 8
+					}
+				}
+				ACTIONS
+				{
+					eventName =
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 91
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 409
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/12
+					blockId = 96
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 8
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 92
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 410
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/11
+					blockId = 97
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 9
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 93
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 411
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/10
+					blockId = 98
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 10
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 94
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 412
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/9
+					blockId = 99
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 11
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 95
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 413
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/8
+					blockId = 100
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 13
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 96
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 414
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/7
+					blockId = 101
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 14
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 97
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 415
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/6
+					blockId = 102
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 17
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 98
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 416
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/5
+					blockId = 103
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 20
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 99
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 417
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/4
+					blockId = 104
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 25
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 100
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 418
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/3
+					blockId = 105
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 33
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 101
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 419
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/2
+					blockId = 106
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 50
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 102
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 420
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName =
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 103
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 421
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 107
+			name = Select random delivery objective
+			BASE_BLOCK
+			{
+				blockName = 1/8
+				blockId = 108
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-258, 43, 0)
+						chance = 13
+					}
+				}
+				ACTIONS
+				{
+					eventName =
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 104
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 422
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/7
+					blockId = 109
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 14
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 105
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 423
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/6
+					blockId = 110
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 17
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 106
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 424
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/5
+					blockId = 111
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 20
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 107
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 425
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/4
+					blockId = 112
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 25
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 108
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 426
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/3
+					blockId = 113
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 33
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 109
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 427
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1/2
+					blockId = 114
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCChance
+							uiPos = (-258, 43, 0)
+							chance = 50
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 110
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+						EventTarget
+						{
+							targetType = Objective
+							targetID = 428
+							eventName = Begin Objective
+							methodName = BeginObjective
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName =
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 111
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 429
+						eventName = Begin Objective
+						methodName = BeginObjective
 					}
 				}
 			}
