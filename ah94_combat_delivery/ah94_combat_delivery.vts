@@ -2106,51 +2106,6 @@ CustomScenario
 		}
 		Objective
 		{
-			objectiveName = Blue delivery 1b
-			objectiveInfo = Land at the waypoint to complete a delivery.
-			objectiveID = 7
-			orderID = 3
-			required = False
-			completionReward = 100
-			waypoint = 107
-			autoSetWaypoint = True
-			startMode = Triggered
-			objectiveType = Land
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-					EventTarget
-					{
-						targetType = Objective
-						targetID = 2
-						eventName = Begin Objective
-						methodName = BeginObjective
-					}
-				}
-			}
-			fields
-			{
-				radius = 5
-			}
-		}
-		Objective
-		{
 			objectiveName = Blue team scores
 			objectiveInfo = 
 			objectiveID = 2
@@ -2275,6 +2230,51 @@ CustomScenario
 			required = False
 			completionReward = 100
 			waypoint = 106
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 1b
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 7
+			orderID = 3
+			required = False
+			completionReward = 100
+			waypoint = 107
 			autoSetWaypoint = True
 			startMode = Triggered
 			objectiveType = Land
