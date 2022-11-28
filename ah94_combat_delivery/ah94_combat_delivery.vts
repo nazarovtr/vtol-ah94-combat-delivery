@@ -15,8 +15,8 @@ CustomScenario
 	overrideEnemyPlayerCount = 8
 	scorePerDeath_A = 0
 	scorePerDeath_B = 0
-	scorePerKill_A = 0
-	scorePerKill_B = 0
+	scorePerKill_A = 200
+	scorePerKill_B = 200
 	mpBudgetMode = Life
 	allowedEquips = gau-8;m230;h70-x7;h70-4x4;h70-x19;mk82x1;mk82x2;mk82x3;mk82HDx1;mk82HDx2;mk82HDx3;agm89x1;gbu38x1;gbu38x2;gbu38x3;gbu39x3;gbu39x4u;cbu97x1;hellfirex4;maverickx1;maverickx3;cagm-6;sidewinderx1;sidewinderx2;sidewinderx3;iris-t-x1;iris-t-x2;iris-t-x3;sidearmx1;sidearmx2;sidearmx3;marmx1;av42_gbu12x1;av42_gbu12x2;av42_gbu12x3;42c_aim9ex2;42c_aim9ex1;
 	forceEquips = False
@@ -657,7 +657,7 @@ CustomScenario
 			globalPosition = (24104.07666015625, 599.52923583984375, 35646.6298828125)
 			unitInstanceID = 30
 			unitID = AlliedEWRadar
-			rotation = (6.829252E-06, 180.9559, 1.139489E-07)
+			rotation = (6.829253E-06, 180.9559, 1.139489E-07)
 			spawnChance = 100
 			lastValidPlacement = (24104.07666015625, 599.52923583984375, 35646.6298828125)
 			editorPlacementMode = Ground
@@ -33354,6 +33354,30 @@ CustomScenario
 	}
 	Briefing
 	{
+		BRIEFING_NOTE
+		{
+			text = The two opposing teams start the game at their bases at the opposite sides of the city.
+			imagePath = 
+			audioClipPath = 
+		}
+		BRIEFING_NOTE
+		{
+			text = The main goal is to complete a sequence of 11 deliveries by landing on the helipads at the objective waypoints. Any team member can complete a delivery. The next waypoint gets revealed as soon as the current one gets completed.
+			imagePath = 
+			audioClipPath = 
+		}
+		BRIEFING_NOTE
+		{
+			text = The secondary goal is to stop the opposing team from completing their deliveries. You will always be able to find the interception objective for the current opposing team delivery goal on the objective screen. Prepare your helicopters for air-to-air combat.
+			imagePath = 
+			audioClipPath = 
+		}
+		BRIEFING_NOTE
+		{
+			text = To win, you need to complete all 11 deliveries before the opposing team. The time limit for a game is 30 minutes. When time runs out the team with most deliveries wins. In case of equal amount the team which completed the last delivery earlier wins. Good luck!
+			imagePath = 
+			audioClipPath = 
+		}
 	}
 	Briefing_B
 	{
