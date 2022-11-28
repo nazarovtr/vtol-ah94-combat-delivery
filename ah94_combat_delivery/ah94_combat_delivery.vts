@@ -1867,13 +1867,13 @@ CustomScenario
 		WAYPOINT
 		{
 			id = 101
-			name = red_5_5
+			name = red_5_4
 			globalPoint = (33650.591613769531, 498.41058349609375, 26229.194274902344)
 		}
 		WAYPOINT
 		{
 			id = 102
-			name = red_5_4
+			name = red_5_5
 			globalPoint = (33086.49404335022, 436.05722045898438, 27290.992874145508)
 		}
 		WAYPOINT
@@ -4824,6 +4824,2166 @@ CustomScenario
                 radius = 5
             }
         }
+		Objective
+		{
+			objectiveName = Blue delivery 7a
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 64
+			orderID = 60
+			required = False
+			completionReward = 400
+			waypoint = 27
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 7b
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 65
+			orderID = 61
+			required = False
+			completionReward = 400
+			waypoint = 28
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 7c
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 66
+			orderID = 62
+			required = False
+			completionReward = 400
+			waypoint = 30
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 7d
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 67
+			orderID = 63
+			required = False
+			completionReward = 400
+			waypoint = 31
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 7e
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 68
+			orderID = 64
+			required = False
+			completionReward = 400
+			waypoint = 32
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 7f
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 69
+			orderID = 65
+			required = False
+			completionReward = 400
+			waypoint = 34
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 7g
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 70
+			orderID = 66
+			required = False
+			completionReward = 400
+			waypoint = 35
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 7h
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 71
+			orderID = 67
+			required = False
+			completionReward = 400
+			waypoint = 36
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 7i
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 72
+			orderID = 68
+			required = False
+			completionReward = 400
+			waypoint = 37
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 7j
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 73
+			orderID = 69
+			required = False
+			completionReward = 400
+			waypoint = 38
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 7k
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 74
+			orderID = 70
+			required = False
+			completionReward = 400
+			waypoint = 39
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 8a
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 75
+			orderID = 71
+			required = False
+			completionReward = 400
+			waypoint = 48
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 8b
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 76
+			orderID = 72
+			required = False
+			completionReward = 400
+			waypoint = 49
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 8c
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 77
+			orderID = 73
+			required = False
+			completionReward = 400
+			waypoint = 50
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 8d
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 78
+			orderID = 74
+			required = False
+			completionReward = 400
+			waypoint = 51
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 8e
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 79
+			orderID = 75
+			required = False
+			completionReward = 400
+			waypoint = 52
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 8f
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 80
+			orderID = 76
+			required = False
+			completionReward = 400
+			waypoint = 53
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 8g
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 81
+			orderID = 77
+			required = False
+			completionReward = 400
+			waypoint = 54
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 8h
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 82
+			orderID = 78
+			required = False
+			completionReward = 400
+			waypoint = 55
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 9a
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 83
+			orderID = 79
+			required = False
+			completionReward = 450
+			waypoint = 64
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 9b
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 84
+			orderID = 80
+			required = False
+			completionReward = 450
+			waypoint = 65
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 9c
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 85
+			orderID = 81
+			required = False
+			completionReward = 450
+			waypoint = 66
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 9d
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 86
+			orderID = 82
+			required = False
+			completionReward = 450
+			waypoint = 67
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 9e
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 87
+			orderID = 83
+			required = False
+			completionReward = 450
+			waypoint = 68
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 9f
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 88
+			orderID = 84
+			required = False
+			completionReward = 450
+			waypoint = 69
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 9g
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 89
+			orderID = 85
+			required = False
+			completionReward = 450
+			waypoint = 70
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 9h
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 90
+			orderID = 86
+			required = False
+			completionReward = 450
+			waypoint = 71
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 10a
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 91
+			orderID = 87
+			required = False
+			completionReward = 500
+			waypoint = 85
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 10b
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 92
+			orderID = 88
+			required = False
+			completionReward = 500
+			waypoint = 86
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 10c
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 93
+			orderID = 89
+			required = False
+			completionReward = 500
+			waypoint = 87
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 10d
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 94
+			orderID = 90
+			required = False
+			completionReward = 500
+			waypoint = 88
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 10e
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 95
+			orderID = 91
+			required = False
+			completionReward = 500
+			waypoint = 89
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 10f
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 96
+			orderID = 92
+			required = False
+			completionReward = 500
+			waypoint = 90
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 10g
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 97
+			orderID = 93
+			required = False
+			completionReward = 500
+			waypoint = 91
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 10h
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 98
+			orderID = 94
+			required = False
+			completionReward = 500
+			waypoint = 92
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 10i
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 99
+			orderID = 95
+			required = False
+			completionReward = 500
+			waypoint = 93
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 10j
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 100
+			orderID = 96
+			required = False
+			completionReward = 500
+			waypoint = 94
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 10k
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 101
+			orderID = 97
+			required = False
+			completionReward = 500
+			waypoint = 95
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 10l
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 102
+			orderID = 98
+			required = False
+			completionReward = 500
+			waypoint = 96
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 10m
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 103
+			orderID = 99
+			required = False
+			completionReward = 500
+			waypoint = 97
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 11a
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 104
+			orderID = 100
+			required = False
+			completionReward = 550
+			waypoint = 98
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 11b
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 105
+			orderID = 101
+			required = False
+			completionReward = 550
+			waypoint = 99
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 11c
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 106
+			orderID = 102
+			required = False
+			completionReward = 550
+			waypoint = 100
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 11d
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 107
+			orderID = 103
+			required = False
+			completionReward = 550
+			waypoint = 101
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 11e
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 108
+			orderID = 104
+			required = False
+			completionReward = 550
+			waypoint = 102
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 11f
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 109
+			orderID = 105
+			required = False
+			completionReward = 550
+			waypoint = 103
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 11g
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 110
+			orderID = 106
+			required = False
+			completionReward = 550
+			waypoint = 104
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
+		Objective
+		{
+			objectiveName = Blue delivery 11h
+			objectiveInfo = Land at the waypoint to complete a delivery.
+			objectiveID = 111
+			orderID = 107
+			required = False
+			completionReward = 550
+			waypoint = 105
+			autoSetWaypoint = True
+			startMode = Triggered
+			objectiveType = Land
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Begin Objective
+						methodName = BeginObjective
+					}
+				}
+			}
+			fields
+			{
+				radius = 5
+			}
+		}
 	}
 	OBJECTIVES_OPFOR
 	{
