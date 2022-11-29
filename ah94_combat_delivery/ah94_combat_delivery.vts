@@ -657,7 +657,7 @@ CustomScenario
 			globalPosition = (24104.07666015625, 599.52923583984375, 35646.6298828125)
 			unitInstanceID = 30
 			unitID = AlliedEWRadar
-			rotation = (6.829253E-06, 180.9559, 1.139489E-07)
+			rotation = (6.829254E-06, 180.9559, 1.139489E-07)
 			spawnChance = 100
 			lastValidPlacement = (24104.07666015625, 599.52923583984375, 35646.6298828125)
 			editorPlacementMode = Ground
@@ -2040,6 +2040,114 @@ CustomScenario
 			groupID = 0
 			beginImmediately = True
 			initialDelay = 0
+			TimedEventInfo
+			{
+				eventName = 25 minutes left
+				time = 300
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Fire Conditional Action
+					methodName = FireConditionalAction
+					ParamInfo
+					{
+						type = ConditionalActionReference
+						value = 221
+						name = Action
+					}
+				}
+			}
+			TimedEventInfo
+			{
+				eventName = 20 minutes left
+				time = 600
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Fire Conditional Action
+					methodName = FireConditionalAction
+					ParamInfo
+					{
+						type = ConditionalActionReference
+						value = 224
+						name = Action
+					}
+				}
+			}
+			TimedEventInfo
+			{
+				eventName = 15 minutes left
+				time = 900
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Fire Conditional Action
+					methodName = FireConditionalAction
+					ParamInfo
+					{
+						type = ConditionalActionReference
+						value = 227
+						name = Action
+					}
+				}
+			}
+			TimedEventInfo
+			{
+				eventName = 10 minutes left
+				time = 1200
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Fire Conditional Action
+					methodName = FireConditionalAction
+					ParamInfo
+					{
+						type = ConditionalActionReference
+						value = 230
+						name = Action
+					}
+				}
+			}
+			TimedEventInfo
+			{
+				eventName = 5 minutes left
+				time = 1500
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Fire Conditional Action
+					methodName = FireConditionalAction
+					ParamInfo
+					{
+						type = ConditionalActionReference
+						value = 233
+						name = Action
+					}
+				}
+			}
+			TimedEventInfo
+			{
+				eventName = 2 minutes left
+				time = 1680
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Fire Conditional Action
+					methodName = FireConditionalAction
+					ParamInfo
+					{
+						type = ConditionalActionReference
+						value = 236
+						name = Action
+					}
+				}
+			}
 			TimedEventInfo
 			{
 				eventName = Game timeout
@@ -33322,6 +33430,960 @@ CustomScenario
 						targetID = 323
 						eventName = Begin Objective
 						methodName = BeginObjective
+					}
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 221
+			name = 
+			BASE_BLOCK
+			{
+				blockName = blue is leading
+				blockId = 222
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-325, 43, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 1
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 1
+						eventName = Display Message
+						methodName = DisplayMessage
+						ParamInfo
+						{
+							type = System.String
+							value = 25 minutes left. The blue team is leading.
+							name = Text
+							ParamAttrInfo
+							{
+								type = TextInputModes
+								data = MultiLine
+							}
+							ParamAttrInfo
+							{
+								type = System.Int32
+								data = 140
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 5
+							name = Duration
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,9999)
+							}
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = red is leading
+					blockId = 223
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCGlobalValue
+							uiPos = (-292, 44, 0)
+							gv = 3
+							comparison = Equals
+							c_value = -1
+						}
+					}
+					ACTIONS
+					{
+						eventName = 
+						EventTarget
+						{
+							targetType = System
+							targetID = 1
+							eventName = Display Message
+							methodName = DisplayMessage
+							ParamInfo
+							{
+								type = System.String
+								value = 25 minutes left. The red team is leading.
+								name = Text
+								ParamAttrInfo
+								{
+									type = TextInputModes
+									data = MultiLine
+								}
+								ParamAttrInfo
+								{
+									type = System.Int32
+									data = 140
+								}
+							}
+							ParamInfo
+							{
+								type = System.Single
+								value = 5
+								name = Duration
+								ParamAttrInfo
+								{
+									type = MinMax
+									data = (1,9999)
+								}
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 1
+						eventName = Display Message
+						methodName = DisplayMessage
+						ParamInfo
+						{
+							type = System.String
+							value = 25 minutes left.
+							name = Text
+							ParamAttrInfo
+							{
+								type = TextInputModes
+								data = MultiLine
+							}
+							ParamAttrInfo
+							{
+								type = System.Int32
+								data = 140
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 5
+							name = Duration
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,9999)
+							}
+						}
+					}
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 224
+			name =
+			BASE_BLOCK
+			{
+				blockName = blue is leading
+				blockId = 225
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-325, 43, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 1
+					}
+				}
+				ACTIONS
+				{
+					eventName =
+					EventTarget
+					{
+						targetType = System
+						targetID = 1
+						eventName = Display Message
+						methodName = DisplayMessage
+						ParamInfo
+						{
+							type = System.String
+							value = 20 minutes left. The blue team is leading.
+							name = Text
+							ParamAttrInfo
+							{
+								type = TextInputModes
+								data = MultiLine
+							}
+							ParamAttrInfo
+							{
+								type = System.Int32
+								data = 140
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 5
+							name = Duration
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,9999)
+							}
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = red is leading
+					blockId = 226
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCGlobalValue
+							uiPos = (-292, 44, 0)
+							gv = 3
+							comparison = Equals
+							c_value = -1
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = System
+							targetID = 1
+							eventName = Display Message
+							methodName = DisplayMessage
+							ParamInfo
+							{
+								type = System.String
+								value = 20 minutes left. The red team is leading.
+								name = Text
+								ParamAttrInfo
+								{
+									type = TextInputModes
+									data = MultiLine
+								}
+								ParamAttrInfo
+								{
+									type = System.Int32
+									data = 140
+								}
+							}
+							ParamInfo
+							{
+								type = System.Single
+								value = 5
+								name = Duration
+								ParamAttrInfo
+								{
+									type = MinMax
+									data = (1,9999)
+								}
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName =
+					EventTarget
+					{
+						targetType = System
+						targetID = 1
+						eventName = Display Message
+						methodName = DisplayMessage
+						ParamInfo
+						{
+							type = System.String
+							value = 20 minutes left.
+							name = Text
+							ParamAttrInfo
+							{
+								type = TextInputModes
+								data = MultiLine
+							}
+							ParamAttrInfo
+							{
+								type = System.Int32
+								data = 140
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 5
+							name = Duration
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,9999)
+							}
+						}
+					}
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 227
+			name =
+			BASE_BLOCK
+			{
+				blockName = blue is leading
+				blockId = 228
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-325, 43, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 1
+					}
+				}
+				ACTIONS
+				{
+					eventName =
+					EventTarget
+					{
+						targetType = System
+						targetID = 1
+						eventName = Display Message
+						methodName = DisplayMessage
+						ParamInfo
+						{
+							type = System.String
+							value = 15 minutes left. The blue team is leading.
+							name = Text
+							ParamAttrInfo
+							{
+								type = TextInputModes
+								data = MultiLine
+							}
+							ParamAttrInfo
+							{
+								type = System.Int32
+								data = 140
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 5
+							name = Duration
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,9999)
+							}
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = red is leading
+					blockId = 229
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCGlobalValue
+							uiPos = (-292, 44, 0)
+							gv = 3
+							comparison = Equals
+							c_value = -1
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = System
+							targetID = 1
+							eventName = Display Message
+							methodName = DisplayMessage
+							ParamInfo
+							{
+								type = System.String
+								value = 15 minutes left. The red team is leading.
+								name = Text
+								ParamAttrInfo
+								{
+									type = TextInputModes
+									data = MultiLine
+								}
+								ParamAttrInfo
+								{
+									type = System.Int32
+									data = 140
+								}
+							}
+							ParamInfo
+							{
+								type = System.Single
+								value = 5
+								name = Duration
+								ParamAttrInfo
+								{
+									type = MinMax
+									data = (1,9999)
+								}
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName =
+					EventTarget
+					{
+						targetType = System
+						targetID = 1
+						eventName = Display Message
+						methodName = DisplayMessage
+						ParamInfo
+						{
+							type = System.String
+							value = 15 minutes left.
+							name = Text
+							ParamAttrInfo
+							{
+								type = TextInputModes
+								data = MultiLine
+							}
+							ParamAttrInfo
+							{
+								type = System.Int32
+								data = 140
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 5
+							name = Duration
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,9999)
+							}
+						}
+					}
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 230
+			name =
+			BASE_BLOCK
+			{
+				blockName = blue is leading
+				blockId = 231
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-325, 43, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 1
+					}
+				}
+				ACTIONS
+				{
+					eventName =
+					EventTarget
+					{
+						targetType = System
+						targetID = 1
+						eventName = Display Message
+						methodName = DisplayMessage
+						ParamInfo
+						{
+							type = System.String
+							value = 10 minutes left. The blue team is leading.
+							name = Text
+							ParamAttrInfo
+							{
+								type = TextInputModes
+								data = MultiLine
+							}
+							ParamAttrInfo
+							{
+								type = System.Int32
+								data = 140
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 5
+							name = Duration
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,9999)
+							}
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = red is leading
+					blockId = 232
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCGlobalValue
+							uiPos = (-292, 44, 0)
+							gv = 3
+							comparison = Equals
+							c_value = -1
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = System
+							targetID = 1
+							eventName = Display Message
+							methodName = DisplayMessage
+							ParamInfo
+							{
+								type = System.String
+								value = 10 minutes left. The red team is leading.
+								name = Text
+								ParamAttrInfo
+								{
+									type = TextInputModes
+									data = MultiLine
+								}
+								ParamAttrInfo
+								{
+									type = System.Int32
+									data = 140
+								}
+							}
+							ParamInfo
+							{
+								type = System.Single
+								value = 5
+								name = Duration
+								ParamAttrInfo
+								{
+									type = MinMax
+									data = (1,9999)
+								}
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName =
+					EventTarget
+					{
+						targetType = System
+						targetID = 1
+						eventName = Display Message
+						methodName = DisplayMessage
+						ParamInfo
+						{
+							type = System.String
+							value = 10 minutes left.
+							name = Text
+							ParamAttrInfo
+							{
+								type = TextInputModes
+								data = MultiLine
+							}
+							ParamAttrInfo
+							{
+								type = System.Int32
+								data = 140
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 5
+							name = Duration
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,9999)
+							}
+						}
+					}
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 233
+			name =
+			BASE_BLOCK
+			{
+				blockName = blue is leading
+				blockId = 234
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-325, 43, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 1
+					}
+				}
+				ACTIONS
+				{
+					eventName =
+					EventTarget
+					{
+						targetType = System
+						targetID = 1
+						eventName = Display Message
+						methodName = DisplayMessage
+						ParamInfo
+						{
+							type = System.String
+							value = 5 minutes left. The blue team is leading.
+							name = Text
+							ParamAttrInfo
+							{
+								type = TextInputModes
+								data = MultiLine
+							}
+							ParamAttrInfo
+							{
+								type = System.Int32
+								data = 140
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 5
+							name = Duration
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,9999)
+							}
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = red is leading
+					blockId = 235
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCGlobalValue
+							uiPos = (-292, 44, 0)
+							gv = 3
+							comparison = Equals
+							c_value = -1
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = System
+							targetID = 1
+							eventName = Display Message
+							methodName = DisplayMessage
+							ParamInfo
+							{
+								type = System.String
+								value = 5 minutes left. The red team is leading.
+								name = Text
+								ParamAttrInfo
+								{
+									type = TextInputModes
+									data = MultiLine
+								}
+								ParamAttrInfo
+								{
+									type = System.Int32
+									data = 140
+								}
+							}
+							ParamInfo
+							{
+								type = System.Single
+								value = 5
+								name = Duration
+								ParamAttrInfo
+								{
+									type = MinMax
+									data = (1,9999)
+								}
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName =
+					EventTarget
+					{
+						targetType = System
+						targetID = 1
+						eventName = Display Message
+						methodName = DisplayMessage
+						ParamInfo
+						{
+							type = System.String
+							value = 5 minutes left.
+							name = Text
+							ParamAttrInfo
+							{
+								type = TextInputModes
+								data = MultiLine
+							}
+							ParamAttrInfo
+							{
+								type = System.Int32
+								data = 140
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 5
+							name = Duration
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,9999)
+							}
+						}
+					}
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 236
+			name =
+			BASE_BLOCK
+			{
+				blockName = blue is leading
+				blockId = 237
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-325, 43, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 1
+					}
+				}
+				ACTIONS
+				{
+					eventName =
+					EventTarget
+					{
+						targetType = System
+						targetID = 1
+						eventName = Display Message
+						methodName = DisplayMessage
+						ParamInfo
+						{
+							type = System.String
+							value = 2 minutes left. The blue team is leading.
+							name = Text
+							ParamAttrInfo
+							{
+								type = TextInputModes
+								data = MultiLine
+							}
+							ParamAttrInfo
+							{
+								type = System.Int32
+								data = 140
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 5
+							name = Duration
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,9999)
+							}
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = red is leading
+					blockId = 238
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCGlobalValue
+							uiPos = (-292, 44, 0)
+							gv = 3
+							comparison = Equals
+							c_value = -1
+						}
+					}
+					ACTIONS
+					{
+						eventName =
+						EventTarget
+						{
+							targetType = System
+							targetID = 1
+							eventName = Display Message
+							methodName = DisplayMessage
+							ParamInfo
+							{
+								type = System.String
+								value = 2 minutes left. The red team is leading.
+								name = Text
+								ParamAttrInfo
+								{
+									type = TextInputModes
+									data = MultiLine
+								}
+								ParamAttrInfo
+								{
+									type = System.Int32
+									data = 140
+								}
+							}
+							ParamInfo
+							{
+								type = System.Single
+								value = 5
+								name = Duration
+								ParamAttrInfo
+								{
+									type = MinMax
+									data = (1,9999)
+								}
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName =
+					EventTarget
+					{
+						targetType = System
+						targetID = 1
+						eventName = Display Message
+						methodName = DisplayMessage
+						ParamInfo
+						{
+							type = System.String
+							value = 2 minutes left.
+							name = Text
+							ParamAttrInfo
+							{
+								type = TextInputModes
+								data = MultiLine
+							}
+							ParamAttrInfo
+							{
+								type = System.Int32
+								data = 140
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 5
+							name = Duration
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,9999)
+							}
+						}
 					}
 				}
 			}
