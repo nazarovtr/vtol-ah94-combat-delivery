@@ -657,7 +657,7 @@ CustomScenario
 			globalPosition = (24104.07666015625, 599.52923583984375, 35646.6298828125)
 			unitInstanceID = 30
 			unitID = AlliedEWRadar
-			rotation = (6.829254E-06, 180.9559, 1.139489E-07)
+			rotation = (6.829255E-06, 180.9559, 1.139489E-07)
 			spawnChance = 100
 			lastValidPlacement = (24104.07666015625, 599.52923583984375, 35646.6298828125)
 			editorPlacementMode = Ground
@@ -33552,6 +33552,10 @@ CustomScenario
 							}
 						}
 					}
+					ELSE_ACTIONS
+					{
+						eventName = 
+					}
 				}
 				ELSE_ACTIONS
 				{
@@ -33596,7 +33600,7 @@ CustomScenario
 		ConditionalAction
 		{
 			id = 224
-			name =
+			name = 
 			BASE_BLOCK
 			{
 				blockName = blue is leading
@@ -33618,7 +33622,7 @@ CustomScenario
 				}
 				ACTIONS
 				{
-					eventName =
+					eventName = 
 					EventTarget
 					{
 						targetType = System
@@ -33675,7 +33679,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = System
@@ -33711,10 +33715,14 @@ CustomScenario
 							}
 						}
 					}
+					ELSE_ACTIONS
+					{
+						eventName = 
+					}
 				}
 				ELSE_ACTIONS
 				{
-					eventName =
+					eventName = 
 					EventTarget
 					{
 						targetType = System
@@ -33755,7 +33763,7 @@ CustomScenario
 		ConditionalAction
 		{
 			id = 227
-			name =
+			name = 
 			BASE_BLOCK
 			{
 				blockName = blue is leading
@@ -33777,7 +33785,7 @@ CustomScenario
 				}
 				ACTIONS
 				{
-					eventName =
+					eventName = 
 					EventTarget
 					{
 						targetType = System
@@ -33834,7 +33842,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = System
@@ -33870,10 +33878,14 @@ CustomScenario
 							}
 						}
 					}
+					ELSE_ACTIONS
+					{
+						eventName = 
+					}
 				}
 				ELSE_ACTIONS
 				{
-					eventName =
+					eventName = 
 					EventTarget
 					{
 						targetType = System
@@ -33914,7 +33926,7 @@ CustomScenario
 		ConditionalAction
 		{
 			id = 230
-			name =
+			name = 
 			BASE_BLOCK
 			{
 				blockName = blue is leading
@@ -33936,7 +33948,7 @@ CustomScenario
 				}
 				ACTIONS
 				{
-					eventName =
+					eventName = 
 					EventTarget
 					{
 						targetType = System
@@ -33993,7 +34005,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = System
@@ -34029,10 +34041,14 @@ CustomScenario
 							}
 						}
 					}
+					ELSE_ACTIONS
+					{
+						eventName = 
+					}
 				}
 				ELSE_ACTIONS
 				{
-					eventName =
+					eventName = 
 					EventTarget
 					{
 						targetType = System
@@ -34073,7 +34089,7 @@ CustomScenario
 		ConditionalAction
 		{
 			id = 233
-			name =
+			name = 
 			BASE_BLOCK
 			{
 				blockName = blue is leading
@@ -34095,7 +34111,7 @@ CustomScenario
 				}
 				ACTIONS
 				{
-					eventName =
+					eventName = 
 					EventTarget
 					{
 						targetType = System
@@ -34152,7 +34168,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = System
@@ -34188,10 +34204,14 @@ CustomScenario
 							}
 						}
 					}
+					ELSE_ACTIONS
+					{
+						eventName = 
+					}
 				}
 				ELSE_ACTIONS
 				{
-					eventName =
+					eventName = 
 					EventTarget
 					{
 						targetType = System
@@ -34232,7 +34252,7 @@ CustomScenario
 		ConditionalAction
 		{
 			id = 236
-			name =
+			name = 
 			BASE_BLOCK
 			{
 				blockName = blue is leading
@@ -34254,7 +34274,7 @@ CustomScenario
 				}
 				ACTIONS
 				{
-					eventName =
+					eventName = 
 					EventTarget
 					{
 						targetType = System
@@ -34311,7 +34331,7 @@ CustomScenario
 					}
 					ACTIONS
 					{
-						eventName =
+						eventName = 
 						EventTarget
 						{
 							targetType = System
@@ -34347,10 +34367,14 @@ CustomScenario
 							}
 						}
 					}
+					ELSE_ACTIONS
+					{
+						eventName = 
+					}
 				}
 				ELSE_ACTIONS
 				{
-					eventName =
+					eventName = 
 					EventTarget
 					{
 						targetType = System
@@ -34418,13 +34442,19 @@ CustomScenario
 	{
 		BRIEFING_NOTE
 		{
-			text = The two opposing teams start the game at their bases at the opposite sides of the city.
+			text = The two opposing teams start the game at their bases at the opposite sides of the city. Both bases are defended by impenetrable air defences and are not your target.
 			imagePath = 
 			audioClipPath = 
 		}
 		BRIEFING_NOTE
 		{
 			text = The main goal is to complete a sequence of 11 deliveries by landing on the helipads at the objective waypoints. Any team member can complete a delivery. The next waypoint gets revealed as soon as the current one gets completed.
+			imagePath = 
+			audioClipPath = 
+		}
+		BRIEFING_NOTE
+		{
+			text = First deliveries will appear closer to the friendly base and the later ones will progress further and further towards the opposing team base making them harder to complete.
 			imagePath = 
 			audioClipPath = 
 		}
