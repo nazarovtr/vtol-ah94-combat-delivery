@@ -7,6 +7,6 @@ CAMPAIGN
 	startingEquips = ah94_gun;ah94_gun_30;h70-x7;h70-4x4;h70-x19;h70-x57;hellfirex4;agm145x4;ah94_agRadar;ah94_stingerL;ah94_stingerR;apkws-x7;apkws-x19;gbu39er-x4;ah94_droptank;
 	multiplayer = True
 	availability = All_Available
-	wsUploadVersion = 4
+	wsUploadVersion = 5
 }
 
