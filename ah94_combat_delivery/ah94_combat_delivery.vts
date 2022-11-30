@@ -657,7 +657,7 @@ CustomScenario
 			globalPosition = (24104.07666015625, 599.52923583984375, 35646.6298828125)
 			unitInstanceID = 30
 			unitID = AlliedEWRadar
-			rotation = (6.829256E-06, 180.9559, 1.139489E-07)
+			rotation = (6.829258E-06, 180.9559, 1.139489E-07)
 			spawnChance = 100
 			lastValidPlacement = (24104.07666015625, 599.52923583984375, 35646.6298828125)
 			editorPlacementMode = Ground
@@ -34443,36 +34443,44 @@ CustomScenario
 		BRIEFING_NOTE
 		{
 			text = The two opposing teams start the game at their bases at the opposite sides of the city. Both bases are defended by impenetrable air defences and are not your target.
-			imagePath = 
+			imagePath = Base_01.jpg
 			audioClipPath = 
 		}
 		BRIEFING_NOTE
 		{
 			text = The main goal is to complete a sequence of 11 deliveries by landing on the helipads at the objective waypoints. Any team member can complete a delivery. The next waypoint gets revealed as soon as the current one gets completed.
-			imagePath = 
+			imagePath = Pad on the roof 2_01.jpg
 			audioClipPath = 
 		}
 		BRIEFING_NOTE
 		{
 			text = First deliveries will appear closer to the friendly base and the later ones will progress further and further towards the opposing team base making them harder to complete.
-			imagePath = 
+			imagePath = Waypoint far_01.jpg
 			audioClipPath = 
 		}
 		BRIEFING_NOTE
 		{
 			text = The secondary goal is to stop the opposing team from completing their deliveries. You will always be able to find the interception objective for the current opposing team delivery goal on the objective screen. Prepare your helicopters for air-to-air combat.
-			imagePath = 
+			imagePath = PGM first person_01.jpg
 			audioClipPath = 
 		}
 		BRIEFING_NOTE
 		{
 			text = To win, you need to complete all 11 deliveries before the opposing team. The time limit for a game is 30 minutes. When time runs out the team with most deliveries wins. In case of equal amount the team which completed the last delivery earlier wins. Good luck!
-			imagePath = 
+			imagePath = In the moonlight_01.jpg
 			audioClipPath = 
 		}
 	}
 	Briefing_B
 	{
+	}
+	ResourceManifest
+	{
+		0 = Base_01.jpg
+		1 = Pad on the roof 2_01.jpg
+		2 = Waypoint far_01.jpg
+		3 = PGM first person_01.jpg
+		4 = In the moonlight_01.jpg
 	}
 }
 

@@ -5,7 +5,7 @@
   <Description>Deliver packages in a dense urban environment by landing on a sequence of helipads while fighting the enemies who are trying to do the same.
 
 by Timur</Description>
-  <IconFileName />
+  <IconFileName>image.jpg</IconFileName>
   <Tags>
     <string>Multiplayer Campaigns</string>
   </Tags>
