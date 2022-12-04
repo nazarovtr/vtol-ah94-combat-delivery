@@ -203,7 +203,7 @@ CustomScenario
 			globalPosition = (24011.033248901367, 599.74440765380859, 35546.807720184326)
 			unitInstanceID = 10
 			unitID = MultiplayerSpawn
-			rotation = (-9.659345E-06, 135, -9.659347E-06)
+			rotation = (-9.659346E-06, 135, -9.659347E-06)
 			spawnChance = 100
 			lastValidPlacement = (24011.033248901367, 599.74440765380859, 35546.807720184326)
 			editorPlacementMode = Ground
@@ -228,7 +228,7 @@ CustomScenario
 			globalPosition = (24028.454498291016, 599.74440765380859, 35564.390411376953)
 			unitInstanceID = 11
 			unitID = MultiplayerSpawn
-			rotation = (-9.659345E-06, 135, -9.659347E-06)
+			rotation = (-9.659346E-06, 135, -9.659347E-06)
 			spawnChance = 100
 			lastValidPlacement = (24028.454498291016, 599.74440765380859, 35564.390411376953)
 			editorPlacementMode = Ground
@@ -253,7 +253,7 @@ CustomScenario
 			globalPosition = (24046.540054321289, 599.74440765380859, 35582.430198669434)
 			unitInstanceID = 12
 			unitID = MultiplayerSpawn
-			rotation = (-9.659345E-06, 135, -9.659347E-06)
+			rotation = (-9.659346E-06, 135, -9.659347E-06)
 			spawnChance = 100
 			lastValidPlacement = (24046.540054321289, 599.74440765380859, 35582.430198669434)
 			editorPlacementMode = Ground
@@ -278,7 +278,7 @@ CustomScenario
 			globalPosition = (24065.557846069336, 599.74440765380859, 35601.341407775879)
 			unitInstanceID = 13
 			unitID = MultiplayerSpawn
-			rotation = (-9.659345E-06, 135, -9.659347E-06)
+			rotation = (-9.659346E-06, 135, -9.659347E-06)
 			spawnChance = 100
 			lastValidPlacement = (24065.557846069336, 599.74440765380859, 35601.341407775879)
 			editorPlacementMode = Ground
@@ -303,7 +303,7 @@ CustomScenario
 			globalPosition = (24091.361557006836, 599.74440765380859, 35575.356285095215)
 			unitInstanceID = 14
 			unitID = MultiplayerSpawn
-			rotation = (-1.690386E-05, 315, -3.663999E-12)
+			rotation = (-1.690386E-05, 315, -3.256888E-12)
 			spawnChance = 100
 			lastValidPlacement = (24091.361557006836, 599.74440765380859, 35575.356285095215)
 			editorPlacementMode = Ground
@@ -328,7 +328,7 @@ CustomScenario
 			globalPosition = (24072.827514648438, 599.74440765380859, 35555.83228302002)
 			unitInstanceID = 15
 			unitID = MultiplayerSpawn
-			rotation = (-1.690386E-05, 315, -3.663999E-12)
+			rotation = (-1.690386E-05, 315, -3.256888E-12)
 			spawnChance = 100
 			lastValidPlacement = (24072.827514648438, 599.74440765380859, 35555.83228302002)
 			editorPlacementMode = Ground
@@ -353,7 +353,7 @@ CustomScenario
 			globalPosition = (24054.600616455078, 599.74440765380859, 35537.033237457275)
 			unitInstanceID = 16
 			unitID = MultiplayerSpawn
-			rotation = (-1.690386E-05, 315, -3.663999E-12)
+			rotation = (-1.690386E-05, 315, -3.256888E-12)
 			spawnChance = 100
 			lastValidPlacement = (24054.600616455078, 599.74440765380859, 35537.033237457275)
 			editorPlacementMode = Ground
@@ -378,7 +378,7 @@ CustomScenario
 			globalPosition = (24037.263854980469, 599.74440765380859, 35520.256130218506)
 			unitInstanceID = 17
 			unitID = MultiplayerSpawn
-			rotation = (-1.690386E-05, 315, -3.663999E-12)
+			rotation = (-1.690386E-05, 315, -3.256888E-12)
 			spawnChance = 100
 			lastValidPlacement = (24037.263854980469, 599.74440765380859, 35520.256130218506)
 			editorPlacementMode = Ground
