@@ -15,8 +15,8 @@ CustomScenario
 	overrideEnemyPlayerCount = 8
 	scorePerDeath_A = 0
 	scorePerDeath_B = 0
-	scorePerKill_A = 200
-	scorePerKill_B = 200
+	scorePerKill_A = 0
+	scorePerKill_B = 0
 	mpBudgetMode = Life
 	allowedEquips = gau-8;m230;h70-x7;h70-4x4;h70-x19;mk82x1;mk82x2;mk82x3;mk82HDx1;mk82HDx2;mk82HDx3;agm89x1;gbu38x1;gbu38x2;gbu38x3;gbu39x3;gbu39x4u;cbu97x1;hellfirex4;maverickx1;maverickx3;cagm-6;sidewinderx1;sidewinderx2;sidewinderx3;iris-t-x1;iris-t-x2;iris-t-x3;sidearmx1;sidearmx2;sidearmx3;marmx1;av42_gbu12x1;av42_gbu12x2;av42_gbu12x3;42c_aim9ex2;42c_aim9ex1;
 	forceEquips = False
@@ -200,12 +200,12 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = MP Spawn
-			globalPosition = (24091.098429679871, 599.74441528320313, 35575.727020263672)
+			globalPosition = (24011.033248901367, 599.74440765380859, 35546.807720184326)
 			unitInstanceID = 10
 			unitID = MultiplayerSpawn
-			rotation = (-1.690386E-05, 315, -2.442666E-12)
+			rotation = (-9.659345E-06, 135, -9.659347E-06)
 			spawnChance = 100
-			lastValidPlacement = (24091.098429679871, 599.74441528320313, 35575.727020263672)
+			lastValidPlacement = (24011.033248901367, 599.74440765380859, 35546.807720184326)
 			editorPlacementMode = Ground
 			spawnFlags = 
 			UnitFields
@@ -219,18 +219,18 @@ CustomScenario
 				limitedLives = False
 				lifeCount = 1
 				receiveFriendlyDamage = True
-				slots = 2
+				slots = 1
 			}
 		}
 		UnitSpawner
 		{
 			unitName = MP Spawn
-			globalPosition = (24072.380702972412, 599.74441528320313, 35556.227684020996)
+			globalPosition = (24028.454498291016, 599.74440765380859, 35564.390411376953)
 			unitInstanceID = 11
 			unitID = MultiplayerSpawn
-			rotation = (-1.690386E-05, 315, -2.442666E-12)
+			rotation = (-9.659345E-06, 135, -9.659347E-06)
 			spawnChance = 100
-			lastValidPlacement = (24072.380702972412, 599.74441528320313, 35556.227684020996)
+			lastValidPlacement = (24028.454498291016, 599.74440765380859, 35564.390411376953)
 			editorPlacementMode = Ground
 			spawnFlags = 
 			UnitFields
@@ -244,18 +244,18 @@ CustomScenario
 				limitedLives = False
 				lifeCount = 1
 				receiveFriendlyDamage = True
-				slots = 2
+				slots = 1
 			}
 		}
 		UnitSpawner
 		{
 			unitName = MP Spawn
-			globalPosition = (24054.348941802979, 599.74441528320313, 35537.387657165527)
+			globalPosition = (24046.540054321289, 599.74440765380859, 35582.430198669434)
 			unitInstanceID = 12
 			unitID = MultiplayerSpawn
-			rotation = (-1.690386E-05, 315, -2.442666E-12)
+			rotation = (-9.659345E-06, 135, -9.659347E-06)
 			spawnChance = 100
-			lastValidPlacement = (24054.348941802979, 599.74441528320313, 35537.387657165527)
+			lastValidPlacement = (24046.540054321289, 599.74440765380859, 35582.430198669434)
 			editorPlacementMode = Ground
 			spawnFlags = 
 			UnitFields
@@ -269,18 +269,18 @@ CustomScenario
 				limitedLives = False
 				lifeCount = 1
 				receiveFriendlyDamage = True
-				slots = 2
+				slots = 1
 			}
 		}
 		UnitSpawner
 		{
 			unitName = MP Spawn
-			globalPosition = (24037.058391571045, 599.74441528320313, 35520.704132080078)
+			globalPosition = (24065.557846069336, 599.74440765380859, 35601.341407775879)
 			unitInstanceID = 13
 			unitID = MultiplayerSpawn
-			rotation = (-1.690386E-05, 315, -2.442666E-12)
+			rotation = (-9.659345E-06, 135, -9.659347E-06)
 			spawnChance = 100
-			lastValidPlacement = (24037.058391571045, 599.74441528320313, 35520.704132080078)
+			lastValidPlacement = (24065.557846069336, 599.74440765380859, 35601.341407775879)
 			editorPlacementMode = Ground
 			spawnFlags = 
 			UnitFields
@@ -294,18 +294,18 @@ CustomScenario
 				limitedLives = False
 				lifeCount = 1
 				receiveFriendlyDamage = True
-				slots = 2
+				slots = 1
 			}
 		}
 		UnitSpawner
 		{
 			unitName = MP Spawn
-			globalPosition = (24011.319389343262, 599.74441528320313, 35546.509349822998)
+			globalPosition = (24091.361557006836, 599.74440765380859, 35575.356285095215)
 			unitInstanceID = 14
 			unitID = MultiplayerSpawn
-			rotation = (-9.659347E-06, 135, -9.659346E-06)
+			rotation = (-1.690386E-05, 315, -3.663999E-12)
 			spawnChance = 100
-			lastValidPlacement = (24011.319389343262, 599.74441528320313, 35546.509349822998)
+			lastValidPlacement = (24091.361557006836, 599.74440765380859, 35575.356285095215)
 			editorPlacementMode = Ground
 			spawnFlags = 
 			UnitFields
@@ -319,18 +319,18 @@ CustomScenario
 				limitedLives = False
 				lifeCount = 1
 				receiveFriendlyDamage = True
-				slots = 2
+				slots = 1
 			}
 		}
 		UnitSpawner
 		{
 			unitName = MP Spawn
-			globalPosition = (24028.844383239746, 599.74441528320313, 35563.955413818359)
+			globalPosition = (24072.827514648438, 599.74440765380859, 35555.83228302002)
 			unitInstanceID = 15
 			unitID = MultiplayerSpawn
-			rotation = (-9.659347E-06, 135, -9.659346E-06)
+			rotation = (-1.690386E-05, 315, -3.663999E-12)
 			spawnChance = 100
-			lastValidPlacement = (24028.844383239746, 599.74441528320313, 35563.955413818359)
+			lastValidPlacement = (24072.827514648438, 599.74440765380859, 35555.83228302002)
 			editorPlacementMode = Ground
 			spawnFlags = 
 			UnitFields
@@ -350,12 +350,12 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = MP Spawn
-			globalPosition = (24046.918785095215, 599.74441528320313, 35582.02059173584)
+			globalPosition = (24054.600616455078, 599.74440765380859, 35537.033237457275)
 			unitInstanceID = 16
 			unitID = MultiplayerSpawn
-			rotation = (-9.659347E-06, 135, -9.659346E-06)
+			rotation = (-1.690386E-05, 315, -3.663999E-12)
 			spawnChance = 100
-			lastValidPlacement = (24046.918785095215, 599.74441528320313, 35582.02059173584)
+			lastValidPlacement = (24054.600616455078, 599.74440765380859, 35537.033237457275)
 			editorPlacementMode = Ground
 			spawnFlags = 
 			UnitFields
@@ -375,12 +375,12 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = MP Spawn
-			globalPosition = (24065.934364318848, 599.74441528320313, 35600.981216430664)
+			globalPosition = (24037.263854980469, 599.74440765380859, 35520.256130218506)
 			unitInstanceID = 17
 			unitID = MultiplayerSpawn
-			rotation = (-9.659347E-06, 135, -9.659346E-06)
+			rotation = (-1.690386E-05, 315, -3.663999E-12)
 			spawnChance = 100
-			lastValidPlacement = (24065.934364318848, 599.74441528320313, 35600.981216430664)
+			lastValidPlacement = (24037.263854980469, 599.74440765380859, 35520.256130218506)
 			editorPlacementMode = Ground
 			spawnFlags = 
 			UnitFields
@@ -1110,7 +1110,7 @@ CustomScenario
 				limitedLives = False
 				lifeCount = 1
 				receiveFriendlyDamage = True
-				slots = 2
+				slots = 1
 			}
 		}
 		UnitSpawner
@@ -1135,7 +1135,7 @@ CustomScenario
 				limitedLives = False
 				lifeCount = 1
 				receiveFriendlyDamage = True
-				slots = 2
+				slots = 1
 			}
 		}
 		UnitSpawner
@@ -1160,7 +1160,7 @@ CustomScenario
 				limitedLives = False
 				lifeCount = 1
 				receiveFriendlyDamage = True
-				slots = 2
+				slots = 1
 			}
 		}
 		UnitSpawner
@@ -1185,7 +1185,7 @@ CustomScenario
 				limitedLives = False
 				lifeCount = 1
 				receiveFriendlyDamage = True
-				slots = 2
+				slots = 1
 			}
 		}
 		UnitSpawner
@@ -1210,7 +1210,7 @@ CustomScenario
 				limitedLives = False
 				lifeCount = 1
 				receiveFriendlyDamage = True
-				slots = 2
+				slots = 1
 			}
 		}
 		UnitSpawner
